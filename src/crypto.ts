@@ -181,13 +181,14 @@ export class PublicKey {
     }
   }
 
-  public static fromBuffer(key: ByteBuffer) {
+  public static fromBuffer(key: Buffer | ByteBuffer) {
+    const buffer = Buffer.isBuffer(key) ? key : Buffer.from((key as any).toBuffer())
     try {
-      nobleSecp256k1.Point.fromBytes(Buffer.from((key as any).toBuffer()))
+      nobleSecp256k1.Point.fromBytes(buffer)
     } catch (err) {
       assert(false, 'invalid buffer as public key')
     }
-    return { key } as any
+    return { key: buffer } as any
   }
 
   /**

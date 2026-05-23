@@ -18,19 +18,19 @@ lib: $(SRC_FILES) node_modules
 	echo "$$VERSION_TEMPLATE" > lib/version.js
 	touch lib
 
-dist/dhive.js: $(SRC_FILES)
-	esbuild src/index-browser.ts --bundle --minify --sourcemap --platform=browser --format=iife --global-name=dhive --outfile=$@ --define:process.env.NODE_ENV='"production"' --alias:assert=assert --alias:stream=stream-browserify --alias:crypto=crypto-browserify --alias:buffer=buffer --alias:events=events
+dist/pollen.js: $(SRC_FILES)
+	esbuild src/index-browser.ts --bundle --minify --sourcemap --platform=browser --format=iife --global-name=pollen --outfile=$@ --define:process.env.NODE_ENV='"production"' --alias:assert=assert --alias:stream=stream-browserify --alias:crypto=crypto-browserify --alias:buffer=buffer --alias:events=events
 
-dist/dhive.js: src/index-browser.ts
+dist/pollen.js: src/index-browser.ts
 
-dist/dhive.d.ts: $(SRC_FILES) node_modules
-	dts-generator --prefix dhive --project . --out dist/dhive.d.ts
-	perl -i -pe"s@'dhive/index'@'dhive'@g" dist/dhive.d.ts
+dist/pollen.d.ts: $(SRC_FILES) node_modules
+	dts-generator --prefix pollen --project . --out dist/pollen.d.ts
+	perl -i -pe"s@'pollen/index'@'pollen'@g" dist/pollen.d.ts
 
-dist/%.gz: dist/dhive.js
+dist/%.gz: dist/pollen.js
 	gzip -9 -f -c $(basename $@) > $(basename $@).gz
 
-bundle: dist/dhive.js.gz dist/dhive.d.ts
+bundle: dist/pollen.js.gz dist/pollen.d.ts
 
 .PHONY: coverage
 coverage: node_modules
@@ -46,12 +46,12 @@ ci-test: node_modules
 	nyc -r lcov -e .ts -i ts-node/register mocha --exit --reporter tap --require ts-node/register test/*.ts
 
 .PHONY: browser-test
-browser-test: dist/dhive.js
+browser-test: dist/pollen.js
 	BUILD_NUMBER="$$(git rev-parse --short HEAD)-$$(date +%s)" \
 		karma start test/_karma-sauce.js
 
 .PHONY: browser-test-local
-browser-test-local: dist/dhive.js
+browser-test-local: dist/pollen.js
 	karma start test/_karma.js
 
 .PHONY: lint
@@ -64,7 +64,7 @@ node_modules:
 docs: $(SRC_FILES) node_modules
 	typedoc --gitRevision master --out docs src
 	find docs -name "*.html" | xargs perl -i -pe's~$(shell pwd)~.~g'
-	echo "Served at <https://openhive-network.github.io/dhive>" > docs/README.md
+	echo "Served at <https://openhive-network.github.io/pollen>" > docs/README.md
 	touch docs
 
 .PHONY: clean

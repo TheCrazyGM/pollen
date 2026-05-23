@@ -52,7 +52,7 @@ export async function createAccount(): Promise<{
   password: string;
 }> {
   const password = randomString(32);
-  const username = `dhive-${randomString(9)}`;
+  const username = `pollen-${randomString(9)}`;
 
   // Create testnet account and delegate to it
   const client = Client.testnet({ agent });

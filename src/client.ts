@@ -346,7 +346,7 @@ export class Client {
         // This check is needed because the user agent cannot be set in a browser
         if (typeof self === undefined) {
             opts.headers = {
-                'User-Agent': `dhive/${packageVersion}`
+                'User-Agent': `pollen/${packageVersion}`
             }
         }
 

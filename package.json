@@ -1,75 +1,71 @@
 {
-  "name": "@hiveio/dhive",
-  "version": "1.3.6",
-  "description": "Hive blockchain RPC client library",
-  "author": "hive-network",
+  "name": "@srbde/pollen",
+  "version": "2.0.0",
+  "description": "Modern, secure, and audited Hive blockchain SDK for JavaScript and TypeScript",
+  "author": "Sustainable Resource and Business Development Enterprise (SRBDE)",
   "license": "BSD-3-Clause-No-Military-License",
-  "main": "./lib/index-node",
-  "typings": "./lib/index",
-  "browser": {
-    "./lib/index-node": "./dist/dhive.js",
-    "./src/index-node": "./dist/dhive.js",
-    "./src/version": "./lib/version.js"
-  },
-  "files": [
-    "dist/*",
-    "lib/*"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.syncad.com/hive/dhive"
+  "main": "./lib/index-node.js",
+  "browser": "./dist/pollen.js",
+  "types": "./lib/index-node.d.ts",
+  "bin": {
+    "pollen": "./lib/index-node.js"
   },
   "scripts": {
-    "lint": "make lint",
+    "build": "make all",
     "test": "make ci-test",
-    "prepublish": "make all"
+    "lint": "eslint src/**/*.ts",
+    "docs": "make docs",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srbde/pollen.git"
   },
   "keywords": [
-    "blockchain",
-    "client",
-    "rpc",
     "hive",
-    "dhive"
+    "blockchain",
+    "pollen",
+    "nectar",
+    "sdk",
+    "typescript",
+    "noble"
   ],
+  "bugs": {
+    "url": "https://github.com/srbde/pollen/issues"
+  },
+  "homepage": "https://github.com/srbde/pollen#readme",
   "dependencies": {
-    "@ecency/bytebuffer": "^6.0.0",
+    "@ecency/bytebuffer": "^0.13.1",
     "@noble/curves": "^2.2.0",
-    "@noble/hashes": "^2.2.0",
-    "@scure/base": "^2.2.0",
-    "core-js": "^3.49.0",
-    "cross-fetch": "^4.1.0",
-    "https": "^1.0.0",
-    "jsbi": "^3.1.4",
-    "node-fetch": "^3.3.2",
+    "@noble/hashes": "^1.4.0",
+    "@scure/base": "^1.1.6",
+    "cross-fetch": "^4.0.0",
+    "node-fetch": "^2.7.0",
     "verror": "^1.10.1",
     "whatwg-fetch": "^3.6.20"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
+    "@eslint/js": "^9.15.0",
     "@types/mocha": "^10.0.10",
-    "@types/node": "^25.9.1",
-    "@types/verror": "^1.10.11",
-    "@typescript-eslint/eslint-plugin": "^8.59.4",
-    "@typescript-eslint/parser": "^8.59.4",
+    "@types/node": "^22.9.3",
+    "@types/verror": "^1.10.10",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
     "assert": "^2.1.0",
     "buffer": "^6.0.3",
     "crypto-browserify": "^3.12.1",
     "dts-generator": "^3.0.0",
-    "encoding": "^0.1.12",
-    "esbuild": "^0.28.0",
-    "eslint": "^10.4.0",
+    "esbuild": "^0.24.0",
+    "eslint": "^9.15.0",
     "events": "^3.3.0",
     "lorem-ipsum": "^2.0.4",
-    "mocha": "^11.3.0",
-    "nyc": "^18.0.0",
+    "mocha": "^11.0.0",
+    "nyc": "^17.1.0",
     "process": "^0.11.10",
-    "regenerator-runtime": "^0.13.1",
     "stream-browserify": "^3.0.0",
-    "terser": "^5.31.0",
     "ts-node": "^10.9.2",
-    "tsify": "^4.0.0",
-    "typedoc": "^0.28.19",
-    "typescript": "^6.0.3",
-    "typescript-eslint": "^8.59.4"
+    "typedoc": "^0.26.11",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0"
   }
 }

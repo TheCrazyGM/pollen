@@ -220,8 +220,9 @@ export class BroadcastAPI {
 
     let { fee, delegation } = options
 
+    const symbol = prefix === 'STM' ? 'HIVE' : 'TESTS'
     delegation = Asset.from(delegation || 0, 'VESTS')
-    fee = Asset.from(fee || 0, 'TESTS')
+    fee = Asset.from(fee || 0, symbol)
 
     if (fee.amount > 0) {
       const chainProps = await this.client.database.getChainProperties()

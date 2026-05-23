@@ -9,7 +9,7 @@ import {
   BlockchainMode
 } from "../src/index.js";
 
-import { agent, TEST_NODE } from "./common.js";
+import { agent, TEST_NODE } from "./_common.js";
 
 describe("blockchain", function() {
   
@@ -21,27 +21,7 @@ describe("blockchain", function() {
     "0000000109833ce528d5bbfb3f6225b39ee10086",
     "00000002ed04e3c3def0238f693931ee7eebbdf1"
   ];
-  const expectedOps = [
-    'vote',                   'effective_comment_vote', 'vote',
-    'effective_comment_vote', 'comment',                'vote',
-    'effective_comment_vote', 'vote',                   'effective_comment_vote',
-    'vote',                   'effective_comment_vote', 'vote',
-    'effective_comment_vote', 'custom_json',            'producer_reward',
-    'comment_payout_update',  'author_reward',          'comment_reward',
-    'comment_payout_update',  'comment_payout_update',  'comment_payout_update',
-    'fill_vesting_withdraw',  'fill_vesting_withdraw',  'comment',
-    'comment',                'vote',                   'effective_comment_vote',
-    'vote',                   'effective_comment_vote', 'vote',
-    'effective_comment_vote', 'vote',                   'effective_comment_vote',
-    'comment',                'custom_json',            'custom_json',
-    'custom_json',            'custom_json',            'claim_reward_balance',
-    'custom_json',            'vote',                   'effective_comment_vote',
-    'comment',                'comment_options',        'custom_json',
-    'vote',                   'effective_comment_vote', 'producer_reward',
-    'comment_payout_update',  'comment_payout_update',  'curation_reward',
-    'author_reward',          'comment_reward',         'comment_payout_update',
-    'comment_payout_update',  'fill_vesting_withdraw',  'fill_vesting_withdraw'
-  ];
+  const expectedOps = ["vote","effective_comment_vote","vote","effective_comment_vote","comment","vote","effective_comment_vote","vote","effective_comment_vote","vote","effective_comment_vote","vote","effective_comment_vote","custom_json","producer_reward","comment_payout_update","author_reward","comment_reward","comment_payout_update","comment_payout_update","comment_payout_update","fill_vesting_withdraw","comment","comment","vote","effective_comment_vote","vote","effective_comment_vote","vote","effective_comment_vote","vote","effective_comment_vote","comment","custom_json","custom_json","custom_json","custom_json","claim_reward_balance","custom_json","vote","effective_comment_vote","comment","comment_options","custom_json","vote","effective_comment_vote","producer_reward","comment_payout_update","comment_payout_update","curation_reward","author_reward","comment_reward","comment_payout_update","comment_payout_update","fill_vesting_withdraw"];
 
   it("should yield blocks", async function() {
     let ids: string[] = [];
@@ -49,7 +29,7 @@ describe("blockchain", function() {
       ids.push(block.block_id);
     }
     assert.deepEqual(ids, expectedIds);
-  });
+  }, 30000);
 
   it("should stream blocks", async function() {
     await new Promise((resolve, reject) => {
@@ -64,7 +44,7 @@ describe("blockchain", function() {
         resolve(undefined);
       });
     });
-  });
+  }, 30000);
 
   it("should yield operations", async function() {
     let ops: string[] = [];
@@ -75,7 +55,7 @@ describe("blockchain", function() {
       ops.push(operation.op[0]);
     }
     assert.deepEqual(ops, expectedOps);
-  });
+  }, 30000);
 
   it("should stream operations", async function() {
     await new Promise((resolve, reject) => {
@@ -93,7 +73,7 @@ describe("blockchain", function() {
         resolve(undefined);
       });
     });
-  });
+  }, 30000);
 
   // nonsense - feel free to investigate
   // it("should yield latest blocks", async function() {

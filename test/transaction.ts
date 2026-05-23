@@ -3,13 +3,13 @@ import assert from 'assert'
 
 
 import { Client } from '../src/index.js'
-import { agent } from './common.js'
+import { agent } from './_common.js'
 
 describe('transaction_status_api', function() {
   
   
 
-  const client = Client.testnet({ agent })
+  const client = new Client('https://api.hive.blog', { agent })
 
   describe('find_transaction', () => {
 

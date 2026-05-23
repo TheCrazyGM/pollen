@@ -3,7 +3,7 @@ import { describe, it, beforeAll, beforeEach, afterAll, afterEach, expect, vi } 
 import assert from "assert";
 
 import { Client, Asset, Transaction, PrivateKey } from "../src/index.js";
-import { getTestnetAccounts, randomString, agent, TEST_NODE } from "./common.js";
+import { getTestnetAccounts, randomString, agent, TEST_NODE } from "./_common.js";
 
 describe("rc_api", function() {
   

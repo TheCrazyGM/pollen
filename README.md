@@ -106,6 +106,7 @@ pnpm run test
 The easiest way to bundle Pollen (with Vite, Webpack, etc.) is to just `pnpm add @srbde/pollen` and `import { Client } from '@srbde/pollen'`.
 
 If you are bundling for the browser, Pollen now includes two pre-bundled versions:
+
 - `dist/pollen.js`: A minified IIFE bundle for legacy `<script>` tags.
 - `dist/pollen.mjs`: A modern ESM bundle for native browser imports.
 
@@ -119,19 +120,23 @@ Pollen is a modernized fork of [dhive](https://github.com/openhive-network/dhive
 
 ## 🌐 Built by SRBDE
 
-Pollen is developed and maintained by the **Sustainable Resource and Business Development Enterprise (SRBDE)**.
+Nectar is developed and maintained by the **Sustainable Resource and Business Development Enterprise (SRBDE)** — an open-source infrastructure organization building tools and platforms for communities that build things together.
 
 We apply the logic of agricultural sustainability to software: the goal is always to return more to the ecosystem than we extract.
 
-| Project                                        | Language | Description                |
-| ---------------------------------------------- | -------- | -------------------------- |
-| [Nectar](https://github.com/srbde/hive-nectar) | Python   | The modern Hive Python SDK |
-| [ecoinstats.net](https://ecoinstats.net)       | Web      | SRBDE corporate hub        |
+- **Open source is our value, not just our business model.**
+- **Our commercial products fund our open-source core. The open work is the mission.**
+
+### Explore the Ecosystem
+
+| Project                                             | Description                |
+| --------------------------------------------------- | -------------------------- |
+| [Hive-Nectar](https://github.com/srbde/hive-nectar) | The modern Hive Python SDK |
+| [ecoinstats.net](https://ecoinstats.net)            | SRBDE corporate hub        |
+| [thecrazygm.com](https://thecrazygm.com)            | Open gaming tools & TTRPGs |
 
 ---
 
 ## 🤝 Contributing
 
-Audits, forks, and pull requests are welcome. Pollen is built to last for the decade. If you find a security issue, please open a private advisory.
-
-_Share and Enjoy!_
+Audits, forks, and pull requests are welcome. Nectar is built to last for the decade, not the quarter. If you find a security issue, please open a private advisory rather than a public issue.

@@ -29,8 +29,27 @@ async function main() {
       key
     );
     
-    console.log("Success! Transaction ID:", result.id);
-    console.log("Included in block:", result.block_num);
+    console.log("Success! Transaction broadcasted.");
+    console.log("Transaction ID:", result.id);
+    
+    console.log("Polling for block inclusion...");
+    let blockNum: number | undefined;
+    for (let i = 0; i < 10; i++) {
+        try {
+            const tx = await client.database.getTransaction(result.id);
+            if (tx) {
+                // Wait, getTransaction output might vary by node
+                console.log("Transaction found in blockchain!");
+                console.log("Full Result:", JSON.stringify(tx, null, 2));
+                break;
+            }
+        } catch (e) {
+            // Not found yet
+            process.stdout.write(".");
+            await new Promise(r => setTimeout(r, 3000));
+        }
+    }
+    
   } catch (error) {
     console.error("Transfer failed:", error.message);
     if (error.info) {

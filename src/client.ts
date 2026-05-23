@@ -34,7 +34,8 @@
  */
 
 import assert from 'assert'
-import { VError } from 'verror'
+import verror from 'verror'
+const { VError } = verror
 import packageVersion from './version.js'
 
 import { Blockchain } from './helpers/blockchain.js'

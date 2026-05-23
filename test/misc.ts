@@ -2,7 +2,8 @@ import { describe, it, beforeAll, beforeEach, afterAll, afterEach, expect, vi } 
 ;
 import assert from "assert";
 import * as stream from "stream";
-import { VError } from "verror";
+import verror from "verror";
+const { VError } = verror;
 
 import { utils } from "../src/index.js";
 

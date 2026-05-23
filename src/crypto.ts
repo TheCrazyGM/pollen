@@ -35,7 +35,8 @@
 
 import assert from 'assert'
 import { createHash } from 'crypto'
-import { VError } from 'verror'
+import verror from 'verror'
+const { VError } = verror
 import { Types } from './chain/serializer.js'
 import { SignedTransaction, Transaction } from './chain/transaction.js'
 import { DEFAULT_ADDRESS_PREFIX, DEFAULT_CHAIN_ID } from './client.js'

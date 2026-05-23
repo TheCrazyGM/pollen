@@ -169,10 +169,6 @@ export interface ClientOptions {
      */
     agent?: any // https.Agent
     /**
-     * Deprecated - don't use
-     */
-    rebrandedApi?: boolean
-    /**
      * Options for the node health tracker.
      * Controls cooldown periods, stale block thresholds, etc.
      */
@@ -262,10 +258,6 @@ export class Client {
      * @param options Client options.
      */
     constructor(address: string | string[], options: ClientOptions = {}) {
-        if (options.rebrandedApi) {
-            // tslint:disable-next-line: no-console
-            console.log('Warning: rebrandedApi is deprecated and safely can be removed from client options')
-        }
         this.currentAddress = Array.isArray(address) ? address[0] : address
         this.address = address
         this.options = options
@@ -452,11 +444,6 @@ export class Client {
         }
         assert.equal(response.id, request.id, 'got invalid response id')
         return response.result
-    }
-
-    public updateOperations(rebrandedApi) {
-        // tslint:disable-next-line: no-console
-        console.log('Warning: call to updateOperations() is deprecated and can safely be removed')
     }
 }
 

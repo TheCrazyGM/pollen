@@ -59,7 +59,6 @@ export type OperationName =  // <id>
   | 'witness_update' // 11
   | 'account_witness_vote' // 12
   | 'account_witness_proxy' // 13
-  | 'pow' // 14
   | 'custom' // 15
   | 'report_over_production' // 16
   | 'delete_comment' // 17
@@ -75,7 +74,6 @@ export type OperationName =  // <id>
   | 'escrow_transfer' // 27
   | 'escrow_dispute' // 28
   | 'escrow_release' // 29
-  | 'pow2' // 30
   | 'escrow_approve' // 31
   | 'transfer_to_savings' // 32
   | 'transfer_from_savings' // 33
@@ -128,7 +126,6 @@ export type VirtualOperationName =  // <id>
   | 'expired_account_notification' // last_regular + 26
   | 'changed_recovery_account' // last_regular + 27
   | 'transfer_to_vesting_completed' // last_regular + 28
-  | 'pow_reward' // last_regular + 29
   | 'vesting_shares_split' // last_regular + 30
   | 'account_created' // last_regular + 31
   | 'fill_collateralized_convert_request' // last_regular + 32
@@ -570,33 +567,6 @@ export interface LimitOrderCreate2Operation extends Operation {
     expiration: string // time_point_sec
   }
 }
-
-/**
- * Legacy proof of work operation.
- */
-export interface PowOperation extends Operation {
-  0: 'pow' // 14
-  1: {
-    worker_account: string // account_name_type
-    block_id: any
-    nonce: number // uint64_t
-    work: any
-    props: any
-  }
-}
-
-/**
- * Legacy equihash proof of work operation.
- */
-export interface Pow2Operation extends Operation {
-  0: 'pow2' // 30
-  1: {
-    work: any
-    new_owner_key?: string | PublicKey // public_key_type
-    props: any
-  }
-}
-
 /**
  * Recover an account to a new authority using a previous authority and verification
  * of the recovery account as proof of identity. This operation can only succeed

@@ -18,27 +18,27 @@ This document outlines the strategic roadmap for **`@srbde/pollen`**.
 - [x] **pnpm Scripts:** Implemented a full suite of cross-platform build scripts in `package.json`.
 - [x] **esbuild:** Integrated for high-performance browser bundling.
 
-## 🛠️ Phase 4: Architectural Refactoring (NEXT STEPS)
+## ✅ Phase 4: Architectural Modernization (IN PROGRESS)
 
-**Goal:** Transform the internal "mudball" into a high-performance, strictly-typed modern engine.
+### 1. ✅ Pure ESM Migration (COMPLETED)
+- [x] Converted project to Pure ESM (`"type": "module"`).
+- [x] Added required `.js` extensions to all internal imports.
+- [x] Modernized `tsconfig.json` and build pipeline.
 
-### 1. Pure ESM Migration (High Priority)
-- Currently, the project is a hybrid/CommonJS setup. Moving to **Pure ESM** will:
-  - Improve compatibility with modern frameworks (Vite, Next.js, Nuxt).
-  - Enable better tree-shaking for smaller client-side bundles.
-  - Simplify the `tsconfig.json` and build pipeline.
+### 2. ✅ Network Resilience & Test Stabilization (COMPLETED)
+- [x] Implemented robust **Exponential Backoff** with Jitter.
+- [x] Achieved **100% Green Test Suite** (92 passing tests).
+- [x] Modernized test vectors and error handling for 2026 hived nodes.
 
-### 2. Legacy Pruning & Cleanup
-- Systematically remove internal functions and fallbacks designed for pre-Hive (Steem) compatibility.
-- Target: 20-30% reduction in code volume and bundle size.
+### 3. 🛠️ Legacy Pruning & Cleanup (NEXT STEP)
+- **Goal:** Remove the dead weight from the Steem era (2017).
+- [ ] Prune internal fallback functions no longer required by Hive nodes.
+- [ ] Remove deprecated `this.timeout` / `this.slow` remnants.
+- [ ] Target: 20-30% reduction in code volume.
 
-### 3. Network Resilience (Backoff & Retry)
-- Replace the current custom failover logic with a standard **Exponential Backoff** strategy.
-- Improve RPC error handling to distinguish between network timeouts and blockchain-level errors.
-
-### 4. Native Streams & Uint8Arrays
-- Replace the legacy `@ecency/bytebuffer` dependency with native Web/Node standard `Uint8Array` operations.
-- Migrate from legacy event-emitters to modern async iterators where applicable.
+### 4. 🛠️ Native Streams & Uint8Arrays
+- [ ] Replace legacy `@ecency/bytebuffer` with native Node.js/Web standard `Uint8Array`.
+- [ ] Migrate from legacy event-emitters to modern async iterators.
 
 ---
-*Document updated on Friday, May 22, 2026. Phase 4 is ready for initiation.*
+*Document updated on Saturday, May 23, 2026. Phase 4.3 is green.*

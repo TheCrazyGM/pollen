@@ -1,0 +1,58 @@
+[**@srbde/pollen**](../README.md)
+
+***
+
+[@srbde/pollen](../globals.md) / WithdrawVestingOperation
+
+# Interface: WithdrawVestingOperation
+
+Defined in: [src/chain/operation.ts:836](https://github.com/TheCrazyGM/dhive/blob/05b0edbddcc11f33d84516003ab882605dad28aa/src/chain/operation.ts#L836)
+
+At any given point in time an account can be withdrawing from their
+vesting shares. A user may change the number of shares they wish to
+cash out at any time between 0 and their total vesting stake.
+
+After applying this operation, vesting_shares will be withdrawn
+at a rate of vesting_shares/104 per week for two years starting
+one week after this operation is included in the blockchain.
+
+This operation is not valid if the user has no vesting shares.
+(A.k.a. Powering Down)
+
+## Extends
+
+- [`Operation`](Operation.md)
+
+## Properties
+
+### 0
+
+> **0**: `"withdraw_vesting"`
+
+Defined in: [src/chain/operation.ts:837](https://github.com/TheCrazyGM/dhive/blob/05b0edbddcc11f33d84516003ab882605dad28aa/src/chain/operation.ts#L837)
+
+#### Overrides
+
+[`Operation`](Operation.md).[`0`](Operation.md#0)
+
+***
+
+### 1
+
+> **1**: `object`
+
+Defined in: [src/chain/operation.ts:838](https://github.com/TheCrazyGM/dhive/blob/05b0edbddcc11f33d84516003ab882605dad28aa/src/chain/operation.ts#L838)
+
+#### account
+
+> **account**: `string`
+
+#### vesting\_shares
+
+> **vesting\_shares**: `string` \| [`Asset`](../classes/Asset.md)
+
+Amount to power down, must be VESTS.
+
+#### Overrides
+
+[`Operation`](Operation.md).[`1`](Operation.md#1)

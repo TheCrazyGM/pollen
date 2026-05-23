@@ -1,7 +1,6 @@
 node_modules/
 lib/
 dist/
-docs/
 coverage/
 .nyc_output/
 .testnetrc
@@ -13,3 +12,7 @@ coverage/
 .idea
 .vscode
 .codegraph/
+
+# VitePress
+docs/.vitepress/dist/
+docs/.vitepress/cache/

@@ -32,7 +32,11 @@
     "test:watch": "vitest",
     "lint": "oxlint src/**/*.ts",
     "format": "oxfmt src/**/*.ts",
-    "docs": "typedoc --gitRevision master --out docs src && find docs -name \"*.html\" | xargs perl -i -pe's~$(pwd)~.~g'",
+    "docs:api": "typedoc --plugin typedoc-plugin-markdown --out docs/api src",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "pnpm run docs:api && vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "docs": "pnpm run docs:build",
     "prepare": "pnpm run build"
   },
   "repository": {
@@ -77,8 +81,10 @@
     "oxlint": "^1.66.0",
     "process": "^0.11.10",
     "stream-browserify": "^3.0.0",
-    "typedoc": "^0.26.11",
+    "typedoc": "^0.28.19",
+    "typedoc-plugin-markdown": "^4.11.0",
     "typescript": "^5.9.3",
+    "vitepress": "^1.6.4",
     "vitest": "^4.1.7"
   }
 }

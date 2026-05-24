@@ -6,7 +6,7 @@
 
 # Interface: SetResetAccountOperation
 
-Defined in: [src/chain/operation.ts:1030](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/operation.ts#L1030)
+Defined in: [src/chain/operation.ts:1030](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L1030)
 
 This operation allows 'account' owner to control which account has the power
 to execute the 'reset_account_operation' after 60 days.
@@ -21,7 +21,7 @@ to execute the 'reset_account_operation' after 60 days.
 
 > **0**: `"set_reset_account"`
 
-Defined in: [src/chain/operation.ts:1031](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/operation.ts#L1031)
+Defined in: [src/chain/operation.ts:1031](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L1031)
 
 #### Overrides
 
@@ -33,7 +33,7 @@ Defined in: [src/chain/operation.ts:1031](https://github.com/TheCrazyGM/dhive/bl
 
 > **1**: `object`
 
-Defined in: [src/chain/operation.ts:1032](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/operation.ts#L1032)
+Defined in: [src/chain/operation.ts:1032](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L1032)
 
 #### account
 

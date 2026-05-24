@@ -6,7 +6,7 @@
 
 # Interface: WitnessUpdateOperation
 
-Defined in: [src/chain/operation.ts:1213](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/operation.ts#L1213)
+Defined in: [src/chain/operation.ts:1213](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L1213)
 
 Users who wish to become a witness must pay a fee acceptable to
 the current witnesses to apply for the position and allow voting
@@ -31,7 +31,7 @@ producing blocks.
 
 > **0**: `"witness_update"`
 
-Defined in: [src/chain/operation.ts:1214](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/operation.ts#L1214)
+Defined in: [src/chain/operation.ts:1214](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L1214)
 
 #### Overrides
 
@@ -43,7 +43,7 @@ Defined in: [src/chain/operation.ts:1214](https://github.com/TheCrazyGM/dhive/bl
 
 > **1**: `object`
 
-Defined in: [src/chain/operation.ts:1215](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/operation.ts#L1215)
+Defined in: [src/chain/operation.ts:1215](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L1215)
 
 #### block\_signing\_key
 

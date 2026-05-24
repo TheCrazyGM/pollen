@@ -6,7 +6,7 @@
 
 # Interface: Resource
 
-Defined in: [src/chain/rc.ts:28](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/rc.ts#L28)
+Defined in: [src/chain/rc.ts:28](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/rc.ts#L28)
 
 Pricing configuration for a single RC resource class.
 
@@ -16,7 +16,7 @@ Pricing configuration for a single RC resource class.
 
 > **price\_curve\_params**: [`PriceCurveParam`](PriceCurveParam.md)
 
-Defined in: [src/chain/rc.ts:30](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/rc.ts#L30)
+Defined in: [src/chain/rc.ts:30](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/rc.ts#L30)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [src/chain/rc.ts:30](https://github.com/TheCrazyGM/dhive/blob/06f00c
 
 > **resource\_dynamics\_params**: [`DynamicParam`](DynamicParam.md)
 
-Defined in: [src/chain/rc.ts:29](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/rc.ts#L29)
+Defined in: [src/chain/rc.ts:29](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/rc.ts#L29)

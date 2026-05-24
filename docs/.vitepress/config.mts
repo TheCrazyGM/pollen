@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Pollen 🌸",
+  title: "Pollen",
   description: "Modern, secure, and zero-dependency TypeScript SDK for the Hive blockchain",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

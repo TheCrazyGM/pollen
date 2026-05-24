@@ -6,7 +6,7 @@
 
 # Interface: VoteState
 
-Defined in: [src/chain/comment.ts:94](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/comment.ts#L94)
+Defined in: [src/chain/comment.ts:94](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/comment.ts#L94)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/chain/comment.ts:94](https://github.com/TheCrazyGM/dhive/blob/0
 
 > **percent**: `number`
 
-Defined in: [src/chain/comment.ts:98](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/comment.ts#L98)
+Defined in: [src/chain/comment.ts:98](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/comment.ts#L98)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/chain/comment.ts:98](https://github.com/TheCrazyGM/dhive/blob/0
 
 > **reputation**: `string` \| `number`
 
-Defined in: [src/chain/comment.ts:99](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/comment.ts#L99)
+Defined in: [src/chain/comment.ts:99](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/comment.ts#L99)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/chain/comment.ts:99](https://github.com/TheCrazyGM/dhive/blob/0
 
 > **rshares**: `string` \| `number`
 
-Defined in: [src/chain/comment.ts:97](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/comment.ts#L97)
+Defined in: [src/chain/comment.ts:97](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/comment.ts#L97)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/chain/comment.ts:97](https://github.com/TheCrazyGM/dhive/blob/0
 
 > **time**: `string`
 
-Defined in: [src/chain/comment.ts:100](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/comment.ts#L100)
+Defined in: [src/chain/comment.ts:100](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/comment.ts#L100)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [src/chain/comment.ts:100](https://github.com/TheCrazyGM/dhive/blob/
 
 > **voter**: `string`
 
-Defined in: [src/chain/comment.ts:95](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/comment.ts#L95)
+Defined in: [src/chain/comment.ts:95](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/comment.ts#L95)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: [src/chain/comment.ts:95](https://github.com/TheCrazyGM/dhive/blob/0
 
 > **weight**: `string` \| `number`
 
-Defined in: [src/chain/comment.ts:96](https://github.com/TheCrazyGM/dhive/blob/06f00c49db099e36d53bf072dac0943ba256d1a1/src/chain/comment.ts#L96)
+Defined in: [src/chain/comment.ts:96](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/comment.ts#L96)

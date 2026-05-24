@@ -8,7 +8,7 @@
 
 > **Bignum** = `string`
 
-Defined in: [src/chain/misc.ts:48](https://github.com/TheCrazyGM/dhive/blob/b7fee73ff5fdd26e45fb6f64011ce38836188cc9/src/chain/misc.ts#L48)
+Defined in: [src/chain/misc.ts:48](https://github.com/TheCrazyGM/dhive/blob/ae4989e28e0cf43ae59af4e3ad2b2a9309e6596e/src/chain/misc.ts#L48)
 
 Large integer returned as a string to avoid JavaScript precision loss.
 

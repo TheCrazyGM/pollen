@@ -8,7 +8,7 @@
 
 > **AssetSymbol** = `"HIVE"` \| `"VESTS"` \| `"HBD"` \| `"TESTS"` \| `"TBD"` \| `"STEEM"` \| `"SBD"`
 
-Defined in: [src/chain/asset.ts:61](https://github.com/TheCrazyGM/dhive/blob/b7fee73ff5fdd26e45fb6f64011ce38836188cc9/src/chain/asset.ts#L61)
+Defined in: [src/chain/asset.ts:61](https://github.com/TheCrazyGM/dhive/blob/ae4989e28e0cf43ae59af4e3ad2b2a9309e6596e/src/chain/asset.ts#L61)
 
 Asset symbol supported by Hive-compatible asset serialization.
 

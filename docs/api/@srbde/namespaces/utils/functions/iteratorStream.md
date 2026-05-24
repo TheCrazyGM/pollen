@@ -8,7 +8,7 @@
 
 > **iteratorStream**\<`T`\>(`iterator`): `ReadableStream`\<`T`\>
 
-Defined in: [src/utils.ts:416](https://github.com/TheCrazyGM/dhive/blob/b7fee73ff5fdd26e45fb6f64011ce38836188cc9/src/utils.ts#L416)
+Defined in: [src/utils.ts:416](https://github.com/TheCrazyGM/dhive/blob/ae4989e28e0cf43ae59af4e3ad2b2a9309e6596e/src/utils.ts#L416)
 
 Converts an async iterator into a native Web ReadableStream.
 

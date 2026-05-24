@@ -6,7 +6,7 @@
 
 # Interface: LimitOrderCancelOperation
 
-Defined in: [src/chain/operation.ts:842](https://github.com/TheCrazyGM/dhive/blob/b7fee73ff5fdd26e45fb6f64011ce38836188cc9/src/chain/operation.ts#L842)
+Defined in: [src/chain/operation.ts:842](https://github.com/TheCrazyGM/dhive/blob/ae4989e28e0cf43ae59af4e3ad2b2a9309e6596e/src/chain/operation.ts#L842)
 
 Cancels an order and returns the balance to owner.
 
@@ -20,7 +20,7 @@ Cancels an order and returns the balance to owner.
 
 > **0**: `"limit_order_cancel"`
 
-Defined in: [src/chain/operation.ts:843](https://github.com/TheCrazyGM/dhive/blob/b7fee73ff5fdd26e45fb6f64011ce38836188cc9/src/chain/operation.ts#L843)
+Defined in: [src/chain/operation.ts:843](https://github.com/TheCrazyGM/dhive/blob/ae4989e28e0cf43ae59af4e3ad2b2a9309e6596e/src/chain/operation.ts#L843)
 
 #### Overrides
 
@@ -32,7 +32,7 @@ Defined in: [src/chain/operation.ts:843](https://github.com/TheCrazyGM/dhive/blo
 
 > **1**: `object`
 
-Defined in: [src/chain/operation.ts:844](https://github.com/TheCrazyGM/dhive/blob/b7fee73ff5fdd26e45fb6f64011ce38836188cc9/src/chain/operation.ts#L844)
+Defined in: [src/chain/operation.ts:844](https://github.com/TheCrazyGM/dhive/blob/ae4989e28e0cf43ae59af4e3ad2b2a9309e6596e/src/chain/operation.ts#L844)
 
 #### orderid
 

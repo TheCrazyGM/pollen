@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../../../../index.md)
 
-***
+---
 
 [@srbde/pollen](../../../../index.md) / [utils](../index.md) / BinaryWriter
 
@@ -40,7 +40,7 @@ Defined in: [src/utils.ts:205](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `Uint8Array`
 
-***
+---
 
 ### writeBytes()
 
@@ -58,7 +58,7 @@ Defined in: [src/utils.ts:199](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `void`
 
-***
+---
 
 ### writeInt16()
 
@@ -76,7 +76,7 @@ Defined in: [src/utils.ts:139](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `void`
 
-***
+---
 
 ### writeInt32()
 
@@ -94,7 +94,7 @@ Defined in: [src/utils.ts:151](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `void`
 
-***
+---
 
 ### writeInt64()
 
@@ -112,7 +112,7 @@ Defined in: [src/utils.ts:163](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `void`
 
-***
+---
 
 ### writeInt8()
 
@@ -130,7 +130,7 @@ Defined in: [src/utils.ts:129](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `void`
 
-***
+---
 
 ### writeString()
 
@@ -148,7 +148,7 @@ Defined in: [src/utils.ts:193](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `void`
 
-***
+---
 
 ### writeUint16()
 
@@ -166,7 +166,7 @@ Defined in: [src/utils.ts:145](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `void`
 
-***
+---
 
 ### writeUint32()
 
@@ -184,7 +184,7 @@ Defined in: [src/utils.ts:157](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `void`
 
-***
+---
 
 ### writeUint64()
 
@@ -202,7 +202,7 @@ Defined in: [src/utils.ts:174](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `void`
 
-***
+---
 
 ### writeUint8()
 
@@ -220,7 +220,7 @@ Defined in: [src/utils.ts:134](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `void`
 
-***
+---
 
 ### writeVarint32()
 

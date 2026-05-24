@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / BroadcastAPI
 
@@ -21,28 +21,28 @@ primitives.
 ## Example
 
 ```ts
-import { Client, PrivateKey } from '@srbde/pollen'
+import { Client, PrivateKey } from "@srbde/pollen";
 
-const client = new Client('https://api.hive.blog')
-const key = PrivateKey.fromString(process.env.HIVE_ACTIVE_KEY!)
+const client = new Client("https://api.hive.blog");
+const key = PrivateKey.fromString(process.env.HIVE_ACTIVE_KEY!);
 
 const confirmation = await client.broadcast.transfer(
   {
-    from: 'srbde',
-    to: 'alice',
-    amount: '0.001 HIVE',
-    memo: 'Pollen transfer'
+    from: "srbde",
+    to: "alice",
+    amount: "0.001 HIVE",
+    memo: "Pollen transfer",
   },
-  key
-)
+  key,
+);
 
-console.log(confirmation.id)
+console.log(confirmation.id);
 ```
 
 ## See
 
- - [cryptoUtils.signTransaction](../variables/cryptoUtils.md#signtransaction)
- - [Client.call](Client.md#call)
+- [cryptoUtils.signTransaction](../variables/cryptoUtils.md#signtransaction)
+- [Client.call](Client.md#call)
 
 ## Constructors
 
@@ -78,7 +78,7 @@ Defined in: [src/helpers/broadcast.ts:161](https://github.com/TheCrazyGM/dhive/b
 Client used for chain-property reads and transaction
 submission.
 
-***
+---
 
 ### expireTime
 
@@ -127,10 +127,10 @@ Thrown when the node rejects the RPC call.
 #### Example
 
 ```ts
-const result = await client.broadcast.call('broadcast_transaction', [signed])
+const result = await client.broadcast.call("broadcast_transaction", [signed]);
 ```
 
-***
+---
 
 ### comment()
 
@@ -198,19 +198,19 @@ missing, or the comment payload violates chain rules.
 ```ts
 await client.broadcast.comment(
   {
-    parent_author: '',
-    parent_permlink: 'hive-139531',
-    author: 'srbde',
-    permlink: 'hello-pollen',
-    title: 'Hello Pollen',
-    body: 'Published through the Pollen SDK.',
-    json_metadata: JSON.stringify({ tags: ['hive-139531'] })
+    parent_author: "",
+    parent_permlink: "hive-139531",
+    author: "srbde",
+    permlink: "hello-pollen",
+    title: "Hello Pollen",
+    body: "Published through the Pollen SDK.",
+    json_metadata: JSON.stringify({ tags: ["hive-139531"] }),
   },
-  postingKey
-)
+  postingKey,
+);
 ```
 
-***
+---
 
 ### commentWithOptions()
 
@@ -320,18 +320,22 @@ Thrown when either operation fails chain validation.
 #### Example
 
 ```ts
-await client.broadcast.commentWithOptions(comment, {
-  author: comment.author,
-  permlink: comment.permlink,
-  max_accepted_payout: '1000000.000 HBD',
-  percent_hbd: 10000,
-  allow_votes: true,
-  allow_curation_rewards: true,
-  extensions: []
-}, postingKey)
+await client.broadcast.commentWithOptions(
+  comment,
+  {
+    author: comment.author,
+    permlink: comment.permlink,
+    max_accepted_payout: "1000000.000 HBD",
+    percent_hbd: 10000,
+    allow_votes: true,
+    allow_curation_rewards: true,
+    extensions: [],
+  },
+  postingKey,
+);
 ```
 
-***
+---
 
 ### createTestAccount()
 
@@ -389,16 +393,16 @@ Thrown when the chain rejects the account creation transaction.
 ```ts
 await testnet.broadcast.createTestAccount(
   {
-    username: 'pollen-dev',
-    password: 'correct horse battery staple',
-    creator: 'initminer',
-    metadata: { app: 'pollen-tests' }
+    username: "pollen-dev",
+    password: "correct horse battery staple",
+    creator: "initminer",
+    metadata: { app: "pollen-tests" },
   },
-  initminerActiveKey
-)
+  initminerActiveKey,
+);
 ```
 
-***
+---
 
 ### delegateVestingShares()
 
@@ -463,15 +467,15 @@ the chain rejects the delegation.
 ```ts
 await client.broadcast.delegateVestingShares(
   {
-    delegator: 'srbde',
-    delegatee: 'alice',
-    vesting_shares: '100.000000 VESTS'
+    delegator: "srbde",
+    delegatee: "alice",
+    vesting_shares: "100.000000 VESTS",
   },
-  activeKey
-)
+  activeKey,
+);
 ```
 
-***
+---
 
 ### json()
 
@@ -532,15 +536,15 @@ Thrown when authority requirements are not met or the payload is invalid.
 await client.broadcast.json(
   {
     required_auths: [],
-    required_posting_auths: ['srbde'],
-    id: 'pollen.demo',
-    json: JSON.stringify({ nectar: 'ready' })
+    required_posting_auths: ["srbde"],
+    id: "pollen.demo",
+    json: JSON.stringify({ nectar: "ready" }),
   },
-  postingKey
-)
+  postingKey,
+);
 ```
 
-***
+---
 
 ### send()
 
@@ -572,12 +576,12 @@ Thrown when the node rejects the signed transaction.
 #### Example
 
 ```ts
-const signed = client.broadcast.sign(transaction, activeKey)
-const confirmation = await client.broadcast.send(signed)
-console.log(confirmation.id)
+const signed = client.broadcast.sign(transaction, activeKey);
+const confirmation = await client.broadcast.send(signed);
+console.log(confirmation.id);
 ```
 
-***
+---
 
 ### sendOperations()
 
@@ -622,17 +626,22 @@ Thrown when property lookup or transaction broadcast fails.
 
 ```ts
 await client.broadcast.sendOperations(
-  [['vote', {
-    voter: 'srbde',
-    author: 'alice',
-    permlink: 'field-notes',
-    weight: 5_000
-  }]],
-  postingKey
-)
+  [
+    [
+      "vote",
+      {
+        voter: "srbde",
+        author: "alice",
+        permlink: "field-notes",
+        weight: 5_000,
+      },
+    ],
+  ],
+  postingKey,
+);
 ```
 
-***
+---
 
 ### sign()
 
@@ -670,15 +679,15 @@ from being replayed across Hive-compatible networks.
 #### Example
 
 ```ts
-const signed = client.broadcast.sign(transaction, activeKey)
-console.log(signed.signatures)
+const signed = client.broadcast.sign(transaction, activeKey);
+console.log(signed.signatures);
 ```
 
 #### See
 
 [cryptoUtils.signTransaction](../variables/cryptoUtils.md#signtransaction)
 
-***
+---
 
 ### transfer()
 
@@ -741,16 +750,16 @@ rejects the transaction.
 ```ts
 await client.broadcast.transfer(
   {
-    from: 'srbde',
-    to: 'alice',
-    amount: '1.000 HIVE',
-    memo: 'Invoice 42'
+    from: "srbde",
+    to: "alice",
+    amount: "1.000 HIVE",
+    memo: "Invoice 42",
   },
-  activeKey
-)
+  activeKey,
+);
 ```
 
-***
+---
 
 ### updateAccount()
 
@@ -814,18 +823,18 @@ Thrown when the update lacks required authority or violates account rules.
 ```ts
 await client.broadcast.updateAccount(
   {
-    account: 'srbde',
+    account: "srbde",
     memo_key: memoPublicKey,
-    json_metadata: JSON.stringify({ profile: { name: 'SRBDE' } }),
+    json_metadata: JSON.stringify({ profile: { name: "SRBDE" } }),
     owner: undefined,
     active: undefined,
-    posting: undefined
+    posting: undefined,
   },
-  activeKey
-)
+  activeKey,
+);
 ```
 
-***
+---
 
 ### vote()
 
@@ -882,11 +891,11 @@ invalid.
 ```ts
 await client.broadcast.vote(
   {
-    voter: 'srbde',
-    author: 'alice',
-    permlink: 'field-notes',
-    weight: 10_000
+    voter: "srbde",
+    author: "alice",
+    permlink: "field-notes",
+    weight: 10_000,
   },
-  postingKey
-)
+  postingKey,
+);
 ```

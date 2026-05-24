@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / DiscussionQueryCategory
 
@@ -21,8 +21,8 @@ content tag.
 ## Example
 
 ```ts
-const posts = await client.database.getDiscussions('trending', {
-  tag: 'hive-139531',
-  limit: 10
-})
+const posts = await client.database.getDiscussions("trending", {
+  tag: "hive-139531",
+  limit: 10,
+});
 ```

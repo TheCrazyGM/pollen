@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / CreateClaimedAccountOperation
 
@@ -26,7 +26,7 @@ Defined in: [src/chain/operation.ts:486](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -48,17 +48,17 @@ Defined in: [src/chain/operation.ts:487](https://github.com/TheCrazyGM/dhive/blo
 
 Extensions. Not currently used.
 
-#### json\_metadata
+#### json_metadata
 
-> **json\_metadata**: `string`
+> **json_metadata**: `string`
 
-#### memo\_key
+#### memo_key
 
-> **memo\_key**: `string` \| [`PublicKey`](../classes/PublicKey.md)
+> **memo_key**: `string` \| [`PublicKey`](../classes/PublicKey.md)
 
-#### new\_account\_name
+#### new_account_name
 
-> **new\_account\_name**: `string`
+> **new_account_name**: `string`
 
 #### owner
 

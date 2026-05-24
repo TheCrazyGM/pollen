@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Asset
 
@@ -19,10 +19,10 @@ caught before a transaction is signed.
 ## Example
 
 ```ts
-const balance = Asset.from('12.345 HIVE')
-const payout = balance.add('1.000 HIVE')
+const balance = Asset.from("12.345 HIVE");
+const payout = balance.add("1.000 HIVE");
 
-console.log(payout.toString())
+console.log(payout.toString());
 ```
 
 ## Constructors
@@ -63,7 +63,7 @@ Defined in: [src/chain/asset.ts:87](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 Numeric amount in display units.
 
-***
+---
 
 ### symbol
 
@@ -105,10 +105,10 @@ Thrown when `amount` uses a different symbol.
 #### Example
 
 ```ts
-const total = Asset.from('1.000 HIVE').add('2.500 HIVE')
+const total = Asset.from("1.000 HIVE").add("2.500 HIVE");
 ```
 
-***
+---
 
 ### divide()
 
@@ -140,10 +140,10 @@ Thrown when `divisor` uses a different symbol.
 #### Example
 
 ```ts
-const half = Asset.from('2.000 HIVE').divide('2.000 HIVE')
+const half = Asset.from("2.000 HIVE").divide("2.000 HIVE");
 ```
 
-***
+---
 
 ### getPrecision()
 
@@ -162,10 +162,10 @@ Resolves the display precision for this asset symbol.
 #### Example
 
 ```ts
-Asset.from('1.000000 VESTS').getPrecision()
+Asset.from("1.000000 VESTS").getPrecision();
 ```
 
-***
+---
 
 ### multiply()
 
@@ -197,14 +197,14 @@ Thrown when `factor` uses a different symbol.
 #### Example
 
 ```ts
-const doubled = Asset.from('2.000 HIVE').multiply('2.000 HIVE')
+const doubled = Asset.from("2.000 HIVE").multiply("2.000 HIVE");
 ```
 
-***
+---
 
-### steem\_symbols()
+### steem_symbols()
 
-> **steem\_symbols**(): `Asset`
+> **steem_symbols**(): `Asset`
 
 Defined in: [src/chain/asset.ts:234](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/asset.ts#L234)
 
@@ -225,11 +225,11 @@ APIs Hive-native while mapping to legacy wire symbols during serialization.
 #### Example
 
 ```ts
-const wireAsset = Asset.from('1.000 HIVE').steem_symbols()
-console.log(wireAsset.toString()) // 1.000 STEEM
+const wireAsset = Asset.from("1.000 HIVE").steem_symbols();
+console.log(wireAsset.toString()); // 1.000 STEEM
 ```
 
-***
+---
 
 ### subtract()
 
@@ -261,10 +261,10 @@ Thrown when `amount` uses a different symbol.
 #### Example
 
 ```ts
-const remaining = Asset.from('5.000 HIVE').subtract('1.250 HIVE')
+const remaining = Asset.from("5.000 HIVE").subtract("1.250 HIVE");
 ```
 
-***
+---
 
 ### toJSON()
 
@@ -278,7 +278,7 @@ For JSON serialization, same as toString().
 
 `string`
 
-***
+---
 
 ### toString()
 
@@ -297,10 +297,10 @@ Asset string such as `42.000 HIVE`.
 #### Example
 
 ```ts
-Asset.from(42, 'HIVE').toString()
+Asset.from(42, "HIVE").toString();
 ```
 
-***
+---
 
 ### from()
 
@@ -339,11 +339,11 @@ Thrown when the value cannot be parsed or fails the symbol guard.
 #### Example
 
 ```ts
-const fee = Asset.from(3, 'HIVE')
-const balance = Asset.from('10.000 HBD', 'HBD')
+const fee = Asset.from(3, "HIVE");
+const balance = Asset.from("10.000 HBD", "HBD");
 ```
 
-***
+---
 
 ### fromString()
 
@@ -382,10 +382,10 @@ a symbol that does not match `expectedSymbol`.
 #### Example
 
 ```ts
-const amount = Asset.fromString('42.000 HIVE', 'HIVE')
+const amount = Asset.fromString("42.000 HIVE", "HIVE");
 ```
 
-***
+---
 
 ### max()
 
@@ -423,10 +423,10 @@ Thrown when the two assets use different symbols.
 #### Example
 
 ```ts
-const required = Asset.max(minimumFee, offeredFee)
+const required = Asset.max(minimumFee, offeredFee);
 ```
 
-***
+---
 
 ### min()
 
@@ -464,5 +464,5 @@ Thrown when the two assets use different symbols.
 #### Example
 
 ```ts
-const capped = Asset.min(requested, available)
+const capped = Asset.min(requested, available);
 ```

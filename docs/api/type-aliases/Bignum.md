@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Bignum
 
@@ -15,5 +15,5 @@ Large integer returned as a string to avoid JavaScript precision loss.
 ## Example
 
 ```ts
-const value: Bignum = props.max_virtual_bandwidth
+const value: Bignum = props.max_virtual_bandwidth;
 ```

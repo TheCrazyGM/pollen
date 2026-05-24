@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / AccountCreateOperation
 
@@ -19,16 +19,19 @@ account creation often uses claimed account tickets through
 ## Example
 
 ```ts
-const op: AccountCreateOperation = ['account_create', {
-  fee: '3.000 HIVE',
-  creator: 'srbde',
-  new_account_name: 'new-user',
-  owner,
-  active,
-  posting,
-  memo_key,
-  json_metadata: '{}'
-}]
+const op: AccountCreateOperation = [
+  "account_create",
+  {
+    fee: "3.000 HIVE",
+    creator: "srbde",
+    new_account_name: "new-user",
+    owner,
+    active,
+    posting,
+    memo_key,
+    json_metadata: "{}",
+  },
+];
 ```
 
 ## Extends
@@ -47,7 +50,7 @@ Defined in: [src/chain/operation.ts:226](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -67,17 +70,17 @@ Defined in: [src/chain/operation.ts:227](https://github.com/TheCrazyGM/dhive/blo
 
 > **fee**: `string` \| [`Asset`](../classes/Asset.md)
 
-#### json\_metadata
+#### json_metadata
 
-> **json\_metadata**: `string`
+> **json_metadata**: `string`
 
-#### memo\_key
+#### memo_key
 
-> **memo\_key**: `string` \| [`PublicKey`](../classes/PublicKey.md)
+> **memo_key**: `string` \| [`PublicKey`](../classes/PublicKey.md)
 
-#### new\_account\_name
+#### new_account_name
 
-> **new\_account\_name**: `string`
+> **new_account_name**: `string`
 
 #### owner
 

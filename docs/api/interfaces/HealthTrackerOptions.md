@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / HealthTrackerOptions
 
@@ -18,12 +18,12 @@ failures, plugin-specific errors, stale head blocks, or HTTP 429 rate limits.
 ## Example
 
 ```ts
-const client = new Client(['https://api.hive.blog', 'https://api.openhive.network'], {
+const client = new Client(["https://api.hive.blog", "https://api.openhive.network"], {
   healthTrackerOptions: {
     maxFailuresBeforeCooldown: 2,
-    staleBlockThreshold: 15
-  }
-})
+    staleBlockThreshold: 15,
+  },
+});
 ```
 
 ## Properties
@@ -37,7 +37,7 @@ Defined in: [src/health-tracker.ts:63](https://github.com/TheCrazyGM/dhive/blob/
 How long (ms) to deprioritize a node for a specific API after failures.
 Default: 60 seconds.
 
-***
+---
 
 ### defaultRateLimitMs?
 
@@ -49,7 +49,7 @@ Default duration (ms) to skip a node after receiving a 429 response,
 used when the server doesn't provide a Retry-After header.
 Default: 10 seconds.
 
-***
+---
 
 ### headBlockTtlMs?
 
@@ -60,7 +60,7 @@ Defined in: [src/health-tracker.ts:83](https://github.com/TheCrazyGM/dhive/blob/
 How long (ms) head block data remains valid for staleness checks.
 Default: 2 minutes.
 
-***
+---
 
 ### maxApiFailuresBeforeCooldown?
 
@@ -71,7 +71,7 @@ Defined in: [src/health-tracker.ts:73](https://github.com/TheCrazyGM/dhive/blob/
 Number of API-specific failures before deprioritizing for that API.
 Default: 2.
 
-***
+---
 
 ### maxFailuresBeforeCooldown?
 
@@ -82,7 +82,7 @@ Defined in: [src/health-tracker.ts:68](https://github.com/TheCrazyGM/dhive/blob/
 Number of consecutive failures before a node enters cooldown.
 Default: 3.
 
-***
+---
 
 ### nodeCooldownMs?
 
@@ -93,7 +93,7 @@ Defined in: [src/health-tracker.ts:58](https://github.com/TheCrazyGM/dhive/blob/
 How long (ms) to deprioritize a node after consecutive failures.
 Default: 30 seconds.
 
-***
+---
 
 ### staleBlockThreshold?
 

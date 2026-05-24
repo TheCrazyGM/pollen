@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / CommentOperation
 
@@ -18,15 +18,18 @@ creates a reply under the parent author/permlink pair.
 ## Example
 
 ```ts
-const op: CommentOperation = ['comment', {
-  parent_author: '',
-  parent_permlink: 'hive-139531',
-  author: 'srbde',
-  permlink: 'hello-pollen',
-  title: 'Hello Pollen',
-  body: 'Posted with Pollen.',
-  json_metadata: JSON.stringify({ tags: ['hive-139531'] })
-}]
+const op: CommentOperation = [
+  "comment",
+  {
+    parent_author: "",
+    parent_permlink: "hive-139531",
+    author: "srbde",
+    permlink: "hello-pollen",
+    title: "Hello Pollen",
+    body: "Posted with Pollen.",
+    json_metadata: JSON.stringify({ tags: ["hive-139531"] }),
+  },
+];
 ```
 
 ## Extends
@@ -45,7 +48,7 @@ Defined in: [src/chain/operation.ts:434](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -61,17 +64,17 @@ Defined in: [src/chain/operation.ts:435](https://github.com/TheCrazyGM/dhive/blo
 
 > **body**: `string`
 
-#### json\_metadata
+#### json_metadata
 
-> **json\_metadata**: `string`
+> **json_metadata**: `string`
 
-#### parent\_author
+#### parent_author
 
-> **parent\_author**: `string`
+> **parent_author**: `string`
 
-#### parent\_permlink
+#### parent_permlink
 
-> **parent\_permlink**: `string`
+> **parent_permlink**: `string`
 
 #### permlink
 

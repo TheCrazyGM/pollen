@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Discussion
 
@@ -20,12 +20,12 @@ front ends.
 
 ```ts
 const [post] = await client.hivemind.getRankedPosts({
-  sort: 'hot',
-  tag: 'hive-139531',
-  limit: 1
-})
+  sort: "hot",
+  tag: "hive-139531",
+  limit: 1,
+});
 
-console.log(post.url, post.pending_payout_value)
+console.log(post.url, post.pending_payout_value);
 ```
 
 ## Extends
@@ -34,9 +34,9 @@ console.log(post.url, post.pending_payout_value)
 
 ## Properties
 
-### abs\_rshares
+### abs_rshares
 
-> **abs\_rshares**: `string`
+> **abs_rshares**: `string`
 
 Defined in: [src/chain/comment.ts:74](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L74)
 
@@ -44,7 +44,7 @@ Defined in: [src/chain/comment.ts:74](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`abs_rshares`](Comment.md#abs_rshares)
 
-***
+---
 
 ### active
 
@@ -56,19 +56,19 @@ Defined in: [src/chain/comment.ts:69](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`active`](Comment.md#active)
 
-***
+---
 
-### active\_votes
+### active_votes
 
-> **active\_votes**: `any`[]
+> **active_votes**: `any`[]
 
 Defined in: [src/chain/comment.ts:118](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L118)
 
-***
+---
 
-### allow\_curation\_rewards
+### allow_curation_rewards
 
-> **allow\_curation\_rewards**: `boolean`
+> **allow_curation_rewards**: `boolean`
 
 Defined in: [src/chain/comment.ts:90](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L90)
 
@@ -76,11 +76,11 @@ Defined in: [src/chain/comment.ts:90](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`allow_curation_rewards`](Comment.md#allow_curation_rewards)
 
-***
+---
 
-### allow\_replies
+### allow_replies
 
-> **allow\_replies**: `boolean`
+> **allow_replies**: `boolean`
 
 Defined in: [src/chain/comment.ts:88](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L88)
 
@@ -88,11 +88,11 @@ Defined in: [src/chain/comment.ts:88](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`allow_replies`](Comment.md#allow_replies)
 
-***
+---
 
-### allow\_votes
+### allow_votes
 
-> **allow\_votes**: `boolean`
+> **allow_votes**: `boolean`
 
 Defined in: [src/chain/comment.ts:89](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L89)
 
@@ -100,7 +100,7 @@ Defined in: [src/chain/comment.ts:89](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`allow_votes`](Comment.md#allow_votes)
 
-***
+---
 
 ### author
 
@@ -112,19 +112,19 @@ Defined in: [src/chain/comment.ts:62](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`author`](Comment.md#author)
 
-***
+---
 
-### author\_reputation
+### author_reputation
 
-> **author\_reputation**: `number`
+> **author_reputation**: `number`
 
 Defined in: [src/chain/comment.ts:120](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L120)
 
-***
+---
 
-### author\_rewards
+### author_rewards
 
-> **author\_rewards**: `string`
+> **author_rewards**: `string`
 
 Defined in: [src/chain/comment.ts:83](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L83)
 
@@ -132,7 +132,7 @@ Defined in: [src/chain/comment.ts:83](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`author_rewards`](Comment.md#author_rewards)
 
-***
+---
 
 ### beneficiaries
 
@@ -144,7 +144,7 @@ Defined in: [src/chain/comment.ts:91](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`beneficiaries`](Comment.md#beneficiaries)
 
-***
+---
 
 ### body
 
@@ -156,19 +156,19 @@ Defined in: [src/chain/comment.ts:65](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`body`](Comment.md#body)
 
-***
+---
 
-### body\_length
+### body_length
 
-> **body\_length**: `string`
+> **body_length**: `string`
 
 Defined in: [src/chain/comment.ts:122](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L122)
 
-***
+---
 
-### cashout\_time
+### cashout_time
 
-> **cashout\_time**: `string`
+> **cashout_time**: `string`
 
 Defined in: [src/chain/comment.ts:77](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L77)
 
@@ -176,7 +176,7 @@ Defined in: [src/chain/comment.ts:77](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`cashout_time`](Comment.md#cashout_time)
 
-***
+---
 
 ### category
 
@@ -188,7 +188,7 @@ Defined in: [src/chain/comment.ts:59](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`category`](Comment.md#category)
 
-***
+---
 
 ### children
 
@@ -200,11 +200,11 @@ Defined in: [src/chain/comment.ts:72](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`children`](Comment.md#children)
 
-***
+---
 
-### children\_abs\_rshares
+### children_abs_rshares
 
-> **children\_abs\_rshares**: `string`
+> **children_abs_rshares**: `string`
 
 Defined in: [src/chain/comment.ts:76](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L76)
 
@@ -212,7 +212,7 @@ Defined in: [src/chain/comment.ts:76](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`children_abs_rshares`](Comment.md#children_abs_rshares)
 
-***
+---
 
 ### created
 
@@ -224,11 +224,11 @@ Defined in: [src/chain/comment.ts:68](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`created`](Comment.md#created)
 
-***
+---
 
-### curator\_payout\_value
+### curator_payout_value
 
-> **curator\_payout\_value**: `string` \| [`Asset`](../classes/Asset.md)
+> **curator_payout_value**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/comment.ts:82](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L82)
 
@@ -236,7 +236,7 @@ Defined in: [src/chain/comment.ts:82](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`curator_payout_value`](Comment.md#curator_payout_value)
 
-***
+---
 
 ### depth
 
@@ -248,23 +248,23 @@ Defined in: [src/chain/comment.ts:71](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`depth`](Comment.md#depth)
 
-***
+---
 
-### first\_reblogged\_by?
+### first_reblogged_by?
 
-> `optional` **first\_reblogged\_by?**: `any`
+> `optional` **first_reblogged_by?**: `any`
 
 Defined in: [src/chain/comment.ts:124](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L124)
 
-***
+---
 
-### first\_reblogged\_on?
+### first_reblogged_on?
 
-> `optional` **first\_reblogged\_on?**: `any`
+> `optional` **first_reblogged_on?**: `any`
 
 Defined in: [src/chain/comment.ts:125](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L125)
 
-***
+---
 
 ### id
 
@@ -276,11 +276,11 @@ Defined in: [src/chain/comment.ts:58](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`id`](Comment.md#id)
 
-***
+---
 
-### json\_metadata
+### json_metadata
 
-> **json\_metadata**: `string`
+> **json_metadata**: `string`
 
 Defined in: [src/chain/comment.ts:66](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L66)
 
@@ -288,11 +288,11 @@ Defined in: [src/chain/comment.ts:66](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`json_metadata`](Comment.md#json_metadata)
 
-***
+---
 
-### last\_payout
+### last_payout
 
-> **last\_payout**: `string`
+> **last_payout**: `string`
 
 Defined in: [src/chain/comment.ts:70](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L70)
 
@@ -300,11 +300,11 @@ Defined in: [src/chain/comment.ts:70](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`last_payout`](Comment.md#last_payout)
 
-***
+---
 
-### last\_update
+### last_update
 
-> **last\_update**: `string`
+> **last_update**: `string`
 
 Defined in: [src/chain/comment.ts:67](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L67)
 
@@ -312,11 +312,11 @@ Defined in: [src/chain/comment.ts:67](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`last_update`](Comment.md#last_update)
 
-***
+---
 
-### max\_accepted\_payout
+### max_accepted_payout
 
-> **max\_accepted\_payout**: `string`
+> **max_accepted_payout**: `string`
 
 Defined in: [src/chain/comment.ts:86](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L86)
 
@@ -324,11 +324,11 @@ Defined in: [src/chain/comment.ts:86](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`max_accepted_payout`](Comment.md#max_accepted_payout)
 
-***
+---
 
-### max\_cashout\_time
+### max_cashout_time
 
-> **max\_cashout\_time**: `string`
+> **max_cashout_time**: `string`
 
 Defined in: [src/chain/comment.ts:78](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L78)
 
@@ -336,11 +336,11 @@ Defined in: [src/chain/comment.ts:78](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`max_cashout_time`](Comment.md#max_cashout_time)
 
-***
+---
 
-### net\_rshares
+### net_rshares
 
-> **net\_rshares**: `string`
+> **net_rshares**: `string`
 
 Defined in: [src/chain/comment.ts:73](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L73)
 
@@ -348,11 +348,11 @@ Defined in: [src/chain/comment.ts:73](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`net_rshares`](Comment.md#net_rshares)
 
-***
+---
 
-### net\_votes
+### net_votes
 
-> **net\_votes**: `number`
+> **net_votes**: `number`
 
 Defined in: [src/chain/comment.ts:84](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L84)
 
@@ -360,11 +360,11 @@ Defined in: [src/chain/comment.ts:84](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`net_votes`](Comment.md#net_votes)
 
-***
+---
 
-### parent\_author
+### parent_author
 
-> **parent\_author**: `string`
+> **parent_author**: `string`
 
 Defined in: [src/chain/comment.ts:60](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L60)
 
@@ -372,11 +372,11 @@ Defined in: [src/chain/comment.ts:60](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`parent_author`](Comment.md#parent_author)
 
-***
+---
 
-### parent\_permlink
+### parent_permlink
 
-> **parent\_permlink**: `string`
+> **parent_permlink**: `string`
 
 Defined in: [src/chain/comment.ts:61](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L61)
 
@@ -384,19 +384,19 @@ Defined in: [src/chain/comment.ts:61](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`parent_permlink`](Comment.md#parent_permlink)
 
-***
+---
 
-### pending\_payout\_value
+### pending_payout_value
 
-> **pending\_payout\_value**: `string` \| [`Asset`](../classes/Asset.md)
+> **pending_payout_value**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/comment.ts:116](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L116)
 
-***
+---
 
-### percent\_hbd
+### percent_hbd
 
-> **percent\_hbd**: `number`
+> **percent_hbd**: `number`
 
 Defined in: [src/chain/comment.ts:87](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L87)
 
@@ -404,7 +404,7 @@ Defined in: [src/chain/comment.ts:87](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`percent_hbd`](Comment.md#percent_hbd)
 
-***
+---
 
 ### permlink
 
@@ -416,7 +416,7 @@ Defined in: [src/chain/comment.ts:63](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`permlink`](Comment.md#permlink)
 
-***
+---
 
 ### promoted
 
@@ -424,15 +424,15 @@ Defined in: [src/chain/comment.ts:63](https://github.com/TheCrazyGM/dhive/blob/a
 
 Defined in: [src/chain/comment.ts:121](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L121)
 
-***
+---
 
-### reblogged\_by
+### reblogged_by
 
-> **reblogged\_by**: `any`[]
+> **reblogged_by**: `any`[]
 
 Defined in: [src/chain/comment.ts:123](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L123)
 
-***
+---
 
 ### replies
 
@@ -440,11 +440,11 @@ Defined in: [src/chain/comment.ts:123](https://github.com/TheCrazyGM/dhive/blob/
 
 Defined in: [src/chain/comment.ts:119](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L119)
 
-***
+---
 
-### reward\_weight
+### reward_weight
 
-> **reward\_weight**: `number`
+> **reward_weight**: `number`
 
 Defined in: [src/chain/comment.ts:80](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L80)
 
@@ -452,11 +452,11 @@ Defined in: [src/chain/comment.ts:80](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`reward_weight`](Comment.md#reward_weight)
 
-***
+---
 
-### root\_comment
+### root_comment
 
-> **root\_comment**: `number`
+> **root_comment**: `number`
 
 Defined in: [src/chain/comment.ts:85](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L85)
 
@@ -464,15 +464,15 @@ Defined in: [src/chain/comment.ts:85](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`root_comment`](Comment.md#root_comment)
 
-***
+---
 
-### root\_title
+### root_title
 
-> **root\_title**: `string`
+> **root_title**: `string`
 
 Defined in: [src/chain/comment.ts:115](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L115)
 
-***
+---
 
 ### title
 
@@ -484,11 +484,11 @@ Defined in: [src/chain/comment.ts:64](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`title`](Comment.md#title)
 
-***
+---
 
-### total\_payout\_value
+### total_payout_value
 
-> **total\_payout\_value**: `string` \| [`Asset`](../classes/Asset.md)
+> **total_payout_value**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/comment.ts:81](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L81)
 
@@ -496,19 +496,19 @@ Defined in: [src/chain/comment.ts:81](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`total_payout_value`](Comment.md#total_payout_value)
 
-***
+---
 
-### total\_pending\_payout\_value
+### total_pending_payout_value
 
-> **total\_pending\_payout\_value**: `string` \| [`Asset`](../classes/Asset.md)
+> **total_pending_payout_value**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/comment.ts:117](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L117)
 
-***
+---
 
-### total\_vote\_weight
+### total_vote_weight
 
-> **total\_vote\_weight**: `number`
+> **total_vote_weight**: `number`
 
 Defined in: [src/chain/comment.ts:79](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L79)
 
@@ -516,7 +516,7 @@ Defined in: [src/chain/comment.ts:79](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`Comment`](Comment.md).[`total_vote_weight`](Comment.md#total_vote_weight)
 
-***
+---
 
 ### url
 
@@ -524,11 +524,11 @@ Defined in: [src/chain/comment.ts:79](https://github.com/TheCrazyGM/dhive/blob/a
 
 Defined in: [src/chain/comment.ts:114](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L114)
 
-***
+---
 
-### vote\_rshares
+### vote_rshares
 
-> **vote\_rshares**: `string`
+> **vote_rshares**: `string`
 
 Defined in: [src/chain/comment.ts:75](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L75)
 

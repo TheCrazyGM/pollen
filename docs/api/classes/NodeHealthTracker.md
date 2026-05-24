@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / NodeHealthTracker
 
@@ -20,13 +20,10 @@ and stale head-block data so Pollen can prefer fresher nodes.
 ## Example
 
 ```ts
-const tracker = new NodeHealthTracker({ staleBlockThreshold: 20 })
-tracker.recordSuccess('https://api.hive.blog', 'condenser_api')
+const tracker = new NodeHealthTracker({ staleBlockThreshold: 20 });
+tracker.recordSuccess("https://api.hive.blog", "condenser_api");
 
-const ordered = tracker.getOrderedNodes([
-  'https://api.hive.blog',
-  'https://api.openhive.network'
-])
+const ordered = tracker.getOrderedNodes(["https://api.hive.blog", "https://api.openhive.network"]);
 ```
 
 ## Constructors
@@ -72,11 +69,11 @@ failure counts, and current health.
 
 ```ts
 for (const [node, health] of tracker.getHealthSnapshot()) {
-  console.log(node, health.healthy)
+  console.log(node, health.healthy);
 }
 ```
 
-***
+---
 
 ### getOrderedNodes()
 
@@ -110,10 +107,10 @@ unhealthy nodes as fallback.
 #### Example
 
 ```ts
-const ordered = tracker.getOrderedNodes(nodes, 'condenser_api')
+const ordered = tracker.getOrderedNodes(nodes, "condenser_api");
 ```
 
-***
+---
 
 ### isNodeHealthy()
 
@@ -146,10 +143,10 @@ True when the node is not cooling down, rate-limited, or stale.
 #### Example
 
 ```ts
-const healthy = tracker.isNodeHealthy('https://api.hive.blog', 'bridge')
+const healthy = tracker.isNodeHealthy("https://api.hive.blog", "bridge");
 ```
 
-***
+---
 
 ### isRateLimited()
 
@@ -181,7 +178,7 @@ if (!tracker.isRateLimited(node)) {
 }
 ```
 
-***
+---
 
 ### recordApiFailure()
 
@@ -218,10 +215,10 @@ on the same node may still be healthy.
 #### Example
 
 ```ts
-tracker.recordApiFailure('https://api.hive.blog', 'transaction_status_api')
+tracker.recordApiFailure("https://api.hive.blog", "transaction_status_api");
 ```
 
-***
+---
 
 ### recordFailure()
 
@@ -257,10 +254,10 @@ API-specific failure count because they make the whole endpoint suspect.
 #### Example
 
 ```ts
-tracker.recordFailure('https://api.hive.blog', 'bridge')
+tracker.recordFailure("https://api.hive.blog", "bridge");
 ```
 
-***
+---
 
 ### recordRateLimit()
 
@@ -296,10 +293,10 @@ omits `Retry-After`, Pollen uses `defaultRateLimitMs`.
 #### Example
 
 ```ts
-tracker.recordRateLimit('https://api.hive.blog', 10)
+tracker.recordRateLimit("https://api.hive.blog", 10);
 ```
 
-***
+---
 
 ### recordSuccess()
 
@@ -335,10 +332,10 @@ failures for the namespace that just succeeded.
 #### Example
 
 ```ts
-tracker.recordSuccess('https://api.hive.blog', 'condenser_api')
+tracker.recordSuccess("https://api.hive.blog", "condenser_api");
 ```
 
-***
+---
 
 ### reset()
 
@@ -355,10 +352,10 @@ Clears all tracked health, rate-limit, and freshness data.
 #### Example
 
 ```ts
-tracker.reset()
+tracker.reset();
 ```
 
-***
+---
 
 ### updateHeadBlock()
 
@@ -395,5 +392,5 @@ prefer nodes that are not lagging behind the best known head.
 #### Example
 
 ```ts
-tracker.updateHeadBlock('https://api.hive.blog', 90_000_000)
+tracker.updateHeadBlock("https://api.hive.blog", 90_000_000);
 ```

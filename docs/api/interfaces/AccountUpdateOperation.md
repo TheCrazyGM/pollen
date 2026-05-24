@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / AccountUpdateOperation
 
@@ -18,11 +18,14 @@ Authority changes require the appropriate owner or active signatures. Use
 ## Example
 
 ```ts
-const op: AccountUpdateOperation = ['account_update', {
-  account: 'srbde',
-  memo_key,
-  json_metadata: '{}'
-}]
+const op: AccountUpdateOperation = [
+  "account_update",
+  {
+    account: "srbde",
+    memo_key,
+    json_metadata: "{}",
+  },
+];
 ```
 
 ## Extends
@@ -41,7 +44,7 @@ Defined in: [src/chain/operation.ts:282](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -57,13 +60,13 @@ Defined in: [src/chain/operation.ts:283](https://github.com/TheCrazyGM/dhive/blo
 
 > `optional` **active?**: [`AuthorityType`](AuthorityType.md)
 
-#### json\_metadata
+#### json_metadata
 
-> **json\_metadata**: `string`
+> **json_metadata**: `string`
 
-#### memo\_key
+#### memo_key
 
-> **memo\_key**: `string` \| [`PublicKey`](../classes/PublicKey.md)
+> **memo_key**: `string` \| [`PublicKey`](../classes/PublicKey.md)
 
 #### owner?
 

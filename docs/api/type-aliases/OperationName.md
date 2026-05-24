@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / OperationName
 
@@ -21,7 +21,7 @@ by the binary serializer. Pollen operation tuples use this string in position
 ## Example
 
 ```ts
-const name: OperationName = 'transfer'
+const name: OperationName = "transfer";
 ```
 
 ## See

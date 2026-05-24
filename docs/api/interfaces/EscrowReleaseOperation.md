@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / EscrowReleaseOperation
 
@@ -15,7 +15,7 @@ The permission scheme is as follows:
 If there is no dispute and escrow has not expired, either party can release funds to the other.
 If escrow expires and there is no dispute, either party can release funds to either party.
 If there is a dispute regardless of expiration, the agent can release funds to either party
-   following whichever agreement was in place between the parties.
+following whichever agreement was in place between the parties.
 
 ## Extends
 
@@ -33,7 +33,7 @@ Defined in: [src/chain/operation.ts:659](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -45,23 +45,23 @@ Defined in: [src/chain/operation.ts:660](https://github.com/TheCrazyGM/dhive/blo
 
 > **agent**: `string`
 
-#### escrow\_id
+#### escrow_id
 
-> **escrow\_id**: `number`
+> **escrow_id**: `number`
 
 #### from
 
 > **from**: `string`
 
-#### hbd\_amount
+#### hbd_amount
 
-> **hbd\_amount**: `string` \| [`Asset`](../classes/Asset.md)
+> **hbd_amount**: `string` \| [`Asset`](../classes/Asset.md)
 
 The amount of hbd to release.
 
-#### hive\_amount
+#### hive_amount
 
-> **hive\_amount**: `string` \| [`Asset`](../classes/Asset.md)
+> **hive_amount**: `string` \| [`Asset`](../classes/Asset.md)
 
 The amount of hive to release.
 

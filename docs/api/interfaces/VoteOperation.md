@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / VoteOperation
 
@@ -18,12 +18,15 @@ vote, and negative values are downvotes.
 ## Example
 
 ```ts
-const op: VoteOperation = ['vote', {
-  voter: 'srbde',
-  author: 'alice',
-  permlink: 'field-notes',
-  weight: 10_000
-}]
+const op: VoteOperation = [
+  "vote",
+  {
+    voter: "srbde",
+    author: "alice",
+    permlink: "field-notes",
+    weight: 10_000,
+  },
+];
 ```
 
 ## Extends
@@ -42,7 +45,7 @@ Defined in: [src/chain/operation.ts:1061](https://github.com/TheCrazyGM/dhive/bl
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 

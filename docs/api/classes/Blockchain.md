@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Blockchain
 
@@ -21,19 +21,19 @@ blocks or operations without hand-writing polling loops.
 ## Example
 
 ```ts
-import { Client } from '@srbde/pollen'
+import { Client } from "@srbde/pollen";
 
-const client = new Client('https://api.hive.blog')
+const client = new Client("https://api.hive.blog");
 
 for await (const op of client.blockchain.getOperations({ from: 90_000_000 })) {
-  console.log(op.op[0], op.trx_id)
+  console.log(op.op[0], op.trx_id);
 }
 ```
 
 ## See
 
- - [BlockchainStreamOptions](../interfaces/BlockchainStreamOptions.md)
- - [DatabaseAPI.getBlock](DatabaseAPI.md#getblock)
+- [BlockchainStreamOptions](../interfaces/BlockchainStreamOptions.md)
+- [DatabaseAPI.getBlock](DatabaseAPI.md#getblock)
 
 ## Constructors
 
@@ -112,13 +112,13 @@ Thrown when polling dynamic global properties fails.
 ```ts
 for await (const blockNum of client.blockchain.getBlockNumbers({
   from: 90_000_000,
-  to: 90_000_005
+  to: 90_000_005,
 })) {
-  console.log(blockNum)
+  console.log(blockNum);
 }
 ```
 
-***
+---
 
 ### getBlockNumberStream()
 
@@ -145,11 +145,11 @@ A stream backed by the async block-number iterator.
 #### Example
 
 ```ts
-const stream = client.blockchain.getBlockNumberStream(90_000_000)
-stream.on('data', (blockNum) => console.log(blockNum))
+const stream = client.blockchain.getBlockNumberStream(90_000_000);
+stream.on("data", (blockNum) => console.log(blockNum));
 ```
 
-***
+---
 
 ### getBlocks()
 
@@ -182,11 +182,11 @@ Thrown when block-number polling or block retrieval fails.
 
 ```ts
 for await (const block of client.blockchain.getBlocks(90_000_000)) {
-  console.log(block.witness, block.transactions.length)
+  console.log(block.witness, block.transactions.length);
 }
 ```
 
-***
+---
 
 ### getBlockStream()
 
@@ -215,10 +215,10 @@ A stream backed by the async block iterator.
 ```ts
 client.blockchain
   .getBlockStream({ from: 90_000_000 })
-  .on('data', (block) => console.log(block.block_id))
+  .on("data", (block) => console.log(block.block_id));
 ```
 
-***
+---
 
 ### getCurrentBlock()
 
@@ -250,11 +250,11 @@ Thrown when the RPC node rejects either the properties or block call.
 #### Example
 
 ```ts
-const block = await client.blockchain.getCurrentBlock()
-console.log(block.transactions.length)
+const block = await client.blockchain.getCurrentBlock();
+console.log(block.transactions.length);
 ```
 
-***
+---
 
 ### getCurrentBlockHeader()
 
@@ -286,11 +286,11 @@ Thrown when the RPC node rejects either the properties or block-header call.
 #### Example
 
 ```ts
-const header = await client.blockchain.getCurrentBlockHeader()
-console.log(header.timestamp)
+const header = await client.blockchain.getCurrentBlockHeader();
+console.log(header.timestamp);
 ```
 
-***
+---
 
 ### getCurrentBlockNum()
 
@@ -323,11 +323,11 @@ Thrown when the underlying `get_dynamic_global_properties` call fails.
 #### Example
 
 ```ts
-const irreversible = await client.blockchain.getCurrentBlockNum()
-const latest = await client.blockchain.getCurrentBlockNum(BlockchainMode.Latest)
+const irreversible = await client.blockchain.getCurrentBlockNum();
+const latest = await client.blockchain.getCurrentBlockNum(BlockchainMode.Latest);
 ```
 
-***
+---
 
 ### getOperations()
 
@@ -367,15 +367,15 @@ Thrown when block-number polling or operation retrieval fails.
 ```ts
 for await (const applied of client.blockchain.getOperations({
   from: 90_000_000,
-  to: 90_000_010
+  to: 90_000_010,
 })) {
-  if (applied.op[0] === 'transfer') {
-    console.log(applied.op[1])
+  if (applied.op[0] === "transfer") {
+    console.log(applied.op[1]);
   }
 }
 ```
 
-***
+---
 
 ### getOperationsStream()
 
@@ -402,6 +402,6 @@ A stream backed by the async operation iterator.
 #### Example
 
 ```ts
-const stream = client.blockchain.getOperationsStream({ from: 90_000_000 })
-stream.on('data', (applied) => console.log(applied.op[0]))
+const stream = client.blockchain.getOperationsStream({ from: 90_000_000 });
+stream.on("data", (applied) => console.log(applied.op[0]));
 ```

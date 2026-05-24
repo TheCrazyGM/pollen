@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / TransferToVestingOperation
 
@@ -30,7 +30,7 @@ Defined in: [src/chain/operation.ts:1032](https://github.com/TheCrazyGM/dhive/bl
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 

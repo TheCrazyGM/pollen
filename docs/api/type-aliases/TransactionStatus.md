@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / TransactionStatus
 
@@ -21,6 +21,6 @@ for before treating a transaction as final.
 ## Example
 
 ```ts
-const { status } = await client.transaction.findTransaction(txId)
-const final = status === 'within_irreversible_block'
+const { status } = await client.transaction.findTransaction(txId);
+const final = status === "within_irreversible_block";
 ```

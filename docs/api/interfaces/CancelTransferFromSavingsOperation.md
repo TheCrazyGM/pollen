@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / CancelTransferFromSavingsOperation
 
@@ -26,7 +26,7 @@ Defined in: [src/chain/operation.ts:333](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -38,9 +38,9 @@ Defined in: [src/chain/operation.ts:334](https://github.com/TheCrazyGM/dhive/blo
 
 > **from**: `string`
 
-#### request\_id
+#### request_id
 
-> **request\_id**: `number`
+> **request_id**: `number`
 
 #### Overrides
 

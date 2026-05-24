@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / EscrowDisputeOperation
 
@@ -28,7 +28,7 @@ Defined in: [src/chain/operation.ts:638](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -40,9 +40,9 @@ Defined in: [src/chain/operation.ts:639](https://github.com/TheCrazyGM/dhive/blo
 
 > **agent**: `string`
 
-#### escrow\_id
+#### escrow_id
 
-> **escrow\_id**: `number`
+> **escrow_id**: `number`
 
 #### from
 

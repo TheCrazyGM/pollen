@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / WitnessSetPropertiesOperation
 
@@ -19,12 +19,15 @@ can validate the payload shape.
 ## Example
 
 ```ts
-const op: Operation = ['transfer', {
-  from: 'srbde',
-  to: 'alice',
-  amount: '1.000 HIVE',
-  memo: 'Pollen'
-}]
+const op: Operation = [
+  "transfer",
+  {
+    from: "srbde",
+    to: "alice",
+    amount: "1.000 HIVE",
+    memo: "Pollen",
+  },
+];
 ```
 
 ## Extends
@@ -43,7 +46,7 @@ Defined in: [src/chain/operation.ts:1128](https://github.com/TheCrazyGM/dhive/bl
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / RequestAccountRecoveryOperation
 
@@ -50,7 +50,7 @@ Defined in: [src/chain/operation.ts:888](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -58,9 +58,9 @@ Defined in: [src/chain/operation.ts:888](https://github.com/TheCrazyGM/dhive/blo
 
 Defined in: [src/chain/operation.ts:889](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/operation.ts#L889)
 
-#### account\_to\_recover
+#### account_to_recover
 
-> **account\_to\_recover**: `string`
+> **account_to_recover**: `string`
 
 The account to recover. This is likely due to a compromised owner authority.
 
@@ -70,16 +70,16 @@ The account to recover. This is likely due to a compromised owner authority.
 
 Extensions. Not currently used.
 
-#### new\_owner\_authority
+#### new_owner_authority
 
-> **new\_owner\_authority**: [`AuthorityType`](AuthorityType.md)
+> **new_owner_authority**: [`AuthorityType`](AuthorityType.md)
 
 The new owner authority the account to recover wishes to have. This is secret
 known by the account to recover and will be confirmed in a recover_account_operation.
 
-#### recovery\_account
+#### recovery_account
 
-> **recovery\_account**: `string`
+> **recovery_account**: `string`
 
 The recovery account is listed as the recovery account on the account to recover.
 

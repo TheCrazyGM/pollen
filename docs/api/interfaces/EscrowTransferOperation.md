@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / EscrowTransferOperation
 
@@ -9,14 +9,14 @@
 Defined in: [src/chain/operation.ts:705](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/operation.ts#L705)
 
 The purpose of this operation is to enable someone to send money contingently to
-another individual. The funds leave the *from* account and go into a temporary balance
-where they are held until *from* releases it to *to* or *to* refunds it to *from*.
+another individual. The funds leave the _from_ account and go into a temporary balance
+where they are held until _from_ releases it to _to_ or _to_ refunds it to _from_.
 
-In the event of a dispute the *agent* can divide the funds between the to/from account.
+In the event of a dispute the _agent_ can divide the funds between the to/from account.
 Disputes can be raised any time before or on the dispute deadline time, after the escrow
 has been approved by all parties.
 
-This operation only creates a proposed escrow transfer. Both the *agent* and *to* must
+This operation only creates a proposed escrow transfer. Both the _agent_ and _to_ must
 agree to the terms of the arrangement by approving the escrow.
 
 The escrow agent is paid the fee on approval of all parties. It is up to the escrow agent
@@ -41,7 +41,7 @@ Defined in: [src/chain/operation.ts:706](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -53,13 +53,13 @@ Defined in: [src/chain/operation.ts:707](https://github.com/TheCrazyGM/dhive/blo
 
 > **agent**: `string`
 
-#### escrow\_expiration
+#### escrow_expiration
 
-> **escrow\_expiration**: `string`
+> **escrow_expiration**: `string`
 
-#### escrow\_id
+#### escrow_id
 
-> **escrow\_id**: `number`
+> **escrow_id**: `number`
 
 #### fee
 
@@ -69,21 +69,21 @@ Defined in: [src/chain/operation.ts:707](https://github.com/TheCrazyGM/dhive/blo
 
 > **from**: `string`
 
-#### hbd\_amount
+#### hbd_amount
 
-> **hbd\_amount**: `string` \| [`Asset`](../classes/Asset.md)
+> **hbd_amount**: `string` \| [`Asset`](../classes/Asset.md)
 
-#### hive\_amount
+#### hive_amount
 
-> **hive\_amount**: `string` \| [`Asset`](../classes/Asset.md)
+> **hive_amount**: `string` \| [`Asset`](../classes/Asset.md)
 
-#### json\_meta
+#### json_meta
 
-> **json\_meta**: `string`
+> **json_meta**: `string`
 
-#### ratification\_deadline
+#### ratification_deadline
 
-> **ratification\_deadline**: `string`
+> **ratification_deadline**: `string`
 
 #### to
 

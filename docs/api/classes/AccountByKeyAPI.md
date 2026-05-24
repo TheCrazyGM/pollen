@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / AccountByKeyAPI
 
@@ -18,8 +18,8 @@ audits, and account discovery from a known owner or active public key.
 ## Example
 
 ```ts
-const references = await client.keys.getKeyReferences([publicKey])
-console.log(references.accounts[0])
+const references = await client.keys.getKeyReferences([publicKey]);
+console.log(references.accounts[0]);
 ```
 
 ## Constructors
@@ -92,12 +92,12 @@ Thrown when the node does not expose the plugin or rejects the request.
 #### Example
 
 ```ts
-const result = await client.keys.call('get_key_references', {
-  keys: [publicKey.toString()]
-})
+const result = await client.keys.call("get_key_references", {
+  keys: [publicKey.toString()],
+});
 ```
 
-***
+---
 
 ### getKeyReferences()
 
@@ -136,8 +136,8 @@ Thrown when account-by-key lookup is unavailable or the node rejects a key.
 
 ```ts
 const references = await client.keys.getKeyReferences([
-  'STM8m5UgaFAAYQRuaNejYdS8FVLVp9Ss3K1qAVk5de6F8s3HnVbvA'
-])
+  "STM8m5UgaFAAYQRuaNejYdS8FVLVp9Ss3K1qAVk5de6F8s3HnVbvA",
+]);
 
-console.log(references.accounts[0])
+console.log(references.accounts[0]);
 ```

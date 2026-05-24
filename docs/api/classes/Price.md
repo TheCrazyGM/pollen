@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Price
 
@@ -19,11 +19,11 @@ Price ratio between two different Hive assets.
 
 ```ts
 const price = Price.from({
-  base: '1.000 HIVE',
-  quote: '0.300 HBD'
-})
+  base: "1.000 HIVE",
+  quote: "0.300 HBD",
+});
 
-const hbd = price.convert(Asset.from('10.000 HIVE'))
+const hbd = price.convert(Asset.from("10.000 HIVE"));
 ```
 
 ## Constructors
@@ -62,7 +62,7 @@ Thrown when either amount is zero or both assets use the same symbol.
 #### Example
 
 ```ts
-const price = new Price(Asset.from('1.000 HIVE'), Asset.from('0.300 HBD'))
+const price = new Price(Asset.from("1.000 HIVE"), Asset.from("0.300 HBD"));
 ```
 
 ## Properties
@@ -75,7 +75,7 @@ Defined in: [src/chain/asset.ts:393](https://github.com/TheCrazyGM/dhive/blob/ab
 
 Asset being priced.
 
-***
+---
 
 ### quote
 
@@ -117,10 +117,10 @@ Thrown when `asset.symbol` is not part of this price pair.
 #### Example
 
 ```ts
-const hbd = price.convert(Asset.from('10.000 HIVE'))
+const hbd = price.convert(Asset.from("10.000 HIVE"));
 ```
 
-***
+---
 
 ### toString()
 
@@ -139,10 +139,10 @@ String in `base:quote` form.
 #### Example
 
 ```ts
-price.toString()
+price.toString();
 ```
 
-***
+---
 
 ### from()
 
@@ -169,5 +169,5 @@ A normalized price.
 #### Example
 
 ```ts
-const price = Price.from({ base: '1.000 HIVE', quote: '0.300 HBD' })
+const price = Price.from({ base: "1.000 HIVE", quote: "0.300 HBD" });
 ```

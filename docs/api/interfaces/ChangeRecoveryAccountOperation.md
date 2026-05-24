@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / ChangeRecoveryAccountOperation
 
@@ -41,7 +41,7 @@ Defined in: [src/chain/operation.ts:359](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -49,9 +49,9 @@ Defined in: [src/chain/operation.ts:359](https://github.com/TheCrazyGM/dhive/blo
 
 Defined in: [src/chain/operation.ts:360](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/operation.ts#L360)
 
-#### account\_to\_recover
+#### account_to_recover
 
-> **account\_to\_recover**: `string`
+> **account_to_recover**: `string`
 
 The account that would be recovered in case of compromise.
 
@@ -61,9 +61,9 @@ The account that would be recovered in case of compromise.
 
 Extensions. Not currently used.
 
-#### new\_recovery\_account
+#### new_recovery_account
 
-> **new\_recovery\_account**: `string`
+> **new_recovery_account**: `string`
 
 The account that creates the recover request.
 

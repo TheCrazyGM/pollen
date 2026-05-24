@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / UpdateProposalVotesOperation
 
@@ -26,7 +26,7 @@ Defined in: [src/chain/operation.ts:1182](https://github.com/TheCrazyGM/dhive/bl
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -42,9 +42,9 @@ Defined in: [src/chain/operation.ts:1183](https://github.com/TheCrazyGM/dhive/bl
 
 > **extensions**: `any`[]
 
-#### proposal\_ids
+#### proposal_ids
 
-> **proposal\_ids**: `number`[]
+> **proposal_ids**: `number`[]
 
 #### voter
 

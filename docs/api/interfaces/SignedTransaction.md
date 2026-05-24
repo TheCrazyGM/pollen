@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / SignedTransaction
 
@@ -18,8 +18,8 @@ transaction digest.
 ## Example
 
 ```ts
-const signed = client.broadcast.sign(transaction, activeKey)
-console.log(signed.signatures)
+const signed = client.broadcast.sign(transaction, activeKey);
+console.log(signed.signatures);
 ```
 
 ## Extends
@@ -40,7 +40,7 @@ UTC expiration timestamp without a trailing timezone suffix.
 
 [`Transaction`](Transaction.md).[`expiration`](Transaction.md#expiration)
 
-***
+---
 
 ### extensions
 
@@ -55,7 +55,7 @@ the operations supported by Pollen.
 
 [`Transaction`](Transaction.md).[`extensions`](Transaction.md#extensions)
 
-***
+---
 
 ### operations
 
@@ -69,11 +69,11 @@ Ordered operation list executed atomically by the chain.
 
 [`Transaction`](Transaction.md).[`operations`](Transaction.md#operations)
 
-***
+---
 
-### ref\_block\_num
+### ref_block_num
 
-> **ref\_block\_num**: `number`
+> **ref_block_num**: `number`
 
 Defined in: [src/chain/transaction.ts:61](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/transaction.ts#L61)
 
@@ -83,11 +83,11 @@ Lower 16 bits of the referenced head block number.
 
 [`Transaction`](Transaction.md).[`ref_block_num`](Transaction.md#ref_block_num)
 
-***
+---
 
-### ref\_block\_prefix
+### ref_block_prefix
 
-> **ref\_block\_prefix**: `number`
+> **ref_block_prefix**: `number`
 
 Defined in: [src/chain/transaction.ts:65](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/transaction.ts#L65)
 
@@ -97,7 +97,7 @@ Prefix extracted from the referenced block id.
 
 [`Transaction`](Transaction.md).[`ref_block_prefix`](Transaction.md#ref_block_prefix)
 
-***
+---
 
 ### signatures
 

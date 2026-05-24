@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / DelegateVestingSharesOperation
 
@@ -30,7 +30,7 @@ Defined in: [src/chain/operation.ts:584](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -50,9 +50,9 @@ The account receiving vesting shares.
 
 The account delegating vesting shares.
 
-#### vesting\_shares
+#### vesting_shares
 
-> **vesting\_shares**: `string` \| [`Asset`](../classes/Asset.md)
+> **vesting_shares**: `string` \| [`Asset`](../classes/Asset.md)
 
 The amount of vesting shares delegated.
 

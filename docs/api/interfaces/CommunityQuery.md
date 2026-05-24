@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / CommunityQuery
 
@@ -18,7 +18,7 @@ Query options for fetching a single community.
 
 Defined in: [src/helpers/hivemind.ts:78](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/hivemind.ts#L78)
 
-***
+---
 
 ### observer
 

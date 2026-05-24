@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / DisqussionQuery
 
@@ -19,21 +19,21 @@ spelling is `DisqussionQuery`.
 
 ```ts
 const query: DisqussionQuery = {
-  tag: 'photography',
+  tag: "photography",
   limit: 20,
-  truncate_body: 512
-}
+  truncate_body: 512,
+};
 ```
 
 ## Properties
 
-### filter\_tags?
+### filter_tags?
 
-> `optional` **filter\_tags?**: `string`[]
+> `optional` **filter_tags?**: `string`[]
 
 Defined in: [src/helpers/database.ts:100](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/database.ts#L100)
 
-***
+---
 
 ### limit
 
@@ -43,61 +43,61 @@ Defined in: [src/helpers/database.ts:99](https://github.com/TheCrazyGM/dhive/blo
 
 Number of results, max 100.
 
-***
+---
 
-### parent\_author?
+### parent_author?
 
-> `optional` **parent\_author?**: `string`
+> `optional` **parent_author?**: `string`
 
 Defined in: [src/helpers/database.ts:117](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/database.ts#L117)
 
-***
+---
 
-### parent\_permlink?
+### parent_permlink?
 
-> `optional` **parent\_permlink?**: `string`
+> `optional` **parent_permlink?**: `string`
 
 Defined in: [src/helpers/database.ts:118](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/database.ts#L118)
 
-***
+---
 
-### select\_authors?
+### select_authors?
 
-> `optional` **select\_authors?**: `string`[]
+> `optional` **select_authors?**: `string`[]
 
 Defined in: [src/helpers/database.ts:101](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/database.ts#L101)
 
-***
+---
 
-### select\_tags?
+### select_tags?
 
-> `optional` **select\_tags?**: `string`[]
+> `optional` **select_tags?**: `string`[]
 
 Defined in: [src/helpers/database.ts:102](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/database.ts#L102)
 
-***
+---
 
-### start\_author?
+### start_author?
 
-> `optional` **start\_author?**: `string`
+> `optional` **start_author?**: `string`
 
 Defined in: [src/helpers/database.ts:111](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/database.ts#L111)
 
 Name of author to start from, used for paging.
 Should be used in conjunction with `start_permlink`.
 
-***
+---
 
-### start\_permlink?
+### start_permlink?
 
-> `optional` **start\_permlink?**: `string`
+> `optional` **start_permlink?**: `string`
 
 Defined in: [src/helpers/database.ts:116](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/database.ts#L116)
 
 Permalink of post to start from, used for paging.
 Should be used in conjunction with `start_author`.
 
-***
+---
 
 ### tag?
 
@@ -107,11 +107,11 @@ Defined in: [src/helpers/database.ts:95](https://github.com/TheCrazyGM/dhive/blo
 
 Name of author or tag to fetch.
 
-***
+---
 
-### truncate\_body?
+### truncate_body?
 
-> `optional` **truncate\_body?**: `number`
+> `optional` **truncate_body?**: `number`
 
 Defined in: [src/helpers/database.ts:106](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/database.ts#L106)
 

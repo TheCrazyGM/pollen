@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Manabar
 
@@ -18,27 +18,27 @@ human-readable percent value.
 ## Example
 
 ```ts
-const mana = await client.rc.getVPMana('srbde')
-console.log(`${mana.percentage / 100}%`)
+const mana = await client.rc.getVPMana("srbde");
+console.log(`${mana.percentage / 100}%`);
 ```
 
 ## Properties
 
-### current\_mana
+### current_mana
 
-> **current\_mana**: `number`
+> **current_mana**: `number`
 
 Defined in: [src/chain/rc.ts:118](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L118)
 
-***
+---
 
-### max\_mana
+### max_mana
 
-> **max\_mana**: `number`
+> **max_mana**: `number`
 
 Defined in: [src/chain/rc.ts:119](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L119)
 
-***
+---
 
 ### percentage
 

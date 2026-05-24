@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / SetWithdrawVestingRouteOperation
 
@@ -30,7 +30,7 @@ Defined in: [src/chain/operation.ts:944](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -38,21 +38,21 @@ Defined in: [src/chain/operation.ts:944](https://github.com/TheCrazyGM/dhive/blo
 
 Defined in: [src/chain/operation.ts:945](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/operation.ts#L945)
 
-#### auto\_vest
+#### auto_vest
 
-> **auto\_vest**: `boolean`
+> **auto_vest**: `boolean`
 
-#### from\_account
+#### from_account
 
-> **from\_account**: `string`
+> **from_account**: `string`
 
 #### percent
 
 > **percent**: `number`
 
-#### to\_account
+#### to_account
 
-> **to\_account**: `string`
+> **to_account**: `string`
 
 #### Overrides
 

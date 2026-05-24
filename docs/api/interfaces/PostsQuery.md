@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / PostsQuery
 
@@ -19,11 +19,11 @@ observer account for personalized muted/reputation context.
 
 ```ts
 const query: PostsQuery = {
-  sort: 'trending',
-  tag: 'hive-139531',
+  sort: "trending",
+  tag: "hive-139531",
   limit: 10,
-  observer: 'srbde'
-}
+  observer: "srbde",
+};
 ```
 
 ## Properties
@@ -36,7 +36,7 @@ Defined in: [src/helpers/hivemind.ts:31](https://github.com/TheCrazyGM/dhive/blo
 
 Number of posts to fetch
 
-***
+---
 
 ### observer?
 
@@ -46,7 +46,7 @@ Defined in: [src/helpers/hivemind.ts:43](https://github.com/TheCrazyGM/dhive/blo
 
 Observer account
 
-***
+---
 
 ### sort
 
@@ -56,27 +56,27 @@ Defined in: [src/helpers/hivemind.ts:35](https://github.com/TheCrazyGM/dhive/blo
 
 Sorting posts
 
-***
+---
 
-### start\_author?
+### start_author?
 
-> `optional` **start\_author?**: `string`
+> `optional` **start_author?**: `string`
 
 Defined in: [src/helpers/hivemind.ts:47](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/hivemind.ts#L47)
 
 Paginating last post author
 
-***
+---
 
-### start\_permlink?
+### start_permlink?
 
-> `optional` **start\_permlink?**: `string`
+> `optional` **start_permlink?**: `string`
 
 Defined in: [src/helpers/hivemind.ts:51](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/hivemind.ts#L51)
 
 Paginating last post permlink
 
-***
+---
 
 ### tag?
 

@@ -1,12 +1,12 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
-[@srbde/pollen](../index.md) / DEFAULT\_ADDRESS\_PREFIX
+[@srbde/pollen](../index.md) / DEFAULT_ADDRESS_PREFIX
 
-# Variable: DEFAULT\_ADDRESS\_PREFIX
+# Variable: DEFAULT_ADDRESS_PREFIX
 
-> `const` **DEFAULT\_ADDRESS\_PREFIX**: `"STM"` = `'STM'`
+> `const` **DEFAULT_ADDRESS_PREFIX**: `"STM"` = `'STM'`
 
 Defined in: [src/client.ts:99](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/client.ts#L99)
 

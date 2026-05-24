@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / SMTAsset
 
@@ -18,7 +18,7 @@ Defined in: [src/chain/asset.ts:42](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 Integer amount in the token's smallest precision unit.
 
-***
+---
 
 ### nai
 
@@ -28,7 +28,7 @@ Defined in: [src/chain/asset.ts:50](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 Numeric asset identifier assigned by Hive's SMT protocol.
 
-***
+---
 
 ### precision
 

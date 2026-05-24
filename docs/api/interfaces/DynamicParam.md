@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / DynamicParam
 
@@ -17,56 +17,56 @@ over time.
 
 ## Properties
 
-### budget\_per\_time\_unit
+### budget_per_time_unit
 
-> **budget\_per\_time\_unit**: `number`
+> **budget_per_time_unit**: `number`
 
 Defined in: [src/chain/rc.ts:41](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L41)
 
-***
+---
 
-### decay\_params
+### decay_params
 
-> **decay\_params**: `object`
+> **decay_params**: `object`
 
 Defined in: [src/chain/rc.ts:44](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L44)
 
-#### decay\_per\_time\_unit
+#### decay_per_time_unit
 
-> **decay\_per\_time\_unit**: `string`
+> **decay_per_time_unit**: `string`
 
-#### decay\_per\_time\_unit\_denom\_shift
+#### decay_per_time_unit_denom_shift
 
-> **decay\_per\_time\_unit\_denom\_shift**: `number`
+> **decay_per_time_unit_denom_shift**: `number`
 
-***
+---
 
-### max\_pool\_size
+### max_pool_size
 
-> **max\_pool\_size**: `string`
+> **max_pool_size**: `string`
 
 Defined in: [src/chain/rc.ts:43](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L43)
 
-***
+---
 
-### min\_decay
+### min_decay
 
-> **min\_decay**: `number`
+> **min_decay**: `number`
 
 Defined in: [src/chain/rc.ts:48](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L48)
 
-***
+---
 
-### pool\_eq
+### pool_eq
 
-> **pool\_eq**: `string`
+> **pool_eq**: `string`
 
 Defined in: [src/chain/rc.ts:42](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L42)
 
-***
+---
 
-### resource\_unit
+### resource_unit
 
-> **resource\_unit**: `number`
+> **resource_unit**: `number`
 
 Defined in: [src/chain/rc.ts:40](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L40)

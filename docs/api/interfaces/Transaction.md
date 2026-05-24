@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Transaction
 
@@ -23,9 +23,9 @@ const transaction: Transaction = {
   ref_block_num,
   ref_block_prefix,
   expiration,
-  operations: [['vote', vote]],
-  extensions: []
-}
+  operations: [["vote", vote]],
+  extensions: [],
+};
 ```
 
 ## Extended by
@@ -42,7 +42,7 @@ Defined in: [src/chain/transaction.ts:69](https://github.com/TheCrazyGM/dhive/bl
 
 UTC expiration timestamp without a trailing timezone suffix.
 
-***
+---
 
 ### extensions
 
@@ -53,7 +53,7 @@ Defined in: [src/chain/transaction.ts:78](https://github.com/TheCrazyGM/dhive/bl
 Transaction extension values. Hive currently expects this to be empty for
 the operations supported by Pollen.
 
-***
+---
 
 ### operations
 
@@ -63,21 +63,21 @@ Defined in: [src/chain/transaction.ts:73](https://github.com/TheCrazyGM/dhive/bl
 
 Ordered operation list executed atomically by the chain.
 
-***
+---
 
-### ref\_block\_num
+### ref_block_num
 
-> **ref\_block\_num**: `number`
+> **ref_block_num**: `number`
 
 Defined in: [src/chain/transaction.ts:61](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/transaction.ts#L61)
 
 Lower 16 bits of the referenced head block number.
 
-***
+---
 
-### ref\_block\_prefix
+### ref_block_prefix
 
-> **ref\_block\_prefix**: `number`
+> **ref_block_prefix**: `number`
 
 Defined in: [src/chain/transaction.ts:65](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/transaction.ts#L65)
 

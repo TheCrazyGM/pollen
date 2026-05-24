@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / ClientOptions
 
@@ -20,16 +20,13 @@ database reads, broadcasting, RC, Hivemind, and transaction-status calls.
 ## Example
 
 ```ts
-import { Client } from '@srbde/pollen'
+import { Client } from "@srbde/pollen";
 
-const client = new Client(
-  ['https://api.hive.blog', 'https://api.openhive.network'],
-  {
-    timeout: 45_000,
-    failoverThreshold: 2,
-    consoleOnFailover: true
-  }
-)
+const client = new Client(["https://api.hive.blog", "https://api.openhive.network"], {
+  timeout: 45_000,
+  failoverThreshold: 2,
+  consoleOnFailover: true,
+});
 ```
 
 ## Properties
@@ -43,7 +40,7 @@ Defined in: [src/client.ts:185](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 Hive address prefix. Defaults to main network:
 `STM`
 
-***
+---
 
 ### agent?
 
@@ -58,7 +55,7 @@ Defaults to using https.globalAgent.
 
 https://nodejs.org/api/http.html#http_new_agent_options.
 
-***
+---
 
 ### backoff?
 
@@ -79,7 +76,7 @@ jittered exponential backoff.
 
 `number`
 
-***
+---
 
 ### chainId?
 
@@ -91,7 +88,7 @@ Hive chain id. Defaults to main hive network:
 need the new id?
 `beeab0de00000000000000000000000000000000000000000000000000000000`
 
-***
+---
 
 ### consoleOnFailover?
 
@@ -101,7 +98,7 @@ Defined in: [src/client.ts:206](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Whether a console.log should be made when RPC failed over to another one
 
-***
+---
 
 ### failoverThreshold?
 
@@ -114,7 +111,7 @@ iterated and retried in case of timeout errors.
 (important) Requires url parameter to be an array (string[])!
 Can be set to 0 to iterate and retry forever. Defaults to 3 rounds.
 
-***
+---
 
 ### healthTrackerOptions?
 
@@ -125,7 +122,7 @@ Defined in: [src/client.ts:223](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 Options for the node health tracker.
 Controls cooldown periods, stale block thresholds, etc.
 
-***
+---
 
 ### timeout?
 
@@ -137,4 +134,4 @@ Send timeout, how long to wait in milliseconds before giving
 up on a rpc call. Note that this is not an exact timeout,
 no in-flight requests will be aborted, they will just not
 be retried any more past the timeout.
-Can be set to 0 to retry forever. Defaults to 60 * 1000 ms.
+Can be set to 0 to retry forever. Defaults to 60 \* 1000 ms.

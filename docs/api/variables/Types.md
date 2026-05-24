@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Types
 
@@ -450,10 +450,10 @@ helpers such as `client.broadcast`.
 ## Example
 
 ```ts
-const writer = new BinaryWriter()
-Types.Transaction(writer, transaction)
+const writer = new BinaryWriter();
+Types.Transaction(writer, transaction);
 
-const bytes = writer.getBuffer()
+const bytes = writer.getBuffer();
 ```
 
 ## Throws

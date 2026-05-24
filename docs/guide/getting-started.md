@@ -22,13 +22,13 @@ yarn add @srbde/pollen
 The following example demonstrates how to initialize a client and read the latest block from the blockchain.
 
 ```typescript
-import { Client } from '@srbde/pollen'
+import { Client } from "@srbde/pollen";
 
-const client = new Client(['https://api.hive.blog'])
+const client = new Client(["https://api.hive.blog"]);
 
 // Get the latest global properties
-const props = await client.database.getDynamicGlobalProperties()
-console.log(`Current block: ${props.head_block_number}`)
+const props = await client.database.getDynamicGlobalProperties();
+console.log(`Current block: ${props.head_block_number}`);
 ```
 
 ## Why Pollen?

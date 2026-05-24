@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / AuthorityType
 
@@ -22,30 +22,30 @@ authorities meet `weight_threshold`.
 const authority: AuthorityType = {
   weight_threshold: 1,
   account_auths: [],
-  key_auths: [[publicKey, 1]]
-}
+  key_auths: [[publicKey, 1]],
+};
 ```
 
 ## Properties
 
-### account\_auths
+### account_auths
 
-> **account\_auths**: \[`string`, `number`\][]
+> **account_auths**: \[`string`, `number`\][]
 
 Defined in: [src/chain/account.ts:58](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L58)
 
-***
+---
 
-### key\_auths
+### key_auths
 
-> **key\_auths**: \[`string` \| [`PublicKey`](../classes/PublicKey.md), `number`\][]
+> **key_auths**: \[`string` \| [`PublicKey`](../classes/PublicKey.md), `number`\][]
 
 Defined in: [src/chain/account.ts:59](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L59)
 
-***
+---
 
-### weight\_threshold
+### weight_threshold
 
-> **weight\_threshold**: `number`
+> **weight_threshold**: `number`
 
 Defined in: [src/chain/account.ts:57](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L57)

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / VirtualOperationName
 
@@ -21,5 +21,5 @@ processes power-downs, or records system events.
 ## Example
 
 ```ts
-const virtualName: VirtualOperationName = 'author_reward'
+const virtualName: VirtualOperationName = "author_reward";
 ```

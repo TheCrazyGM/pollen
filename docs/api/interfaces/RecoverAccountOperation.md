@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / RecoverAccountOperation
 
@@ -60,7 +60,7 @@ Defined in: [src/chain/operation.ts:816](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -68,9 +68,9 @@ Defined in: [src/chain/operation.ts:816](https://github.com/TheCrazyGM/dhive/blo
 
 Defined in: [src/chain/operation.ts:817](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/operation.ts#L817)
 
-#### account\_to\_recover
+#### account_to_recover
 
-> **account\_to\_recover**: `string`
+> **account_to_recover**: `string`
 
 The account to be recovered.
 
@@ -80,15 +80,15 @@ The account to be recovered.
 
 Extensions. Not currently used.
 
-#### new\_owner\_authority
+#### new_owner_authority
 
-> **new\_owner\_authority**: [`AuthorityType`](AuthorityType.md)
+> **new_owner_authority**: [`AuthorityType`](AuthorityType.md)
 
 The new owner authority as specified in the request account recovery operation.
 
-#### recent\_owner\_authority
+#### recent_owner_authority
 
-> **recent\_owner\_authority**: [`AuthorityType`](AuthorityType.md)
+> **recent_owner_authority**: [`AuthorityType`](AuthorityType.md)
 
 A previous owner authority that the account holder will use to prove
 past ownership of the account to be recovered.

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Notifications
 
@@ -20,11 +20,11 @@ required.
 
 ```ts
 const notifications = await client.hivemind.getAccountNotifications({
-  account: 'srbde',
-  limit: 10
-})
+  account: "srbde",
+  limit: 10,
+});
 
-console.log(notifications[0]?.msg)
+console.log(notifications[0]?.msg);
 ```
 
 ## Properties
@@ -35,7 +35,7 @@ console.log(notifications[0]?.msg)
 
 Defined in: [src/chain/hivemind.ts:62](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/hivemind.ts#L62)
 
-***
+---
 
 ### id
 
@@ -43,7 +43,7 @@ Defined in: [src/chain/hivemind.ts:62](https://github.com/TheCrazyGM/dhive/blob/
 
 Defined in: [src/chain/hivemind.ts:59](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/hivemind.ts#L59)
 
-***
+---
 
 ### msg
 
@@ -51,7 +51,7 @@ Defined in: [src/chain/hivemind.ts:59](https://github.com/TheCrazyGM/dhive/blob/
 
 Defined in: [src/chain/hivemind.ts:63](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/hivemind.ts#L63)
 
-***
+---
 
 ### score
 
@@ -59,7 +59,7 @@ Defined in: [src/chain/hivemind.ts:63](https://github.com/TheCrazyGM/dhive/blob/
 
 Defined in: [src/chain/hivemind.ts:61](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/hivemind.ts#L61)
 
-***
+---
 
 ### type
 
@@ -67,7 +67,7 @@ Defined in: [src/chain/hivemind.ts:61](https://github.com/TheCrazyGM/dhive/blob/
 
 Defined in: [src/chain/hivemind.ts:60](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/hivemind.ts#L60)
 
-***
+---
 
 ### url
 

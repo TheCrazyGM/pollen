@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / TransferOperation
 
@@ -18,12 +18,15 @@ broadcasting when the memo should be encrypted for the recipient.
 ## Example
 
 ```ts
-const op: TransferOperation = ['transfer', {
-  from: 'srbde',
-  to: 'alice',
-  amount: '1.000 HIVE',
-  memo: 'Invoice 42'
-}]
+const op: TransferOperation = [
+  "transfer",
+  {
+    from: "srbde",
+    to: "alice",
+    amount: "1.000 HIVE",
+    memo: "Invoice 42",
+  },
+];
 ```
 
 ## Extends
@@ -42,7 +45,7 @@ Defined in: [src/chain/operation.ts:971](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 

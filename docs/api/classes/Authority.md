@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Authority
 
@@ -18,7 +18,7 @@ accounts or from a full weighted authority object for multisig setups.
 ## Example
 
 ```ts
-const posting = Authority.from(postingPublicKey)
+const posting = Authority.from(postingPublicKey);
 ```
 
 ## Implements
@@ -49,9 +49,9 @@ Raw authority fields from Hive.
 
 ## Properties
 
-### account\_auths
+### account_auths
 
-> **account\_auths**: \[`string`, `number`\][]
+> **account_auths**: \[`string`, `number`\][]
 
 Defined in: [src/chain/account.ts:76](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L76)
 
@@ -59,11 +59,11 @@ Defined in: [src/chain/account.ts:76](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`AuthorityType`](../interfaces/AuthorityType.md).[`account_auths`](../interfaces/AuthorityType.md#account_auths)
 
-***
+---
 
-### key\_auths
+### key_auths
 
-> **key\_auths**: \[`string` \| [`PublicKey`](PublicKey.md), `number`\][]
+> **key_auths**: \[`string` \| [`PublicKey`](PublicKey.md), `number`\][]
 
 Defined in: [src/chain/account.ts:77](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L77)
 
@@ -71,11 +71,11 @@ Defined in: [src/chain/account.ts:77](https://github.com/TheCrazyGM/dhive/blob/a
 
 [`AuthorityType`](../interfaces/AuthorityType.md).[`key_auths`](../interfaces/AuthorityType.md#key_auths)
 
-***
+---
 
-### weight\_threshold
+### weight_threshold
 
-> **weight\_threshold**: `number`
+> **weight_threshold**: `number`
 
 Defined in: [src/chain/account.ts:75](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L75)
 
@@ -111,5 +111,5 @@ A normalized authority.
 #### Example
 
 ```ts
-const authority = Authority.from('STM8m5UgaFAAYQRuaNejYdS8FVLVp9Ss3K1qAVk5de6F8s3HnVbvA')
+const authority = Authority.from("STM8m5UgaFAAYQRuaNejYdS8FVLVp9Ss3K1qAVk5de6F8s3HnVbvA");
 ```

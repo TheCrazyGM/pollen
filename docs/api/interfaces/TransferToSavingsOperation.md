@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / TransferToSavingsOperation
 
@@ -26,7 +26,7 @@ Defined in: [src/chain/operation.ts:1014](https://github.com/TheCrazyGM/dhive/bl
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -46,9 +46,9 @@ Defined in: [src/chain/operation.ts:1015](https://github.com/TheCrazyGM/dhive/bl
 
 > **memo**: `string`
 
-#### request\_id
+#### request_id
 
-> **request\_id**: `number`
+> **request_id**: `number`
 
 #### to
 

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / ListCommunitiesQuery
 
@@ -15,8 +15,8 @@ Query options for listing communities known to Hivemind.
 ```ts
 const query: ListCommunitiesQuery = {
   limit: 20,
-  observer: 'srbde'
-}
+  observer: "srbde",
+};
 ```
 
 ## Properties
@@ -29,7 +29,7 @@ Defined in: [src/helpers/hivemind.ts:125](https://github.com/TheCrazyGM/dhive/bl
 
 Paginating last
 
-***
+---
 
 ### limit
 
@@ -39,7 +39,7 @@ Defined in: [src/helpers/hivemind.ts:129](https://github.com/TheCrazyGM/dhive/bl
 
 Number of communities to fetch
 
-***
+---
 
 ### observer?
 
@@ -49,7 +49,7 @@ Defined in: [src/helpers/hivemind.ts:137](https://github.com/TheCrazyGM/dhive/bl
 
 Observer account
 
-***
+---
 
 ### query?
 

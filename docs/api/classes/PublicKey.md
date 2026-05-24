@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / PublicKey
 
@@ -40,7 +40,7 @@ Defined in: [src/crypto.ts:170](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Defined in: [src/crypto.ts:171](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/crypto.ts#L171)
 
-***
+---
 
 ### prefix
 
@@ -48,7 +48,7 @@ Defined in: [src/crypto.ts:171](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Defined in: [src/crypto.ts:172](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/crypto.ts#L172)
 
-***
+---
 
 ### uncompressed
 
@@ -70,7 +70,7 @@ Used by `utils.inspect` and `console.log` in node.js.
 
 `string`
 
-***
+---
 
 ### toJSON()
 
@@ -84,7 +84,7 @@ Return JSON representation of this key, same as toString().
 
 `string`
 
-***
+---
 
 ### toString()
 
@@ -98,7 +98,7 @@ Renders the key as a Hive public-key string.
 
 `string`
 
-***
+---
 
 ### verify()
 
@@ -122,7 +122,7 @@ Verifies a compact ECDSA signature against a 32-byte digest.
 
 `boolean`
 
-***
+---
 
 ### from()
 
@@ -142,7 +142,7 @@ Normalizes a public-key input into a PublicKey instance.
 
 `PublicKey`
 
-***
+---
 
 ### fromBuffer()
 
@@ -160,7 +160,7 @@ Defined in: [src/crypto.ts:184](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 `PublicKey`
 
-***
+---
 
 ### fromString()
 

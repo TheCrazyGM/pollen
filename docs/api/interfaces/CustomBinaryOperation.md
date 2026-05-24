@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / CustomBinaryOperation
 
@@ -26,7 +26,7 @@ Defined in: [src/chain/operation.ts:518](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -44,21 +44,21 @@ Defined in: [src/chain/operation.ts:519](https://github.com/TheCrazyGM/dhive/blo
 
 ID string, must be less than 32 characters long.
 
-#### required\_active\_auths
+#### required_active_auths
 
-> **required\_active\_auths**: `string`[]
+> **required_active_auths**: `string`[]
 
-#### required\_auths
+#### required_auths
 
-> **required\_auths**: [`AuthorityType`](AuthorityType.md)[]
+> **required_auths**: [`AuthorityType`](AuthorityType.md)[]
 
-#### required\_owner\_auths
+#### required_owner_auths
 
-> **required\_owner\_auths**: `string`[]
+> **required_owner_auths**: `string`[]
 
-#### required\_posting\_auths
+#### required_posting_auths
 
-> **required\_posting\_auths**: `string`[]
+> **required_posting_auths**: `string`[]
 
 #### Overrides
 

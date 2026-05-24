@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / CreateAccountOptions
 
@@ -20,11 +20,11 @@ account fixtures.
 
 ```ts
 const options: CreateAccountOptions = {
-  username: 'pollen-dev',
-  password: 'correct horse battery staple',
-  creator: 'initminer',
-  metadata: { app: 'pollen-tests' }
-}
+  username: "pollen-dev",
+  password: "correct horse battery staple",
+  creator: "initminer",
+  metadata: { app: "pollen-tests" },
+};
 ```
 
 ## Properties
@@ -54,7 +54,7 @@ Can not be used together with the password option.
 
 > **posting**: `string` \| [`AuthorityType`](AuthorityType.md) \| [`PublicKey`](../classes/PublicKey.md)
 
-***
+---
 
 ### creator
 
@@ -65,7 +65,7 @@ Defined in: [src/helpers/broadcast.ts:98](https://github.com/TheCrazyGM/dhive/bl
 Creator account, fee will be deducted from this and the key to sign
 the transaction must be the creators active key.
 
-***
+---
 
 ### delegation?
 
@@ -77,7 +77,7 @@ Account delegation, amount of VESTS to delegate to the new account.
 If omitted the delegation amount will be the lowest possible based
 on the fee. Can be set to zero to disable delegation.
 
-***
+---
 
 ### fee?
 
@@ -87,7 +87,7 @@ Defined in: [src/helpers/broadcast.ts:102](https://github.com/TheCrazyGM/dhive/b
 
 Account creation fee. If omitted fee will be set to lowest possible.
 
-***
+---
 
 ### metadata?
 
@@ -101,7 +101,7 @@ Optional account meta-data.
 
 \[`key`: `string`\]: `any`
 
-***
+---
 
 ### password?
 
@@ -111,7 +111,7 @@ Defined in: [src/helpers/broadcast.ts:83](https://github.com/TheCrazyGM/dhive/bl
 
 Password for the new account, if set, all keys will be derived from this.
 
-***
+---
 
 ### username
 

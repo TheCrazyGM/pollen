@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / PriceType
 
@@ -16,7 +16,7 @@ Value accepted anywhere Pollen needs a Hive price ratio.
 
 ```ts
 const feed: PriceType = {
-  base: '1.000 HIVE',
-  quote: '0.300 HBD'
-}
+  base: "1.000 HIVE",
+  quote: "0.300 HBD",
+};
 ```

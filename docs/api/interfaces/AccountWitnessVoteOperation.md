@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / AccountWitnessVoteOperation
 
@@ -13,11 +13,14 @@ Approves or removes a witness vote.
 ## Example
 
 ```ts
-const op: AccountWitnessVoteOperation = ['account_witness_vote', {
-  account: 'srbde',
-  witness: 'some-witness',
-  approve: true
-}]
+const op: AccountWitnessVoteOperation = [
+  "account_witness_vote",
+  {
+    account: "srbde",
+    witness: "some-witness",
+    approve: true,
+  },
+];
 ```
 
 ## Extends
@@ -36,7 +39,7 @@ Defined in: [src/chain/operation.ts:321](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / BlockchainStreamOptions
 
@@ -13,16 +13,16 @@ Controls the block range and finality policy used by blockchain streams.
 ## Example
 
 ```ts
-import { BlockchainMode, Client } from '@srbde/pollen'
+import { BlockchainMode, Client } from "@srbde/pollen";
 
-const client = new Client('https://api.hive.blog')
+const client = new Client("https://api.hive.blog");
 
 for await (const block of client.blockchain.getBlocks({
   from: 90_000_000,
   to: 90_000_010,
-  mode: BlockchainMode.Irreversible
+  mode: BlockchainMode.Irreversible,
 })) {
-  console.log(block.block_id)
+  console.log(block.block_id);
 }
 ```
 
@@ -36,7 +36,7 @@ Defined in: [src/helpers/blockchain.ts:80](https://github.com/TheCrazyGM/dhive/b
 
 Start block number, inclusive. If omitted generation will start from current block height.
 
-***
+---
 
 ### mode?
 
@@ -47,7 +47,7 @@ Defined in: [src/helpers/blockchain.ts:89](https://github.com/TheCrazyGM/dhive/b
 Streaming mode, if set to `Latest` may include blocks that are not applied to the final chain.
 Defaults to `Irreversible`.
 
-***
+---
 
 ### to?
 

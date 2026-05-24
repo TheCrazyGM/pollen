@@ -1,12 +1,12 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
-[@srbde/pollen](../index.md) / DEFAULT\_CHAIN\_ID
+[@srbde/pollen](../index.md) / DEFAULT_CHAIN_ID
 
-# Variable: DEFAULT\_CHAIN\_ID
+# Variable: DEFAULT_CHAIN_ID
 
-> `const` **DEFAULT\_CHAIN\_ID**: `Uint8Array`\<`ArrayBufferLike`\>
+> `const` **DEFAULT_CHAIN_ID**: `Uint8Array`\<`ArrayBufferLike`\>
 
 Defined in: [src/client.ts:88](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/client.ts#L88)
 
@@ -21,7 +21,7 @@ different chain.
 ## Example
 
 ```ts
-import { DEFAULT_CHAIN_ID } from '@srbde/pollen'
+import { DEFAULT_CHAIN_ID } from "@srbde/pollen";
 
-console.log(toHex(DEFAULT_CHAIN_ID))
+console.log(toHex(DEFAULT_CHAIN_ID));
 ```

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / ReportOverProductionOperation
 
@@ -36,7 +36,7 @@ Defined in: [src/chain/operation.ts:852](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -44,17 +44,17 @@ Defined in: [src/chain/operation.ts:852](https://github.com/TheCrazyGM/dhive/blo
 
 Defined in: [src/chain/operation.ts:853](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/operation.ts#L853)
 
-#### first\_block
+#### first_block
 
-> **first\_block**: [`SignedBlockHeader`](SignedBlockHeader.md)
+> **first_block**: [`SignedBlockHeader`](SignedBlockHeader.md)
 
 #### reporter
 
 > **reporter**: `string`
 
-#### second\_block
+#### second_block
 
-> **second\_block**: [`SignedBlockHeader`](SignedBlockHeader.md)
+> **second_block**: [`SignedBlockHeader`](SignedBlockHeader.md)
 
 #### Overrides
 

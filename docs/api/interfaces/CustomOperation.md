@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / CustomOperation
 
@@ -26,7 +26,7 @@ Defined in: [src/chain/operation.ts:506](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -42,9 +42,9 @@ Defined in: [src/chain/operation.ts:507](https://github.com/TheCrazyGM/dhive/blo
 
 > **id**: `number`
 
-#### required\_auths
+#### required_auths
 
-> **required\_auths**: `string`[]
+> **required_auths**: `string`[]
 
 #### Overrides
 

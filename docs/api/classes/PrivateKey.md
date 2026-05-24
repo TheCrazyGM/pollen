@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / PrivateKey
 
@@ -48,11 +48,11 @@ Derives the compressed public key for this private key.
 
 [`PublicKey`](PublicKey.md)
 
-***
+---
 
-### get\_shared\_secret()
+### get_shared_secret()
 
-> **get\_shared\_secret**(`public_key`): `Uint8Array`
+> **get_shared_secret**(`public_key`): `Uint8Array`
 
 Defined in: [src/crypto.ts:338](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/crypto.ts#L338)
 
@@ -60,7 +60,7 @@ Derives the shared secret used by encrypted Hive memos.
 
 #### Parameters
 
-##### public\_key
+##### public_key
 
 [`PublicKey`](PublicKey.md)
 
@@ -68,7 +68,7 @@ Derives the shared secret used by encrypted Hive memos.
 
 `Uint8Array`
 
-***
+---
 
 ### inspect()
 
@@ -82,7 +82,7 @@ Used by `utils.inspect` and `console.log` in node.js.
 
 `string`
 
-***
+---
 
 ### sign()
 
@@ -102,7 +102,7 @@ Signs a 32-byte digest with this private key.
 
 [`Signature`](Signature.md)
 
-***
+---
 
 ### toString()
 
@@ -116,7 +116,7 @@ Renders the private key as a WIF string.
 
 `string`
 
-***
+---
 
 ### from()
 
@@ -136,7 +136,7 @@ Normalizes a WIF string or raw secret buffer into a private key.
 
 `PrivateKey`
 
-***
+---
 
 ### fromLogin()
 
@@ -164,7 +164,7 @@ Derives a Hive role key from an account name and master password.
 
 `PrivateKey`
 
-***
+---
 
 ### fromSeed()
 
@@ -184,7 +184,7 @@ Derives a private key by hashing an arbitrary seed string.
 
 `PrivateKey`
 
-***
+---
 
 ### fromString()
 

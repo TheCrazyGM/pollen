@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / getVests
 
@@ -21,14 +21,14 @@ Calculates an account's effective vesting shares.
 Account containing vesting, delegation, and withdrawal
 fields.
 
-### subtract\_delegated?
+### subtract_delegated?
 
 `boolean` = `true`
 
 Whether outgoing delegations should reduce the
 result.
 
-### add\_received?
+### add_received?
 
 `boolean` = `true`
 
@@ -50,6 +50,6 @@ use this to derive maximum voting mana.
 ## Example
 
 ```ts
-const [account] = await client.database.getAccounts(['srbde'])
-const effectiveVests = getVests(account)
+const [account] = await client.database.getAccounts(["srbde"]);
+const effectiveVests = getVests(account);
 ```

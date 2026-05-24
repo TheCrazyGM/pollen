@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Serializer
 
@@ -39,6 +39,6 @@ public keys, arrays, options, and objects.
 ## Example
 
 ```ts
-const writer = new BinaryWriter()
-Types.String(writer, 'pollen')
+const writer = new BinaryWriter();
+Types.String(writer, "pollen");
 ```

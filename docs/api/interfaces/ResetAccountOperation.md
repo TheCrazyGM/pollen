@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / ResetAccountOperation
 
@@ -27,7 +27,7 @@ Defined in: [src/chain/operation.ts:915](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -35,17 +35,17 @@ Defined in: [src/chain/operation.ts:915](https://github.com/TheCrazyGM/dhive/blo
 
 Defined in: [src/chain/operation.ts:916](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/operation.ts#L916)
 
-#### account\_to\_reset
+#### account_to_reset
 
-> **account\_to\_reset**: `string`
+> **account_to_reset**: `string`
 
-#### new\_owner\_authority
+#### new_owner_authority
 
-> **new\_owner\_authority**: [`AuthorityType`](AuthorityType.md)
+> **new_owner_authority**: [`AuthorityType`](AuthorityType.md)
 
-#### reset\_account
+#### reset_account
 
-> **reset\_account**: `string`
+> **reset_account**: `string`
 
 #### Overrides
 

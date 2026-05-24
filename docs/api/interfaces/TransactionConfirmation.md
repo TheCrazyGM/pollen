@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / TransactionConfirmation
 
@@ -18,21 +18,21 @@ transaction indexes are supplied by the RPC node when available.
 ## Example
 
 ```ts
-const confirmation = await client.broadcast.transfer(transfer, activeKey)
-console.log(confirmation.id, confirmation.block_num)
+const confirmation = await client.broadcast.transfer(transfer, activeKey);
+console.log(confirmation.id, confirmation.block_num);
 ```
 
 ## Properties
 
-### block\_num
+### block_num
 
-> **block\_num**: `number`
+> **block_num**: `number`
 
 Defined in: [src/chain/transaction.ts:122](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/transaction.ts#L122)
 
 Block number that accepted the transaction.
 
-***
+---
 
 ### expired
 
@@ -42,7 +42,7 @@ Defined in: [src/chain/transaction.ts:130](https://github.com/TheCrazyGM/dhive/b
 
 Whether the node considered the transaction expired.
 
-***
+---
 
 ### id
 
@@ -52,11 +52,11 @@ Defined in: [src/chain/transaction.ts:118](https://github.com/TheCrazyGM/dhive/b
 
 Transaction id.
 
-***
+---
 
-### trx\_num
+### trx_num
 
-> **trx\_num**: `number`
+> **trx_num**: `number`
 
 Defined in: [src/chain/transaction.ts:126](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/transaction.ts#L126)
 

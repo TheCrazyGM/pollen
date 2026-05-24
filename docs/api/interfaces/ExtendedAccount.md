@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / ExtendedAccount
 
@@ -18,8 +18,8 @@ and several legacy history collections used by social applications.
 ## Example
 
 ```ts
-const [account] = await client.database.getAccounts(['srbde'])
-console.log(account.reputation, account.witness_votes)
+const [account] = await client.database.getAccounts(["srbde"]);
+console.log(account.reputation, account.witness_votes);
 ```
 
 ## Extends
@@ -38,11 +38,11 @@ Defined in: [src/chain/account.ts:136](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`active`](Account.md#active)
 
-***
+---
 
-### active\_challenged
+### active_challenged
 
-> **active\_challenged**: `boolean`
+> **active_challenged**: `boolean`
 
 Defined in: [src/chain/account.ts:147](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L147)
 
@@ -50,11 +50,11 @@ Defined in: [src/chain/account.ts:147](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`active_challenged`](Account.md#active_challenged)
 
-***
+---
 
-### average\_bandwidth
+### average_bandwidth
 
-> **average\_bandwidth**: `string` \| `number`
+> **average_bandwidth**: `string` \| `number`
 
 Defined in: [src/chain/account.ts:190](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L190)
 
@@ -62,11 +62,11 @@ Defined in: [src/chain/account.ts:190](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`average_bandwidth`](Account.md#average_bandwidth)
 
-***
+---
 
-### average\_market\_bandwidth
+### average_market_bandwidth
 
-> **average\_market\_bandwidth**: `string` \| `number`
+> **average_market_bandwidth**: `string` \| `number`
 
 Defined in: [src/chain/account.ts:193](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L193)
 
@@ -74,7 +74,7 @@ Defined in: [src/chain/account.ts:193](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`average_market_bandwidth`](Account.md#average_market_bandwidth)
 
-***
+---
 
 ### balance
 
@@ -86,7 +86,7 @@ Defined in: [src/chain/account.ts:163](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`balance`](Account.md#balance)
 
-***
+---
 
 ### blog?
 
@@ -94,11 +94,11 @@ Defined in: [src/chain/account.ts:163](https://github.com/TheCrazyGM/dhive/blob/
 
 Defined in: [src/chain/account.ts:235](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L235)
 
-***
+---
 
-### can\_vote
+### can_vote
 
-> **can\_vote**: `boolean`
+> **can_vote**: `boolean`
 
 Defined in: [src/chain/account.ts:156](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L156)
 
@@ -106,11 +106,11 @@ Defined in: [src/chain/account.ts:156](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`can_vote`](Account.md#can_vote)
 
-***
+---
 
-### comment\_count
+### comment_count
 
-> **comment\_count**: `number`
+> **comment_count**: `number`
 
 Defined in: [src/chain/account.ts:153](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L153)
 
@@ -118,7 +118,7 @@ Defined in: [src/chain/account.ts:153](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`comment_count`](Account.md#comment_count)
 
-***
+---
 
 ### comments?
 
@@ -126,7 +126,7 @@ Defined in: [src/chain/account.ts:153](https://github.com/TheCrazyGM/dhive/blob/
 
 Defined in: [src/chain/account.ts:234](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L234)
 
-***
+---
 
 ### created
 
@@ -138,11 +138,11 @@ Defined in: [src/chain/account.ts:144](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`created`](Account.md#created)
 
-***
+---
 
-### curation\_rewards
+### curation_rewards
 
-> **curation\_rewards**: `string` \| `number`
+> **curation_rewards**: `string` \| `number`
 
 Defined in: [src/chain/account.ts:178](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L178)
 
@@ -150,11 +150,11 @@ Defined in: [src/chain/account.ts:178](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`curation_rewards`](Account.md#curation_rewards)
 
-***
+---
 
-### delegated\_vesting\_shares
+### delegated_vesting_shares
 
-> **delegated\_vesting\_shares**: `string` \| [`Asset`](../classes/Asset.md)
+> **delegated_vesting_shares**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:181](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L181)
 
@@ -162,7 +162,7 @@ Defined in: [src/chain/account.ts:181](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`delegated_vesting_shares`](Account.md#delegated_vesting_shares)
 
-***
+---
 
 ### feed?
 
@@ -170,19 +170,19 @@ Defined in: [src/chain/account.ts:181](https://github.com/TheCrazyGM/dhive/blob/
 
 Defined in: [src/chain/account.ts:236](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L236)
 
-***
+---
 
-### guest\_bloggers
+### guest_bloggers
 
-> **guest\_bloggers**: `string`[]
+> **guest_bloggers**: `string`[]
 
 Defined in: [src/chain/account.ts:232](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L232)
 
-***
+---
 
-### hbd\_balance
+### hbd_balance
 
-> **hbd\_balance**: `string` \| [`Asset`](../classes/Asset.md)
+> **hbd_balance**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:165](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L165)
 
@@ -190,11 +190,11 @@ Defined in: [src/chain/account.ts:165](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`hbd_balance`](Account.md#hbd_balance)
 
-***
+---
 
-### hbd\_last\_interest\_payment
+### hbd_last_interest_payment
 
-> **hbd\_last\_interest\_payment**: `string`
+> **hbd_last_interest_payment**: `string`
 
 Defined in: [src/chain/account.ts:168](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L168)
 
@@ -202,11 +202,11 @@ Defined in: [src/chain/account.ts:168](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`hbd_last_interest_payment`](Account.md#hbd_last_interest_payment)
 
-***
+---
 
-### hbd\_seconds
+### hbd_seconds
 
-> **hbd\_seconds**: `string`
+> **hbd_seconds**: `string`
 
 Defined in: [src/chain/account.ts:166](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L166)
 
@@ -214,11 +214,11 @@ Defined in: [src/chain/account.ts:166](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`hbd_seconds`](Account.md#hbd_seconds)
 
-***
+---
 
-### hbd\_seconds\_last\_update
+### hbd_seconds_last_update
 
-> **hbd\_seconds\_last\_update**: `string`
+> **hbd_seconds_last_update**: `string`
 
 Defined in: [src/chain/account.ts:167](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L167)
 
@@ -226,7 +226,7 @@ Defined in: [src/chain/account.ts:167](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`hbd_seconds_last_update`](Account.md#hbd_seconds_last_update)
 
-***
+---
 
 ### id
 
@@ -238,11 +238,11 @@ Defined in: [src/chain/account.ts:133](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`id`](Account.md#id)
 
-***
+---
 
-### json\_metadata
+### json_metadata
 
-> **json\_metadata**: `string`
+> **json_metadata**: `string`
 
 Defined in: [src/chain/account.ts:139](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L139)
 
@@ -250,11 +250,11 @@ Defined in: [src/chain/account.ts:139](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`json_metadata`](Account.md#json_metadata)
 
-***
+---
 
-### last\_account\_recovery
+### last_account_recovery
 
-> **last\_account\_recovery**: `string`
+> **last_account_recovery**: `string`
 
 Defined in: [src/chain/account.ts:152](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L152)
 
@@ -262,11 +262,11 @@ Defined in: [src/chain/account.ts:152](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`last_account_recovery`](Account.md#last_account_recovery)
 
-***
+---
 
-### last\_account\_update
+### last_account_update
 
-> **last\_account\_update**: `string`
+> **last_account_update**: `string`
 
 Defined in: [src/chain/account.ts:143](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L143)
 
@@ -274,11 +274,11 @@ Defined in: [src/chain/account.ts:143](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`last_account_update`](Account.md#last_account_update)
 
-***
+---
 
-### last\_active\_proved
+### last_active_proved
 
-> **last\_active\_proved**: `string`
+> **last_active_proved**: `string`
 
 Defined in: [src/chain/account.ts:149](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L149)
 
@@ -286,11 +286,11 @@ Defined in: [src/chain/account.ts:149](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`last_active_proved`](Account.md#last_active_proved)
 
-***
+---
 
-### last\_bandwidth\_update
+### last_bandwidth_update
 
-> **last\_bandwidth\_update**: `string`
+> **last_bandwidth_update**: `string`
 
 Defined in: [src/chain/account.ts:192](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L192)
 
@@ -298,11 +298,11 @@ Defined in: [src/chain/account.ts:192](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`last_bandwidth_update`](Account.md#last_bandwidth_update)
 
-***
+---
 
-### last\_market\_bandwidth\_update
+### last_market_bandwidth_update
 
-> **last\_market\_bandwidth\_update**: `string`
+> **last_market_bandwidth_update**: `string`
 
 Defined in: [src/chain/account.ts:195](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L195)
 
@@ -310,11 +310,11 @@ Defined in: [src/chain/account.ts:195](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`last_market_bandwidth_update`](Account.md#last_market_bandwidth_update)
 
-***
+---
 
-### last\_owner\_proved
+### last_owner_proved
 
-> **last\_owner\_proved**: `string`
+> **last_owner_proved**: `string`
 
 Defined in: [src/chain/account.ts:148](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L148)
 
@@ -322,11 +322,11 @@ Defined in: [src/chain/account.ts:148](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`last_owner_proved`](Account.md#last_owner_proved)
 
-***
+---
 
-### last\_owner\_update
+### last_owner_update
 
-> **last\_owner\_update**: `string`
+> **last_owner_update**: `string`
 
 Defined in: [src/chain/account.ts:142](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L142)
 
@@ -334,11 +334,11 @@ Defined in: [src/chain/account.ts:142](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`last_owner_update`](Account.md#last_owner_update)
 
-***
+---
 
-### last\_post
+### last_post
 
-> **last\_post**: `string`
+> **last_post**: `string`
 
 Defined in: [src/chain/account.ts:196](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L196)
 
@@ -346,11 +346,11 @@ Defined in: [src/chain/account.ts:196](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`last_post`](Account.md#last_post)
 
-***
+---
 
-### last\_root\_post
+### last_root_post
 
-> **last\_root\_post**: `string`
+> **last_root_post**: `string`
 
 Defined in: [src/chain/account.ts:197](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L197)
 
@@ -358,11 +358,11 @@ Defined in: [src/chain/account.ts:197](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`last_root_post`](Account.md#last_root_post)
 
-***
+---
 
-### last\_vote\_time
+### last_vote_time
 
-> **last\_vote\_time**: `string`
+> **last_vote_time**: `string`
 
 Defined in: [src/chain/account.ts:158](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L158)
 
@@ -370,11 +370,11 @@ Defined in: [src/chain/account.ts:158](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`last_vote_time`](Account.md#last_vote_time)
 
-***
+---
 
-### lifetime\_bandwidth
+### lifetime_bandwidth
 
-> **lifetime\_bandwidth**: `string` \| `number`
+> **lifetime_bandwidth**: `string` \| `number`
 
 Defined in: [src/chain/account.ts:191](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L191)
 
@@ -382,11 +382,11 @@ Defined in: [src/chain/account.ts:191](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`lifetime_bandwidth`](Account.md#lifetime_bandwidth)
 
-***
+---
 
-### lifetime\_market\_bandwidth
+### lifetime_market_bandwidth
 
-> **lifetime\_market\_bandwidth**: `string` \| `number`
+> **lifetime_market_bandwidth**: `string` \| `number`
 
 Defined in: [src/chain/account.ts:194](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L194)
 
@@ -394,11 +394,11 @@ Defined in: [src/chain/account.ts:194](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`lifetime_market_bandwidth`](Account.md#lifetime_market_bandwidth)
 
-***
+---
 
-### lifetime\_vote\_count
+### lifetime_vote_count
 
-> **lifetime\_vote\_count**: `number`
+> **lifetime_vote_count**: `number`
 
 Defined in: [src/chain/account.ts:154](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L154)
 
@@ -406,21 +406,21 @@ Defined in: [src/chain/account.ts:154](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`lifetime_vote_count`](Account.md#lifetime_vote_count)
 
-***
+---
 
-### market\_history
+### market_history
 
-> **market\_history**: `any`[]
+> **market_history**: `any`[]
 
 Defined in: [src/chain/account.ts:226](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L226)
 
 Limit order, cancel, and fill history.
 
-***
+---
 
-### memo\_key
+### memo_key
 
-> **memo\_key**: `string`
+> **memo_key**: `string`
 
 Defined in: [src/chain/account.ts:138](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L138)
 
@@ -428,7 +428,7 @@ Defined in: [src/chain/account.ts:138](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`memo_key`](Account.md#memo_key)
 
-***
+---
 
 ### mined
 
@@ -440,7 +440,7 @@ Defined in: [src/chain/account.ts:145](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`mined`](Account.md#mined)
 
-***
+---
 
 ### name
 
@@ -452,11 +452,11 @@ Defined in: [src/chain/account.ts:134](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`name`](Account.md#name)
 
-***
+---
 
-### next\_vesting\_withdrawal
+### next_vesting_withdrawal
 
-> **next\_vesting\_withdrawal**: `string`
+> **next_vesting_withdrawal**: `string`
 
 Defined in: [src/chain/account.ts:184](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L184)
 
@@ -464,23 +464,23 @@ Defined in: [src/chain/account.ts:184](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`next_vesting_withdrawal`](Account.md#next_vesting_withdrawal)
 
-***
+---
 
-### open\_orders?
+### open_orders?
 
-> `optional` **open\_orders?**: `any`[]
+> `optional` **open_orders?**: `any`[]
 
 Defined in: [src/chain/account.ts:233](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L233)
 
-***
+---
 
-### other\_history
+### other_history
 
-> **other\_history**: `any`[]
+> **other_history**: `any`[]
 
 Defined in: [src/chain/account.ts:229](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L229)
 
-***
+---
 
 ### owner
 
@@ -492,11 +492,11 @@ Defined in: [src/chain/account.ts:135](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`owner`](Account.md#owner)
 
-***
+---
 
-### owner\_challenged
+### owner_challenged
 
-> **owner\_challenged**: `boolean`
+> **owner_challenged**: `boolean`
 
 Defined in: [src/chain/account.ts:146](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L146)
 
@@ -504,11 +504,11 @@ Defined in: [src/chain/account.ts:146](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`owner_challenged`](Account.md#owner_challenged)
 
-***
+---
 
-### post\_count
+### post_count
 
-> **post\_count**: `number`
+> **post_count**: `number`
 
 Defined in: [src/chain/account.ts:155](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L155)
 
@@ -516,15 +516,15 @@ Defined in: [src/chain/account.ts:155](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`post_count`](Account.md#post_count)
 
-***
+---
 
-### post\_history
+### post_history
 
-> **post\_history**: `any`[]
+> **post_history**: `any`[]
 
 Defined in: [src/chain/account.ts:227](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L227)
 
-***
+---
 
 ### posting
 
@@ -536,11 +536,11 @@ Defined in: [src/chain/account.ts:137](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`posting`](Account.md#posting)
 
-***
+---
 
-### posting\_json\_metadata
+### posting_json_metadata
 
-> **posting\_json\_metadata**: `string`
+> **posting_json_metadata**: `string`
 
 Defined in: [src/chain/account.ts:140](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L140)
 
@@ -548,11 +548,11 @@ Defined in: [src/chain/account.ts:140](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`posting_json_metadata`](Account.md#posting_json_metadata)
 
-***
+---
 
-### posting\_rewards
+### posting_rewards
 
-> **posting\_rewards**: `string` \| `number`
+> **posting_rewards**: `string` \| `number`
 
 Defined in: [src/chain/account.ts:179](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L179)
 
@@ -560,11 +560,11 @@ Defined in: [src/chain/account.ts:179](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`posting_rewards`](Account.md#posting_rewards)
 
-***
+---
 
-### proxied\_vsf\_votes
+### proxied_vsf_votes
 
-> **proxied\_vsf\_votes**: `number`[]
+> **proxied_vsf_votes**: `number`[]
 
 Defined in: [src/chain/account.ts:188](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L188)
 
@@ -572,7 +572,7 @@ Defined in: [src/chain/account.ts:188](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`proxied_vsf_votes`](Account.md#proxied_vsf_votes)
 
-***
+---
 
 ### proxy
 
@@ -584,11 +584,11 @@ Defined in: [src/chain/account.ts:141](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`proxy`](Account.md#proxy)
 
-***
+---
 
-### received\_vesting\_shares
+### received_vesting_shares
 
-> **received\_vesting\_shares**: `string` \| [`Asset`](../classes/Asset.md)
+> **received_vesting_shares**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:182](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L182)
 
@@ -596,15 +596,15 @@ Defined in: [src/chain/account.ts:182](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`received_vesting_shares`](Account.md#received_vesting_shares)
 
-***
+---
 
-### recent\_replies?
+### recent_replies?
 
-> `optional` **recent\_replies?**: `any`[]
+> `optional` **recent_replies?**: `any`[]
 
 Defined in: [src/chain/account.ts:237](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L237)
 
-***
+---
 
 ### recommended?
 
@@ -612,11 +612,11 @@ Defined in: [src/chain/account.ts:237](https://github.com/TheCrazyGM/dhive/blob/
 
 Defined in: [src/chain/account.ts:238](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L238)
 
-***
+---
 
-### recovery\_account
+### recovery_account
 
-> **recovery\_account**: `string`
+> **recovery_account**: `string`
 
 Defined in: [src/chain/account.ts:150](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L150)
 
@@ -624,7 +624,7 @@ Defined in: [src/chain/account.ts:150](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`recovery_account`](Account.md#recovery_account)
 
-***
+---
 
 ### reputation
 
@@ -632,11 +632,11 @@ Defined in: [src/chain/account.ts:150](https://github.com/TheCrazyGM/dhive/blob/
 
 Defined in: [src/chain/account.ts:218](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L218)
 
-***
+---
 
-### reset\_account
+### reset_account
 
-> **reset\_account**: `string`
+> **reset_account**: `string`
 
 Defined in: [src/chain/account.ts:151](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L151)
 
@@ -644,11 +644,11 @@ Defined in: [src/chain/account.ts:151](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`reset_account`](Account.md#reset_account)
 
-***
+---
 
-### reward\_hbd\_balance
+### reward_hbd_balance
 
-> **reward\_hbd\_balance**: `string` \| [`Asset`](../classes/Asset.md)
+> **reward_hbd_balance**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:174](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L174)
 
@@ -656,11 +656,11 @@ Defined in: [src/chain/account.ts:174](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`reward_hbd_balance`](Account.md#reward_hbd_balance)
 
-***
+---
 
-### reward\_hive\_balance
+### reward_hive_balance
 
-> **reward\_hive\_balance**: `string` \| [`Asset`](../classes/Asset.md)
+> **reward_hive_balance**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:175](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L175)
 
@@ -668,11 +668,11 @@ Defined in: [src/chain/account.ts:175](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`reward_hive_balance`](Account.md#reward_hive_balance)
 
-***
+---
 
-### reward\_vesting\_balance
+### reward_vesting_balance
 
-> **reward\_vesting\_balance**: `string` \| [`Asset`](../classes/Asset.md)
+> **reward_vesting_balance**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:176](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L176)
 
@@ -680,11 +680,11 @@ Defined in: [src/chain/account.ts:176](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`reward_vesting_balance`](Account.md#reward_vesting_balance)
 
-***
+---
 
-### reward\_vesting\_hive
+### reward_vesting_hive
 
-> **reward\_vesting\_hive**: `string` \| [`Asset`](../classes/Asset.md)
+> **reward_vesting_hive**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:177](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L177)
 
@@ -692,11 +692,11 @@ Defined in: [src/chain/account.ts:177](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`reward_vesting_hive`](Account.md#reward_vesting_hive)
 
-***
+---
 
-### savings\_balance
+### savings_balance
 
-> **savings\_balance**: `string` \| [`Asset`](../classes/Asset.md)
+> **savings_balance**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:164](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L164)
 
@@ -704,11 +704,11 @@ Defined in: [src/chain/account.ts:164](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`savings_balance`](Account.md#savings_balance)
 
-***
+---
 
-### savings\_hbd\_balance
+### savings_hbd_balance
 
-> **savings\_hbd\_balance**: `string` \| [`Asset`](../classes/Asset.md)
+> **savings_hbd_balance**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:169](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L169)
 
@@ -716,11 +716,11 @@ Defined in: [src/chain/account.ts:169](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`savings_hbd_balance`](Account.md#savings_hbd_balance)
 
-***
+---
 
-### savings\_hbd\_last\_interest\_payment
+### savings_hbd_last_interest_payment
 
-> **savings\_hbd\_last\_interest\_payment**: `string`
+> **savings_hbd_last_interest_payment**: `string`
 
 Defined in: [src/chain/account.ts:172](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L172)
 
@@ -728,11 +728,11 @@ Defined in: [src/chain/account.ts:172](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`savings_hbd_last_interest_payment`](Account.md#savings_hbd_last_interest_payment)
 
-***
+---
 
-### savings\_hbd\_seconds
+### savings_hbd_seconds
 
-> **savings\_hbd\_seconds**: `string`
+> **savings_hbd_seconds**: `string`
 
 Defined in: [src/chain/account.ts:170](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L170)
 
@@ -740,11 +740,11 @@ Defined in: [src/chain/account.ts:170](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`savings_hbd_seconds`](Account.md#savings_hbd_seconds)
 
-***
+---
 
-### savings\_hbd\_seconds\_last\_update
+### savings_hbd_seconds_last_update
 
-> **savings\_hbd\_seconds\_last\_update**: `string`
+> **savings_hbd_seconds_last_update**: `string`
 
 Defined in: [src/chain/account.ts:171](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L171)
 
@@ -752,11 +752,11 @@ Defined in: [src/chain/account.ts:171](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`savings_hbd_seconds_last_update`](Account.md#savings_hbd_seconds_last_update)
 
-***
+---
 
-### savings\_withdraw\_requests
+### savings_withdraw_requests
 
-> **savings\_withdraw\_requests**: `number`
+> **savings_withdraw_requests**: `number`
 
 Defined in: [src/chain/account.ts:173](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L173)
 
@@ -764,19 +764,19 @@ Defined in: [src/chain/account.ts:173](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`savings_withdraw_requests`](Account.md#savings_withdraw_requests)
 
-***
+---
 
-### tags\_usage
+### tags_usage
 
-> **tags\_usage**: `string`[]
+> **tags_usage**: `string`[]
 
 Defined in: [src/chain/account.ts:231](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L231)
 
-***
+---
 
-### to\_withdraw
+### to_withdraw
 
-> **to\_withdraw**: `string` \| `number`
+> **to_withdraw**: `string` \| `number`
 
 Defined in: [src/chain/account.ts:186](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L186)
 
@@ -784,31 +784,31 @@ Defined in: [src/chain/account.ts:186](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`to_withdraw`](Account.md#to_withdraw)
 
-***
+---
 
-### transfer\_history
+### transfer_history
 
-> **transfer\_history**: `any`[]
+> **transfer_history**: `any`[]
 
 Defined in: [src/chain/account.ts:222](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L222)
 
 Transfer and vesting operation history.
 
-***
+---
 
-### vesting\_balance
+### vesting_balance
 
-> **vesting\_balance**: `string` \| [`Asset`](../classes/Asset.md)
+> **vesting_balance**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:217](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L217)
 
 Vesting shares converted to vesting HIVE for display.
 
-***
+---
 
-### vesting\_shares
+### vesting_shares
 
-> **vesting\_shares**: `string` \| [`Asset`](../classes/Asset.md)
+> **vesting_shares**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:180](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L180)
 
@@ -816,11 +816,11 @@ Defined in: [src/chain/account.ts:180](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`vesting_shares`](Account.md#vesting_shares)
 
-***
+---
 
-### vesting\_withdraw\_rate
+### vesting_withdraw_rate
 
-> **vesting\_withdraw\_rate**: `string` \| [`Asset`](../classes/Asset.md)
+> **vesting_withdraw_rate**: `string` \| [`Asset`](../classes/Asset.md)
 
 Defined in: [src/chain/account.ts:183](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L183)
 
@@ -828,39 +828,39 @@ Defined in: [src/chain/account.ts:183](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`vesting_withdraw_rate`](Account.md#vesting_withdraw_rate)
 
-***
+---
 
-### vote\_history
+### vote_history
 
-> **vote\_history**: `any`[]
+> **vote_history**: `any`[]
 
 Defined in: [src/chain/account.ts:228](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L228)
 
-***
+---
 
-### voting\_manabar
+### voting_manabar
 
-> **voting\_manabar**: `object`
+> **voting_manabar**: `object`
 
 Defined in: [src/chain/account.ts:159](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L159)
 
-#### current\_mana
+#### current_mana
 
-> **current\_mana**: `string` \| `number`
+> **current_mana**: `string` \| `number`
 
-#### last\_update\_time
+#### last_update_time
 
-> **last\_update\_time**: `number`
+> **last_update_time**: `number`
 
 #### Inherited from
 
 [`Account`](Account.md).[`voting_manabar`](Account.md#voting_manabar)
 
-***
+---
 
-### voting\_power
+### voting_power
 
-> **voting\_power**: `number`
+> **voting_power**: `number`
 
 Defined in: [src/chain/account.ts:157](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L157)
 
@@ -868,11 +868,11 @@ Defined in: [src/chain/account.ts:157](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`voting_power`](Account.md#voting_power)
 
-***
+---
 
-### withdraw\_routes
+### withdraw_routes
 
-> **withdraw\_routes**: `number`
+> **withdraw_routes**: `number`
 
 Defined in: [src/chain/account.ts:187](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L187)
 
@@ -880,7 +880,7 @@ Defined in: [src/chain/account.ts:187](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`withdraw_routes`](Account.md#withdraw_routes)
 
-***
+---
 
 ### withdrawn
 
@@ -892,19 +892,19 @@ Defined in: [src/chain/account.ts:185](https://github.com/TheCrazyGM/dhive/blob/
 
 [`Account`](Account.md).[`withdrawn`](Account.md#withdrawn)
 
-***
+---
 
-### witness\_votes
+### witness_votes
 
-> **witness\_votes**: `string`[]
+> **witness_votes**: `string`[]
 
 Defined in: [src/chain/account.ts:230](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L230)
 
-***
+---
 
-### witnesses\_voted\_for
+### witnesses_voted_for
 
-> **witnesses\_voted\_for**: `number`
+> **witnesses_voted_for**: `number`
 
 Defined in: [src/chain/account.ts:189](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/account.ts#L189)
 

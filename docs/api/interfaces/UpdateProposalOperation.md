@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / UpdateProposalOperation
 
@@ -26,7 +26,7 @@ Defined in: [src/chain/operation.ts:1207](https://github.com/TheCrazyGM/dhive/bl
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -38,9 +38,9 @@ Defined in: [src/chain/operation.ts:1208](https://github.com/TheCrazyGM/dhive/bl
 
 > **creator**: `string`
 
-#### daily\_pay
+#### daily_pay
 
-> **daily\_pay**: `string` \| [`Asset`](../classes/Asset.md)
+> **daily_pay**: `string` \| [`Asset`](../classes/Asset.md)
 
 #### extensions
 
@@ -50,9 +50,9 @@ Defined in: [src/chain/operation.ts:1208](https://github.com/TheCrazyGM/dhive/bl
 
 > **permlink**: `string`
 
-#### proposal\_id
+#### proposal_id
 
-> **proposal\_id**: `number`
+> **proposal_id**: `number`
 
 #### subject
 

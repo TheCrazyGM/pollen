@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / BlockchainMode
 
@@ -23,7 +23,7 @@ Stream only blocks that the Hive consensus protocol has made irreversible.
 This is the safest mode for indexing, accounting, and other workflows that
 must not react to a block that can still be replaced by a fork.
 
-***
+---
 
 ### Latest
 

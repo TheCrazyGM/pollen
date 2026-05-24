@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / CommentOptionsOperation
 
@@ -31,7 +31,7 @@ Defined in: [src/chain/operation.ts:454](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -39,15 +39,15 @@ Defined in: [src/chain/operation.ts:454](https://github.com/TheCrazyGM/dhive/blo
 
 Defined in: [src/chain/operation.ts:455](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/operation.ts#L455)
 
-#### allow\_curation\_rewards
+#### allow_curation_rewards
 
-> **allow\_curation\_rewards**: `boolean`
+> **allow_curation_rewards**: `boolean`
 
 Whether to allow post to recieve curation rewards.
 
-#### allow\_votes
+#### allow_votes
 
-> **allow\_votes**: `boolean`
+> **allow_votes**: `boolean`
 
 Whether to allow post to receive votes.
 
@@ -59,15 +59,15 @@ Whether to allow post to receive votes.
 
 > **extensions**: \[`0`, \{ `beneficiaries`: [`BeneficiaryRoute`](BeneficiaryRoute.md)[]; \}\][]
 
-#### max\_accepted\_payout
+#### max_accepted_payout
 
-> **max\_accepted\_payout**: `string` \| [`Asset`](../classes/Asset.md)
+> **max_accepted_payout**: `string` \| [`Asset`](../classes/Asset.md)
 
 HBD value of the maximum payout this post will receive.
 
-#### percent\_hbd
+#### percent_hbd
 
-> **percent\_hbd**: `number`
+> **percent_hbd**: `number`
 
 The percent of Hive Dollars to key, unkept amounts will be received as Hive Power.
 

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / getVestingSharePrice
 
@@ -36,6 +36,6 @@ HIVE. If either side of the vesting pool is zero, Pollen returns a neutral
 ## Example
 
 ```ts
-const props = await client.database.getDynamicGlobalProperties()
-const vestingPrice = getVestingSharePrice(props)
+const props = await client.database.getDynamicGlobalProperties();
+const vestingPrice = getVestingSharePrice(props);
 ```

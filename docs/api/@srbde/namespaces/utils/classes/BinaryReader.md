@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../../../../index.md)
 
-***
+---
 
 [@srbde/pollen](../../../../index.md) / [utils](../index.md) / BinaryReader
 
@@ -46,7 +46,7 @@ Defined in: [src/utils.ts:284](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `Uint8Array`
 
-***
+---
 
 ### readInt16()
 
@@ -58,7 +58,7 @@ Defined in: [src/utils.ts:232](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `number`
 
-***
+---
 
 ### readInt32()
 
@@ -70,7 +70,7 @@ Defined in: [src/utils.ts:244](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `number`
 
-***
+---
 
 ### readInt64()
 
@@ -82,7 +82,7 @@ Defined in: [src/utils.ts:256](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `bigint`
 
-***
+---
 
 ### readInt8()
 
@@ -94,7 +94,7 @@ Defined in: [src/utils.ts:224](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `number`
 
-***
+---
 
 ### readString()
 
@@ -106,7 +106,7 @@ Defined in: [src/utils.ts:279](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `string`
 
-***
+---
 
 ### readUint16()
 
@@ -118,7 +118,7 @@ Defined in: [src/utils.ts:238](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `number`
 
-***
+---
 
 ### readUint32()
 
@@ -130,7 +130,7 @@ Defined in: [src/utils.ts:250](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `number`
 
-***
+---
 
 ### readUint64()
 
@@ -142,7 +142,7 @@ Defined in: [src/utils.ts:263](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `bigint`
 
-***
+---
 
 ### readUint8()
 
@@ -154,7 +154,7 @@ Defined in: [src/utils.ts:228](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `number`
 
-***
+---
 
 ### readVarint32()
 
@@ -166,7 +166,7 @@ Defined in: [src/utils.ts:267](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 `number`
 
-***
+---
 
 ### skip()
 

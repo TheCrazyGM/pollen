@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / SetResetAccountOperation
 
@@ -27,7 +27,7 @@ Defined in: [src/chain/operation.ts:928](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -39,13 +39,13 @@ Defined in: [src/chain/operation.ts:929](https://github.com/TheCrazyGM/dhive/blo
 
 > **account**: `string`
 
-#### current\_reset\_account
+#### current_reset_account
 
-> **current\_reset\_account**: `string`
+> **current_reset_account**: `string`
 
-#### reset\_account
+#### reset_account
 
-> **reset\_account**: `string`
+> **reset_account**: `string`
 
 #### Overrides
 

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../../../../index.md)
 
-***
+---
 
 [@srbde/pollen](../../../../index.md) / [utils](../index.md) / WitnessProps
 
@@ -10,45 +10,45 @@ Defined in: [src/utils.ts:545](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 ## Properties
 
-### account\_creation\_fee?
+### account_creation_fee?
 
-> `optional` **account\_creation\_fee?**: `string` \| [`Asset`](../../../../classes/Asset.md)
+> `optional` **account_creation_fee?**: `string` \| [`Asset`](../../../../classes/Asset.md)
 
 Defined in: [src/utils.ts:546](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L546)
 
-***
+---
 
-### account\_subsidy\_budget?
+### account_subsidy_budget?
 
-> `optional` **account\_subsidy\_budget?**: `number`
+> `optional` **account_subsidy_budget?**: `number`
 
 Defined in: [src/utils.ts:547](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L547)
 
-***
+---
 
-### account\_subsidy\_decay?
+### account_subsidy_decay?
 
-> `optional` **account\_subsidy\_decay?**: `number`
+> `optional` **account_subsidy_decay?**: `number`
 
 Defined in: [src/utils.ts:548](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L548)
 
-***
+---
 
-### hbd\_exchange\_rate?
+### hbd_exchange_rate?
 
-> `optional` **hbd\_exchange\_rate?**: [`PriceType`](../../../../type-aliases/PriceType.md)
+> `optional` **hbd_exchange_rate?**: [`PriceType`](../../../../type-aliases/PriceType.md)
 
 Defined in: [src/utils.ts:552](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L552)
 
-***
+---
 
-### hbd\_interest\_rate?
+### hbd_interest_rate?
 
-> `optional` **hbd\_interest\_rate?**: `number`
+> `optional` **hbd_interest_rate?**: `number`
 
 Defined in: [src/utils.ts:553](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L553)
 
-***
+---
 
 ### key
 
@@ -56,23 +56,23 @@ Defined in: [src/utils.ts:553](https://github.com/TheCrazyGM/dhive/blob/ab36e508
 
 Defined in: [src/utils.ts:549](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L549)
 
-***
+---
 
-### maximum\_block\_size?
+### maximum_block_size?
 
-> `optional` **maximum\_block\_size?**: `number`
+> `optional` **maximum_block_size?**: `number`
 
 Defined in: [src/utils.ts:550](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L550)
 
-***
+---
 
-### new\_signing\_key?
+### new_signing_key?
 
-> `optional` **new\_signing\_key?**: `string` \| [`PublicKey`](../../../../classes/PublicKey.md) \| `null`
+> `optional` **new_signing_key?**: `string` \| [`PublicKey`](../../../../classes/PublicKey.md) \| `null`
 
 Defined in: [src/utils.ts:551](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L551)
 
-***
+---
 
 ### url?
 

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Client
 
@@ -21,18 +21,18 @@ to assemble raw RPC payloads.
 ## Example
 
 ```ts
-import { Client } from '@srbde/pollen'
+import { Client } from "@srbde/pollen";
 
-const client = new Client('https://api.hive.blog')
-const props = await client.database.getDynamicGlobalProperties()
+const client = new Client("https://api.hive.blog");
+const props = await client.database.getDynamicGlobalProperties();
 
-console.log(`Hive head block: ${props.head_block_number}`)
+console.log(`Hive head block: ${props.head_block_number}`);
 ```
 
 ## See
 
- - [ClientOptions](../interfaces/ClientOptions.md)
- - [RPCError](RPCError.md)
+- [ClientOptions](../interfaces/ClientOptions.md)
+- [RPCError](RPCError.md)
 
 ## Constructors
 
@@ -77,15 +77,15 @@ Thrown when `options.chainId` is not exactly 32 bytes after hex decoding.
 #### Example
 
 ```ts
-import { Client } from '@srbde/pollen'
+import { Client } from "@srbde/pollen";
 
-const client = new Client(
-  ['https://api.hive.blog', 'https://api.deathwing.me'],
-  { timeout: 30_000, failoverThreshold: 2 }
-)
+const client = new Client(["https://api.hive.blog", "https://api.deathwing.me"], {
+  timeout: 30_000,
+  failoverThreshold: 2,
+});
 
-const accounts = await client.database.getAccounts(['srbde'])
-console.log(accounts[0].balance)
+const accounts = await client.database.getAccounts(["srbde"]);
+console.log(accounts[0].balance);
 ```
 
 ## Properties
@@ -97,9 +97,9 @@ console.log(accounts[0].balance)
 Defined in: [src/client.ts:259](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/client.ts#L259)
 
 Address to Hive RPC server.
-String or String[] *read-only*
+String or String[] _read-only_
 
-***
+---
 
 ### addressPrefix
 
@@ -109,7 +109,7 @@ Defined in: [src/client.ts:310](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Address prefix for current network.
 
-***
+---
 
 ### blockchain
 
@@ -119,7 +119,7 @@ Defined in: [src/client.ts:279](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Blockchain helper.
 
-***
+---
 
 ### broadcast
 
@@ -129,7 +129,7 @@ Defined in: [src/client.ts:274](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Broadcast API helper.
 
-***
+---
 
 ### chainId
 
@@ -139,7 +139,7 @@ Defined in: [src/client.ts:305](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Chain ID for current network.
 
-***
+---
 
 ### currentAddress
 
@@ -147,7 +147,7 @@ Chain ID for current network.
 
 Defined in: [src/client.ts:319](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/client.ts#L319)
 
-***
+---
 
 ### database
 
@@ -157,7 +157,7 @@ Defined in: [src/client.ts:264](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Database API helper.
 
-***
+---
 
 ### healthTracker
 
@@ -168,7 +168,7 @@ Defined in: [src/client.ts:300](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 Node health tracker for smart failover.
 Tracks per-node, per-API health and head block freshness.
 
-***
+---
 
 ### hivemind
 
@@ -178,7 +178,7 @@ Defined in: [src/client.ts:284](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Hivemind helper.
 
-***
+---
 
 ### keys
 
@@ -188,7 +188,7 @@ Defined in: [src/client.ts:289](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Accounts by key API helper.
 
-***
+---
 
 ### options
 
@@ -196,9 +196,9 @@ Accounts by key API helper.
 
 Defined in: [src/client.ts:253](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/client.ts#L253)
 
-Client options, *read-only*.
+Client options, _read-only_.
 
-***
+---
 
 ### rc
 
@@ -208,7 +208,7 @@ Defined in: [src/client.ts:269](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 RC API helper.
 
-***
+---
 
 ### transaction
 
@@ -277,20 +277,20 @@ Thrown when the response id does not match the request id.
 #### Example
 
 ```ts
-import { Client } from '@srbde/pollen'
+import { Client } from "@srbde/pollen";
 
-const client = new Client('https://api.hive.blog')
-const config = await client.call('condenser_api', 'get_config')
+const client = new Client("https://api.hive.blog");
+const config = await client.call("condenser_api", "get_config");
 
-console.log(config.HIVE_BLOCK_INTERVAL)
+console.log(config.HIVE_BLOCK_INTERVAL);
 ```
 
 #### See
 
- - [retryingFetch](../@srbde/namespaces/utils/functions/retryingFetch.md)
- - [NodeHealthTracker](NodeHealthTracker.md)
+- [retryingFetch](../@srbde/namespaces/utils/functions/retryingFetch.md)
+- [NodeHealthTracker](NodeHealthTracker.md)
 
-***
+---
 
 ### testnet()
 
@@ -325,9 +325,9 @@ with mainnet signatures.
 #### Example
 
 ```ts
-import { Client } from '@srbde/pollen'
+import { Client } from "@srbde/pollen";
 
-const testnet = Client.testnet({ timeout: 20_000 })
-const props = await testnet.database.getDynamicGlobalProperties()
-console.log(props.head_block_number)
+const testnet = Client.testnet({ timeout: 20_000 });
+const props = await testnet.database.getDynamicGlobalProperties();
+console.log(props.head_block_number);
 ```

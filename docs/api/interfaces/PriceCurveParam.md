@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / PriceCurveParam
 
@@ -12,21 +12,21 @@ Curve coefficients used to convert resource usage into RC cost.
 
 ## Properties
 
-### coeff\_a
+### coeff_a
 
-> **coeff\_a**: `string`
+> **coeff_a**: `string`
 
 Defined in: [src/chain/rc.ts:54](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L54)
 
-***
+---
 
-### coeff\_b
+### coeff_b
 
-> **coeff\_b**: `string`
+> **coeff_b**: `string`
 
 Defined in: [src/chain/rc.ts:55](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L55)
 
-***
+---
 
 ### shift
 

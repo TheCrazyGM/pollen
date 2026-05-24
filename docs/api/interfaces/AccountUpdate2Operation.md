@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / AccountUpdate2Operation
 
@@ -31,7 +31,7 @@ Defined in: [src/chain/operation.ts:1144](https://github.com/TheCrazyGM/dhive/bl
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -51,13 +51,13 @@ Defined in: [src/chain/operation.ts:1145](https://github.com/TheCrazyGM/dhive/bl
 
 > **extensions**: `any`[]
 
-#### json\_metadata
+#### json_metadata
 
-> **json\_metadata**: `string`
+> **json_metadata**: `string`
 
-#### memo\_key?
+#### memo_key?
 
-> `optional` **memo\_key?**: `string` \| [`PublicKey`](../classes/PublicKey.md)
+> `optional` **memo_key?**: `string` \| [`PublicKey`](../classes/PublicKey.md)
 
 #### owner?
 
@@ -67,9 +67,9 @@ Defined in: [src/chain/operation.ts:1145](https://github.com/TheCrazyGM/dhive/bl
 
 > `optional` **posting?**: [`AuthorityType`](AuthorityType.md)
 
-#### posting\_json\_metadata
+#### posting_json_metadata
 
-> **posting\_json\_metadata**: `string`
+> **posting_json_metadata**: `string`
 
 #### Overrides
 

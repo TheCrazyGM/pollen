@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / BeneficiaryRoute
 
@@ -18,9 +18,9 @@ Weights are expressed in hundredths of a percent: `10000` means 100%.
 
 ```ts
 const beneficiary: BeneficiaryRoute = {
-  account: 'srbde',
-  weight: 500
-}
+  account: "srbde",
+  weight: 500,
+};
 ```
 
 ## Properties
@@ -31,7 +31,7 @@ const beneficiary: BeneficiaryRoute = {
 
 Defined in: [src/chain/comment.ts:143](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/comment.ts#L143)
 
-***
+---
 
 ### weight
 

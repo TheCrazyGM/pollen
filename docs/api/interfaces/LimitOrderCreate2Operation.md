@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / LimitOrderCreate2Operation
 
@@ -27,7 +27,7 @@ Defined in: [src/chain/operation.ts:767](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -35,21 +35,21 @@ Defined in: [src/chain/operation.ts:767](https://github.com/TheCrazyGM/dhive/blo
 
 Defined in: [src/chain/operation.ts:768](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/operation.ts#L768)
 
-#### amount\_to\_sell
+#### amount_to_sell
 
-> **amount\_to\_sell**: `string` \| [`Asset`](../classes/Asset.md)
+> **amount_to_sell**: `string` \| [`Asset`](../classes/Asset.md)
 
-#### exchange\_rate
+#### exchange_rate
 
-> **exchange\_rate**: [`PriceType`](../type-aliases/PriceType.md)
+> **exchange_rate**: [`PriceType`](../type-aliases/PriceType.md)
 
 #### expiration
 
 > **expiration**: `string`
 
-#### fill\_or\_kill
+#### fill_or_kill
 
-> **fill\_or\_kill**: `boolean`
+> **fill_or_kill**: `boolean`
 
 #### orderid
 

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / Signature
 
@@ -40,7 +40,7 @@ Defined in: [src/crypto.ts:349](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 Defined in: [src/crypto.ts:349](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/crypto.ts#L349)
 
-***
+---
 
 ### recovery
 
@@ -72,7 +72,7 @@ Recovers the public key that produced this signature.
 
 [`PublicKey`](PublicKey.md)
 
-***
+---
 
 ### toBuffer()
 
@@ -84,7 +84,7 @@ Defined in: [src/crypto.ts:379](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 `Uint8Array`\<`ArrayBuffer`\>
 
-***
+---
 
 ### toString()
 
@@ -96,7 +96,7 @@ Defined in: [src/crypto.ts:387](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 `string`
 
-***
+---
 
 ### fromBuffer()
 
@@ -114,7 +114,7 @@ Defined in: [src/crypto.ts:353](https://github.com/TheCrazyGM/dhive/blob/ab36e50
 
 `Signature`
 
-***
+---
 
 ### fromString()
 

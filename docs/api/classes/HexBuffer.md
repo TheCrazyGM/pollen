@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / HexBuffer
 
@@ -18,8 +18,8 @@ keeps binary data available for serializers while rendering cleanly in JSON.
 ## Example
 
 ```ts
-const bytes = HexBuffer.from('deadbeef')
-console.log(bytes.toJSON())
+const bytes = HexBuffer.from("deadbeef");
+console.log(bytes.toJSON());
 ```
 
 ## Constructors
@@ -66,7 +66,7 @@ Defined in: [src/chain/misc.ts:101](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 `string`
 
-***
+---
 
 ### toString()
 
@@ -84,7 +84,7 @@ Defined in: [src/chain/misc.ts:94](https://github.com/TheCrazyGM/dhive/blob/ab36
 
 `string`
 
-***
+---
 
 ### from()
 
@@ -111,5 +111,5 @@ A hex-buffer wrapper.
 #### Example
 
 ```ts
-const buffer = HexBuffer.from([0xde, 0xad, 0xbe, 0xef])
+const buffer = HexBuffer.from([0xde, 0xad, 0xbe, 0xef]);
 ```

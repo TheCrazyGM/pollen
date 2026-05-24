@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / DatabaseAPI
 
@@ -20,12 +20,12 @@ familiarity while returning Pollen chain types such as [Asset](Asset.md),
 ## Example
 
 ```ts
-import { Client } from '@srbde/pollen'
+import { Client } from "@srbde/pollen";
 
-const client = new Client('https://api.hive.blog')
-const [account] = await client.database.getAccounts(['srbde'])
+const client = new Client("https://api.hive.blog");
+const [account] = await client.database.getAccounts(["srbde"]);
 
-console.log(account.reputation, account.posting_json_metadata)
+console.log(account.reputation, account.posting_json_metadata);
 ```
 
 ## See
@@ -102,11 +102,11 @@ Thrown when the RPC node rejects the call or the method is unavailable.
 #### Example
 
 ```ts
-const result = await client.database.call('get_config')
-console.log(result.HIVE_BLOCK_INTERVAL)
+const result = await client.database.call("get_config");
+console.log(result.HIVE_BLOCK_INTERVAL);
 ```
 
-***
+---
 
 ### getAccountHistory()
 
@@ -137,7 +137,7 @@ recent entry.
 
 Maximum number of entries to return.
 
-##### operation\_bitmask?
+##### operation_bitmask?
 
 \[`number`, `number`\]
 
@@ -168,7 +168,7 @@ Thrown when account history is unavailable or the node rejects the lookup.
 
 #### Example
 
-```ts
+````ts
 const op = pollen.utils.operationOrders
 const operationsBitmask = pollen.utils.makeBitMaskFilter([
   op.transfer,
@@ -230,9 +230,9 @@ Thrown when the RPC node rejects the account lookup.
 ```ts
 const [account] = await client.database.getAccounts(['srbde'])
 console.log(account.name, account.reputation)
-```
+````
 
-***
+---
 
 ### getBlock()
 
@@ -264,11 +264,11 @@ Thrown when the block does not exist or the node rejects the request.
 #### Example
 
 ```ts
-const block = await client.database.getBlock(90_000_000)
-console.log(block.transactions.length)
+const block = await client.database.getBlock(90_000_000);
+console.log(block.transactions.length);
 ```
 
-***
+---
 
 ### getBlockHeader()
 
@@ -300,11 +300,11 @@ Thrown when the block does not exist or the node rejects the request.
 #### Example
 
 ```ts
-const header = await client.database.getBlockHeader(90_000_000)
-console.log(header.previous)
+const header = await client.database.getBlockHeader(90_000_000);
+console.log(header.previous);
 ```
 
-***
+---
 
 ### getChainProperties()
 
@@ -328,11 +328,11 @@ Thrown when the RPC node cannot read chain properties.
 #### Example
 
 ```ts
-const props = await client.database.getChainProperties()
-console.log(props.account_creation_fee.toString())
+const props = await client.database.getChainProperties();
+console.log(props.account_creation_fee.toString());
 ```
 
-***
+---
 
 ### getConfig()
 
@@ -361,15 +361,15 @@ Thrown when the node cannot serve `get_config`.
 #### Example
 
 ```ts
-const config = await client.database.getConfig()
-console.log(config.HIVE_BLOCK_INTERVAL)
+const config = await client.database.getConfig();
+console.log(config.HIVE_BLOCK_INTERVAL);
 ```
 
 #### See
 
 https://github.com/steemit/steem/blob/master/libraries/protocol/include/steemit/protocol/config.hpp
 
-***
+---
 
 ### getCurrentMedianHistoryPrice()
 
@@ -393,11 +393,11 @@ Thrown when the RPC node cannot serve the price feed.
 #### Example
 
 ```ts
-const price = await client.database.getCurrentMedianHistoryPrice()
-console.log(`${price.base} per ${price.quote}`)
+const price = await client.database.getCurrentMedianHistoryPrice();
+console.log(`${price.base} per ${price.quote}`);
 ```
 
-***
+---
 
 ### getDiscussions()
 
@@ -442,16 +442,16 @@ unavailable on the node.
 #### Example
 
 ```ts
-const posts = await client.database.getDiscussions('blog', {
-  tag: 'srbde',
+const posts = await client.database.getDiscussions("blog", {
+  tag: "srbde",
   limit: 5,
-  truncate_body: 256
-})
+  truncate_body: 256,
+});
 
-console.log(posts.map((post) => post.permlink))
+console.log(posts.map((post) => post.permlink));
 ```
 
-***
+---
 
 ### getDynamicGlobalProperties()
 
@@ -476,11 +476,11 @@ Thrown when the node cannot serve `get_dynamic_global_properties`.
 #### Example
 
 ```ts
-const props = await client.database.getDynamicGlobalProperties()
-console.log(props.head_block_number, props.time)
+const props = await client.database.getDynamicGlobalProperties();
+console.log(props.head_block_number, props.time);
 ```
 
-***
+---
 
 ### getOperations()
 
@@ -520,11 +520,11 @@ available on the node.
 #### Example
 
 ```ts
-const operations = await client.database.getOperations(90_000_000)
-console.log(operations.map((applied) => applied.op[0]))
+const operations = await client.database.getOperations(90_000_000);
+console.log(operations.map((applied) => applied.op[0]));
 ```
 
-***
+---
 
 ### getState()
 
@@ -563,11 +563,11 @@ Thrown when the RPC node rejects the state lookup.
 #### Example
 
 ```ts
-const state = await client.database.getState('trending/hive-139531')
-console.log(Object.keys(state.content))
+const state = await client.database.getState("trending/hive-139531");
+console.log(Object.keys(state.content));
 ```
 
-***
+---
 
 ### getTransaction()
 
@@ -601,12 +601,12 @@ support.
 
 ```ts
 const transaction = await client.database.getTransaction(
-  '0000000000000000000000000000000000000000'
-)
-console.log(transaction.operations)
+  "0000000000000000000000000000000000000000",
+);
+console.log(transaction.operations);
 ```
 
-***
+---
 
 ### getVersion()
 
@@ -630,11 +630,11 @@ Thrown when the node does not expose `get_version`.
 #### Example
 
 ```ts
-const version = await client.database.getVersion()
-console.log(version)
+const version = await client.database.getVersion();
+console.log(version);
 ```
 
-***
+---
 
 ### getVestingDelegations()
 
@@ -678,13 +678,13 @@ Thrown when the account is invalid or the node rejects the request.
 #### Example
 
 ```ts
-const delegations = await client.database.getVestingDelegations('srbde', '', 50)
+const delegations = await client.database.getVestingDelegations("srbde", "", 50);
 for (const delegation of delegations) {
-  console.log(delegation.delegatee, delegation.vesting_shares.toString())
+  console.log(delegation.delegatee, delegation.vesting_shares.toString());
 }
 ```
 
-***
+---
 
 ### verifyAuthority()
 
@@ -717,7 +717,7 @@ Thrown when the node rejects the transaction or cannot evaluate authority.
 #### Example
 
 ```ts
-const signed = client.broadcast.sign(transaction, privateKey)
-const ok = await client.database.verifyAuthority(signed)
-console.log(ok)
+const signed = client.broadcast.sign(transaction, privateKey);
+const ok = await client.database.verifyAuthority(signed);
+console.log(ok);
 ```

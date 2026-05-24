@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / TransactionStatusAPI
 
@@ -19,8 +19,8 @@ old to track. This is useful for user-facing broadcast confirmation flows.
 ## Example
 
 ```ts
-const { status } = await client.transaction.findTransaction(txId)
-console.log(status)
+const { status } = await client.transaction.findTransaction(txId);
+console.log(status);
 ```
 
 ## Constructors
@@ -94,12 +94,12 @@ or rejects the request.
 #### Example
 
 ```ts
-const result = await client.transaction.call('find_transaction', {
-  transaction_id: txId
-})
+const result = await client.transaction.call("find_transaction", {
+  transaction_id: txId,
+});
 ```
 
-***
+---
 
 ### findTransaction()
 
@@ -111,7 +111,7 @@ Finds the current lifecycle status of a transaction id.
 
 #### Parameters
 
-##### transaction\_id
+##### transaction_id
 
 `string`
 
@@ -140,10 +140,10 @@ Thrown when the plugin is unavailable or the transaction id is malformed.
 ```ts
 const { status } = await client.transaction.findTransaction(
   confirmation.id,
-  transaction.expiration
-)
+  transaction.expiration,
+);
 
-if (status === 'within_irreversible_block') {
-  console.log('Final')
+if (status === "within_irreversible_block") {
+  console.log("Final");
 }
 ```

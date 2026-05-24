@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / BlockHeader
 
@@ -18,8 +18,8 @@ and commit to the transaction list through the transaction Merkle root.
 ## Example
 
 ```ts
-const header = await client.database.getBlockHeader(90_000_000)
-console.log(header.witness, header.timestamp)
+const header = await client.database.getBlockHeader(90_000_000);
+console.log(header.witness, header.timestamp);
 ```
 
 ## Extended by
@@ -34,7 +34,7 @@ console.log(header.witness, header.timestamp)
 
 Defined in: [src/chain/block.ts:56](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/block.ts#L56)
 
-***
+---
 
 ### previous
 
@@ -42,7 +42,7 @@ Defined in: [src/chain/block.ts:56](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 Defined in: [src/chain/block.ts:52](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/block.ts#L52)
 
-***
+---
 
 ### timestamp
 
@@ -50,15 +50,15 @@ Defined in: [src/chain/block.ts:52](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 Defined in: [src/chain/block.ts:53](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/block.ts#L53)
 
-***
+---
 
-### transaction\_merkle\_root
+### transaction_merkle_root
 
-> **transaction\_merkle\_root**: `string`
+> **transaction_merkle_root**: `string`
 
 Defined in: [src/chain/block.ts:55](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/block.ts#L55)
 
-***
+---
 
 ### witness
 

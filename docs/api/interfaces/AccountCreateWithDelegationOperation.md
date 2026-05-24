@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / AccountCreateWithDelegationOperation
 
@@ -31,7 +31,7 @@ Defined in: [src/chain/operation.ts:247](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -61,17 +61,17 @@ Extensions. Not currently used.
 
 > **fee**: `string` \| [`Asset`](../classes/Asset.md)
 
-#### json\_metadata
+#### json_metadata
 
-> **json\_metadata**: `string`
+> **json_metadata**: `string`
 
-#### memo\_key
+#### memo_key
 
-> **memo\_key**: `string` \| [`PublicKey`](../classes/PublicKey.md)
+> **memo_key**: `string` \| [`PublicKey`](../classes/PublicKey.md)
 
-#### new\_account\_name
+#### new_account_name
 
-> **new\_account\_name**: `string`
+> **new_account_name**: `string`
 
 #### owner
 

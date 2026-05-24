@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / RCAccount
 
@@ -19,8 +19,8 @@ current value instead of reading `current_mana` directly.
 ## Example
 
 ```ts
-const [account] = await client.rc.findRCAccounts(['srbde'])
-console.log(account.max_rc)
+const [account] = await client.rc.findRCAccounts(["srbde"]);
+console.log(account.max_rc);
 ```
 
 ## Properties
@@ -31,34 +31,34 @@ console.log(account.max_rc)
 
 Defined in: [src/chain/rc.ts:95](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L95)
 
-***
+---
 
-### max\_rc
+### max_rc
 
-> **max\_rc**: `string`
+> **max_rc**: `string`
 
 Defined in: [src/chain/rc.ts:101](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L101)
 
-***
+---
 
-### max\_rc\_creation\_adjustment
+### max_rc_creation_adjustment
 
-> **max\_rc\_creation\_adjustment**: `string` \| [`SMTAsset`](SMTAsset.md)
+> **max_rc_creation_adjustment**: `string` \| [`SMTAsset`](SMTAsset.md)
 
 Defined in: [src/chain/rc.ts:100](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L100)
 
-***
+---
 
-### rc\_manabar
+### rc_manabar
 
-> **rc\_manabar**: `object`
+> **rc_manabar**: `object`
 
 Defined in: [src/chain/rc.ts:96](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/rc.ts#L96)
 
-#### current\_mana
+#### current_mana
 
-> **current\_mana**: `string`
+> **current_mana**: `string`
 
-#### last\_update\_time
+#### last_update_time
 
-> **last\_update\_time**: `number`
+> **last_update_time**: `number`

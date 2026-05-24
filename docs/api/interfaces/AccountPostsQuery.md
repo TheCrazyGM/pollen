@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / AccountPostsQuery
 
@@ -14,10 +14,10 @@ Query options for posts associated with a specific account.
 
 ```ts
 const query: AccountPostsQuery = {
-  account: 'srbde',
-  sort: 'posts',
-  limit: 10
-}
+  account: "srbde",
+  sort: "posts",
+  limit: 10,
+};
 ```
 
 ## Extends
@@ -32,7 +32,7 @@ const query: AccountPostsQuery = {
 
 Defined in: [src/helpers/hivemind.ts:70](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/hivemind.ts#L70)
 
-***
+---
 
 ### limit?
 
@@ -46,7 +46,7 @@ Number of posts to fetch
 
 [`PostsQuery`](PostsQuery.md).[`limit`](PostsQuery.md#limit)
 
-***
+---
 
 ### observer?
 
@@ -60,7 +60,7 @@ Observer account
 
 [`PostsQuery`](PostsQuery.md).[`observer`](PostsQuery.md#observer)
 
-***
+---
 
 ### sort
 
@@ -68,11 +68,11 @@ Observer account
 
 Defined in: [src/helpers/hivemind.ts:71](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/hivemind.ts#L71)
 
-***
+---
 
-### start\_author?
+### start_author?
 
-> `optional` **start\_author?**: `string`
+> `optional` **start_author?**: `string`
 
 Defined in: [src/helpers/hivemind.ts:47](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/hivemind.ts#L47)
 
@@ -82,11 +82,11 @@ Paginating last post author
 
 [`PostsQuery`](PostsQuery.md).[`start_author`](PostsQuery.md#start_author)
 
-***
+---
 
-### start\_permlink?
+### start_permlink?
 
-> `optional` **start\_permlink?**: `string`
+> `optional` **start_permlink?**: `string`
 
 Defined in: [src/helpers/hivemind.ts:51](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/helpers/hivemind.ts#L51)
 
@@ -96,7 +96,7 @@ Paginating last post permlink
 
 [`PostsQuery`](PostsQuery.md).[`start_permlink`](PostsQuery.md#start_permlink)
 
-***
+---
 
 ### tag?
 

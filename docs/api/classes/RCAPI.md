@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / RCAPI
 
@@ -20,10 +20,10 @@ five-day manabar window.
 ## Example
 
 ```ts
-const rc = await client.rc.getRCMana('srbde')
-const vp = await client.rc.getVPMana('srbde')
+const rc = await client.rc.getRCMana("srbde");
+const vp = await client.rc.getVPMana("srbde");
 
-console.log(rc.percentage / 100, vp.percentage / 100)
+console.log(rc.percentage / 100, vp.percentage / 100);
 ```
 
 ## Constructors
@@ -70,7 +70,7 @@ Calculates current RC mana from an RC account record.
 
 #### Parameters
 
-##### rc\_account
+##### rc_account
 
 [`RCAccount`](../interfaces/RCAccount.md)
 
@@ -85,11 +85,11 @@ Projected manabar state at the current wall-clock time.
 #### Example
 
 ```ts
-const [rcAccount] = await client.rc.findRCAccounts(['srbde'])
-const mana = client.rc.calculateRCMana(rcAccount)
+const [rcAccount] = await client.rc.findRCAccounts(["srbde"]);
+const mana = client.rc.calculateRCMana(rcAccount);
 ```
 
-***
+---
 
 ### calculateVPMana()
 
@@ -117,11 +117,11 @@ Projected voting manabar state at the current wall-clock time.
 #### Example
 
 ```ts
-const [account] = await client.database.getAccounts(['srbde'])
-const mana = client.rc.calculateVPMana(account)
+const [account] = await client.database.getAccounts(["srbde"]);
+const mana = client.rc.calculateVPMana(account);
 ```
 
-***
+---
 
 ### call()
 
@@ -160,12 +160,12 @@ request.
 #### Example
 
 ```ts
-const result = await client.rc.call('find_rc_accounts', {
-  accounts: ['srbde']
-})
+const result = await client.rc.call("find_rc_accounts", {
+  accounts: ["srbde"],
+});
 ```
 
-***
+---
 
 ### findRCAccounts()
 
@@ -197,11 +197,11 @@ Thrown when the node cannot serve `find_rc_accounts`.
 #### Example
 
 ```ts
-const [rcAccount] = await client.rc.findRCAccounts(['srbde'])
-console.log(rcAccount.max_rc)
+const [rcAccount] = await client.rc.findRCAccounts(["srbde"]);
+console.log(rcAccount.max_rc);
 ```
 
-***
+---
 
 ### getRCMana()
 
@@ -239,11 +239,11 @@ Thrown when RC account lookup fails.
 #### Example
 
 ```ts
-const mana = await client.rc.getRCMana('srbde')
-console.log(`${mana.percentage / 100}% RC`)
+const mana = await client.rc.getRCMana("srbde");
+console.log(`${mana.percentage / 100}% RC`);
 ```
 
-***
+---
 
 ### getResourceParams()
 
@@ -268,11 +268,11 @@ Thrown when the node cannot serve `get_resource_params`.
 #### Example
 
 ```ts
-const params = await client.rc.getResourceParams()
-console.log(params.resource_params)
+const params = await client.rc.getResourceParams();
+console.log(params.resource_params);
 ```
 
-***
+---
 
 ### getResourcePool()
 
@@ -296,11 +296,11 @@ Thrown when the node cannot serve `get_resource_pool`.
 #### Example
 
 ```ts
-const pool = await client.rc.getResourcePool()
-console.log(pool.resource_pool)
+const pool = await client.rc.getResourcePool();
+console.log(pool.resource_pool);
 ```
 
-***
+---
 
 ### getVPMana()
 
@@ -338,6 +338,6 @@ Thrown when account lookup fails.
 #### Example
 
 ```ts
-const mana = await client.rc.getVPMana('srbde')
-console.log(`${mana.percentage / 100}% voting mana`)
+const mana = await client.rc.getVPMana("srbde");
+console.log(`${mana.percentage / 100}% voting mana`);
 ```

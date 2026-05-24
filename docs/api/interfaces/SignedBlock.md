@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / SignedBlock
 
@@ -18,9 +18,9 @@ transaction ids, and the deserialized transactions in block order.
 ## Example
 
 ```ts
-const block = await client.database.getBlock(90_000_000)
+const block = await client.database.getBlock(90_000_000);
 for (const transaction of block.transactions) {
-  console.log(transaction.operations.length)
+  console.log(transaction.operations.length);
 }
 ```
 
@@ -30,13 +30,13 @@ for (const transaction of block.transactions) {
 
 ## Properties
 
-### block\_id
+### block_id
 
-> **block\_id**: `string`
+> **block_id**: `string`
 
 Defined in: [src/chain/block.ts:92](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/block.ts#L92)
 
-***
+---
 
 ### extensions
 
@@ -48,7 +48,7 @@ Defined in: [src/chain/block.ts:56](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 [`SignedBlockHeader`](SignedBlockHeader.md).[`extensions`](SignedBlockHeader.md#extensions)
 
-***
+---
 
 ### previous
 
@@ -60,15 +60,15 @@ Defined in: [src/chain/block.ts:52](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 [`SignedBlockHeader`](SignedBlockHeader.md).[`previous`](SignedBlockHeader.md#previous)
 
-***
+---
 
-### signing\_key
+### signing_key
 
-> **signing\_key**: `string`
+> **signing_key**: `string`
 
 Defined in: [src/chain/block.ts:93](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/block.ts#L93)
 
-***
+---
 
 ### timestamp
 
@@ -80,19 +80,19 @@ Defined in: [src/chain/block.ts:53](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 [`SignedBlockHeader`](SignedBlockHeader.md).[`timestamp`](SignedBlockHeader.md#timestamp)
 
-***
+---
 
-### transaction\_ids
+### transaction_ids
 
-> **transaction\_ids**: `string`[]
+> **transaction_ids**: `string`[]
 
 Defined in: [src/chain/block.ts:94](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/block.ts#L94)
 
-***
+---
 
-### transaction\_merkle\_root
+### transaction_merkle_root
 
-> **transaction\_merkle\_root**: `string`
+> **transaction_merkle_root**: `string`
 
 Defined in: [src/chain/block.ts:55](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/block.ts#L55)
 
@@ -100,7 +100,7 @@ Defined in: [src/chain/block.ts:55](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 [`SignedBlockHeader`](SignedBlockHeader.md).[`transaction_merkle_root`](SignedBlockHeader.md#transaction_merkle_root)
 
-***
+---
 
 ### transactions
 
@@ -108,7 +108,7 @@ Defined in: [src/chain/block.ts:55](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 Defined in: [src/chain/block.ts:95](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/block.ts#L95)
 
-***
+---
 
 ### witness
 
@@ -120,11 +120,11 @@ Defined in: [src/chain/block.ts:54](https://github.com/TheCrazyGM/dhive/blob/ab3
 
 [`SignedBlockHeader`](SignedBlockHeader.md).[`witness`](SignedBlockHeader.md#witness)
 
-***
+---
 
-### witness\_signature
+### witness_signature
 
-> **witness\_signature**: `string`
+> **witness_signature**: `string`
 
 Defined in: [src/chain/block.ts:73](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/chain/block.ts#L73)
 

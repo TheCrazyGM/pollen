@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / AssetSymbol
 
@@ -15,5 +15,5 @@ Asset symbol supported by Hive-compatible asset serialization.
 ## Example
 
 ```ts
-const symbol: AssetSymbol = 'HIVE'
+const symbol: AssetSymbol = "HIVE";
 ```

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / WithdrawVestingOperation
 
@@ -35,7 +35,7 @@ Defined in: [src/chain/operation.ts:1086](https://github.com/TheCrazyGM/dhive/bl
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -47,9 +47,9 @@ Defined in: [src/chain/operation.ts:1087](https://github.com/TheCrazyGM/dhive/bl
 
 > **account**: `string`
 
-#### vesting\_shares
+#### vesting_shares
 
-> **vesting\_shares**: `string` \| [`Asset`](../classes/Asset.md)
+> **vesting_shares**: `string` \| [`Asset`](../classes/Asset.md)
 
 Amount to power down, must be VESTS.
 

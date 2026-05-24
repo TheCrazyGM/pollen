@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / CustomJsonOperation
 
@@ -19,12 +19,15 @@ account-control implications.
 ## Example
 
 ```ts
-const op: CustomJsonOperation = ['custom_json', {
-  required_auths: [],
-  required_posting_auths: ['srbde'],
-  id: 'pollen.demo',
-  json: JSON.stringify({ ok: true })
-}]
+const op: CustomJsonOperation = [
+  "custom_json",
+  {
+    required_auths: [],
+    required_posting_auths: ["srbde"],
+    id: "pollen.demo",
+    json: JSON.stringify({ ok: true }),
+  },
+];
 ```
 
 ## Extends
@@ -43,7 +46,7 @@ Defined in: [src/chain/operation.ts:551](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -63,13 +66,13 @@ ID string, must be less than 32 characters long.
 
 JSON encoded string, must be valid JSON.
 
-#### required\_auths
+#### required_auths
 
-> **required\_auths**: `string`[]
+> **required_auths**: `string`[]
 
-#### required\_posting\_auths
+#### required_posting_auths
 
-> **required\_posting\_auths**: `string`[]
+> **required_posting_auths**: `string`[]
 
 #### Overrides
 

@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / ClaimRewardBalanceOperation
 
@@ -31,7 +31,7 @@ Defined in: [src/chain/operation.ts:384](https://github.com/TheCrazyGM/dhive/blo
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 
@@ -43,17 +43,17 @@ Defined in: [src/chain/operation.ts:385](https://github.com/TheCrazyGM/dhive/blo
 
 > **account**: `string`
 
-#### reward\_hbd
+#### reward_hbd
 
-> **reward\_hbd**: `string` \| [`Asset`](../classes/Asset.md)
+> **reward_hbd**: `string` \| [`Asset`](../classes/Asset.md)
 
-#### reward\_hive
+#### reward_hive
 
-> **reward\_hive**: `string` \| [`Asset`](../classes/Asset.md)
+> **reward_hive**: `string` \| [`Asset`](../classes/Asset.md)
 
-#### reward\_vests
+#### reward_vests
 
-> **reward\_vests**: `string` \| [`Asset`](../classes/Asset.md)
+> **reward_vests**: `string` \| [`Asset`](../classes/Asset.md)
 
 #### Overrides
 

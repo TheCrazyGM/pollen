@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / RecurrentTransferOperation
 
@@ -18,15 +18,18 @@ times the transfer should execute.
 ## Example
 
 ```ts
-const op: RecurrentTransferOperation = ['recurrent_transfer', {
-  from: 'srbde',
-  to: 'alice',
-  amount: '1.000 HIVE',
-  memo: 'monthly support',
-  recurrence: 720,
-  executions: 3,
-  extensions: []
-}]
+const op: RecurrentTransferOperation = [
+  "recurrent_transfer",
+  {
+    from: "srbde",
+    to: "alice",
+    amount: "1.000 HIVE",
+    memo: "monthly support",
+    recurrence: 720,
+    executions: 3,
+    extensions: [],
+  },
+];
 ```
 
 ## Extends
@@ -45,7 +48,7 @@ Defined in: [src/chain/operation.ts:1251](https://github.com/TheCrazyGM/dhive/bl
 
 [`Operation`](Operation.md).[`0`](Operation.md#0)
 
-***
+---
 
 ### 1
 

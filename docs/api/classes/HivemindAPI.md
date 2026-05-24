@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../index.md)
 
-***
+---
 
 [@srbde/pollen](../index.md) / HivemindAPI
 
@@ -21,12 +21,12 @@ front ends.
 
 ```ts
 const posts = await client.hivemind.getRankedPosts({
-  sort: 'trending',
-  tag: 'hive-139531',
-  limit: 10
-})
+  sort: "trending",
+  tag: "hive-139531",
+  limit: 10,
+});
 
-console.log(posts.map((post) => post.title))
+console.log(posts.map((post) => post.title));
 ```
 
 ## Constructors
@@ -99,14 +99,14 @@ Thrown when the active node does not expose bridge or rejects the request.
 #### Example
 
 ```ts
-const posts = await client.hivemind.call('get_ranked_posts', {
-  sort: 'hot',
-  tag: 'hive-139531',
-  limit: 5
-})
+const posts = await client.hivemind.call("get_ranked_posts", {
+  sort: "hot",
+  tag: "hive-139531",
+  limit: 5,
+});
 ```
 
-***
+---
 
 ### getAccountNotifications()
 
@@ -139,12 +139,12 @@ Thrown when bridge rejects the notification query.
 
 ```ts
 const notifications = await client.hivemind.getAccountNotifications({
-  account: 'srbde',
-  limit: 25
-})
+  account: "srbde",
+  limit: 25,
+});
 ```
 
-***
+---
 
 ### getAccountPosts()
 
@@ -177,13 +177,13 @@ Thrown when bridge rejects the account-post query.
 
 ```ts
 const posts = await client.hivemind.getAccountPosts({
-  account: 'srbde',
-  sort: 'posts',
-  limit: 10
-})
+  account: "srbde",
+  sort: "posts",
+  limit: 10,
+});
 ```
 
-***
+---
 
 ### getCommunity()
 
@@ -217,14 +217,14 @@ Thrown when the community cannot be read.
 
 ```ts
 const [community] = await client.hivemind.getCommunity({
-  name: 'hive-139531',
-  observer: 'srbde'
-})
+  name: "hive-139531",
+  observer: "srbde",
+});
 
-console.log(community.title)
+console.log(community.title);
 ```
 
-***
+---
 
 ### getRankedPosts()
 
@@ -258,14 +258,14 @@ Thrown when bridge rejects the ranking query.
 
 ```ts
 const posts = await client.hivemind.getRankedPosts({
-  sort: 'created',
-  tag: 'hive-139531',
+  sort: "created",
+  tag: "hive-139531",
   limit: 20,
-  observer: 'srbde'
-})
+  observer: "srbde",
+});
 ```
 
-***
+---
 
 ### listAllSubscriptions()
 
@@ -297,11 +297,11 @@ Thrown when bridge rejects the subscription lookup.
 #### Example
 
 ```ts
-const subscriptions = await client.hivemind.listAllSubscriptions('srbde')
-console.log(subscriptions)
+const subscriptions = await client.hivemind.listAllSubscriptions("srbde");
+console.log(subscriptions);
 ```
 
-***
+---
 
 ### listCommunities()
 
@@ -335,6 +335,6 @@ Thrown when bridge rejects the community list query.
 ```ts
 const communities = await client.hivemind.listCommunities({
   limit: 20,
-  observer: 'srbde'
-})
+  observer: "srbde",
+});
 ```

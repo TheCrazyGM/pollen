@@ -1,6 +1,6 @@
 [**@srbde/pollen**](../../../../index.md)
 
-***
+---
 
 [@srbde/pollen](../../../../index.md) / [utils](../index.md) / RetryContext
 
@@ -18,7 +18,7 @@ Context for smart retry and failover decisions.
 
 Defined in: [src/utils.ts:51](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L51)
 
-***
+---
 
 ### consoleOnFailover?
 
@@ -26,7 +26,7 @@ Defined in: [src/utils.ts:51](https://github.com/TheCrazyGM/dhive/blob/ab36e508d
 
 Defined in: [src/utils.ts:53](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L53)
 
-***
+---
 
 ### healthTracker?
 
@@ -34,7 +34,7 @@ Defined in: [src/utils.ts:53](https://github.com/TheCrazyGM/dhive/blob/ab36e508d
 
 Defined in: [src/utils.ts:50](https://github.com/TheCrazyGM/dhive/blob/ab36e508de98a7faeac27bf4201fc79843d471c8/src/utils.ts#L50)
 
-***
+---
 
 ### isBroadcast?
 

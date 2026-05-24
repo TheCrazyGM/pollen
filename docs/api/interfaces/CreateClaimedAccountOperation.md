@@ -6,7 +6,7 @@
 
 # Interface: CreateClaimedAccountOperation
 
-Defined in: [src/chain/operation.ts:588](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L588)
+Defined in: [src/chain/operation.ts:588](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L588)
 
 Consumes a claimed account ticket to create a new account.
 
@@ -20,7 +20,7 @@ Consumes a claimed account ticket to create a new account.
 
 > **0**: `"create_claimed_account"`
 
-Defined in: [src/chain/operation.ts:589](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L589)
+Defined in: [src/chain/operation.ts:589](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L589)
 
 #### Overrides
 
@@ -32,7 +32,7 @@ Defined in: [src/chain/operation.ts:589](https://github.com/TheCrazyGM/dhive/blo
 
 > **1**: `object`
 
-Defined in: [src/chain/operation.ts:590](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L590)
+Defined in: [src/chain/operation.ts:590](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L590)
 
 #### active
 

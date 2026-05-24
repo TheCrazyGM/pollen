@@ -6,6 +6,6 @@
 
 # Variable: VERSION
 
-> **VERSION**: `"2.0.0"`
+> **VERSION**: `"1.0.0"`
 
-Defined in: [src/version.ts:1](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/version.ts#L1)
+Defined in: [src/version.ts:1](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/version.ts#L1)

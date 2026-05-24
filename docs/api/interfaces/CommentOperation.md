@@ -6,7 +6,7 @@
 
 # Interface: CommentOperation
 
-Defined in: [src/chain/operation.ts:536](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L536)
+Defined in: [src/chain/operation.ts:536](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L536)
 
 Creates or updates a post or reply.
 
@@ -39,7 +39,7 @@ const op: CommentOperation = ['comment', {
 
 > **0**: `"comment"`
 
-Defined in: [src/chain/operation.ts:537](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L537)
+Defined in: [src/chain/operation.ts:537](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L537)
 
 #### Overrides
 
@@ -51,7 +51,7 @@ Defined in: [src/chain/operation.ts:537](https://github.com/TheCrazyGM/dhive/blo
 
 > **1**: `object`
 
-Defined in: [src/chain/operation.ts:538](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L538)
+Defined in: [src/chain/operation.ts:538](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L538)
 
 #### author
 

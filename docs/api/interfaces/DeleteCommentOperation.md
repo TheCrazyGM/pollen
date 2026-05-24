@@ -6,7 +6,7 @@
 
 # Interface: DeleteCommentOperation
 
-Defined in: [src/chain/operation.ts:707](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L707)
+Defined in: [src/chain/operation.ts:707](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L707)
 
 Deletes a comment or post when chain rules allow it.
 
@@ -20,7 +20,7 @@ Deletes a comment or post when chain rules allow it.
 
 > **0**: `"delete_comment"`
 
-Defined in: [src/chain/operation.ts:708](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L708)
+Defined in: [src/chain/operation.ts:708](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L708)
 
 #### Overrides
 
@@ -32,7 +32,7 @@ Defined in: [src/chain/operation.ts:708](https://github.com/TheCrazyGM/dhive/blo
 
 > **1**: `object`
 
-Defined in: [src/chain/operation.ts:709](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L709)
+Defined in: [src/chain/operation.ts:709](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L709)
 
 #### author
 

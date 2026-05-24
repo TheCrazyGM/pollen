@@ -6,7 +6,7 @@
 
 # Interface: EscrowTransferOperation
 
-Defined in: [src/chain/operation.ts:808](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L808)
+Defined in: [src/chain/operation.ts:808](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L808)
 
 The purpose of this operation is to enable someone to send money contingently to
 another individual. The funds leave the *from* account and go into a temporary balance
@@ -35,7 +35,7 @@ by the sender.
 
 > **0**: `"escrow_transfer"`
 
-Defined in: [src/chain/operation.ts:809](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L809)
+Defined in: [src/chain/operation.ts:809](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L809)
 
 #### Overrides
 
@@ -47,7 +47,7 @@ Defined in: [src/chain/operation.ts:809](https://github.com/TheCrazyGM/dhive/blo
 
 > **1**: `object`
 
-Defined in: [src/chain/operation.ts:810](https://github.com/TheCrazyGM/dhive/blob/c5e139b3e17ff957cab500edd825946556f36f99/src/chain/operation.ts#L810)
+Defined in: [src/chain/operation.ts:810](https://github.com/TheCrazyGM/dhive/blob/a6addb193286615945aa63ffa3e9ae428a4a1118/src/chain/operation.ts#L810)
 
 #### agent
 

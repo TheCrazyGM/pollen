@@ -31,7 +31,7 @@ export default defineConfig({
       },
     ],
 
-    socialLinks: [{ icon: "github", link: "https://github.com/srbde/pollen" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/srbde/hive-pollen" }],
 
     footer: {
       message: "Powered by Pollen 🌸",

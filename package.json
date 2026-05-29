@@ -11,15 +11,15 @@
     "sdk",
     "typescript"
   ],
-  "homepage": "https://github.com/srbde/pollen#readme",
+  "homepage": "https://github.com/srbde/hive-pollen#readme",
   "bugs": {
-    "url": "https://github.com/srbde/pollen/issues"
+    "url": "https://github.com/srbde/hive-pollen/issues"
   },
   "license": "BSD-3-Clause-No-Military-License",
   "author": "Sustainable Resource and Business Development Enterprise (SRBDE)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/srbde/pollen.git"
+    "url": "git+https://github.com/srbde/hive-pollen.git"
   },
   "bin": {
     "pollen": "./lib/src/index-node.js"

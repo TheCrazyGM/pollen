@@ -21,6 +21,9 @@
     "type": "git",
     "url": "git+https://github.com/srbde/hive-pollen.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "pollen": "./lib/src/index-node.js"
   },
